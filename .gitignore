@@ -1,0 +1,10 @@
+
+\.idea/
+
+node_modules/
+
+\.eslintrc\.json
+
+KinesisHouse\.iml
+
+package-lock\.json

@@ -22,6 +22,14 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(function (req, res, next) {
+  if (req.hostname === 'kinesishouse.cl') {
+    res.redirect('www.kinesishouse.cl');
+    return ;
+  }
+  next();
+});
+
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler

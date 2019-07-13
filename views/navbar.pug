@@ -1,34 +1,40 @@
+noscript
+  iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-MGLSFCR' height='0' width='0' style='display:none;visibility:hidden')
+
 nav.navbar.navbar-default.navbar-fixed-top
     .container-fluid
         .navbar-header
-            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+            button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false')
                 span.sr-only Toggle navigation
                 span.icon-bar
                 span.icon-bar
                 span.icon-bar
-            a.navbar-brand(style="color:#595959;", href='#') KinesisHouse
+            a.navbar-brand(href='#') KinesisHouse 
+            //img.d-inline-block.align-top(src='images/favicon.svg', width='30', height='30', alt='logo empresa kinesiologo y acupunturista')
             a.btn.btn-primary.btn-success(href='tel:+56 9 5683 3633')
                 span.glyphicon.glyphicon-earphone.visible-sm-xs-block llamar
         // Collect the nav links, forms, and other content for toggling
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
             ul.nav.navbar-nav
-                li.dropdown
-                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                li.nav-item
+                    //a.nav-link(href='/profesional-kinesiologo') Profesional kinesiologo
+                li.dropdown               
+                    a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false')
                         | Servicios
                         span.caret
                     ul.dropdown-menu
                         li
-                            a(href='#acupuntura') Acupuntura
+                            a(href='#acupuntura-domicilio') Acupuntura
                         li
-                            a(href='#adultomayor') Adulto Mayor
+                            a(href='#kinesiologo-adultomayor-domicilio') Adulto Mayor
                         li
-                            a(href='#deportiva') Deportiva
+                            a(href='#kinesiologia-deportiva-domicilio') Deportiva
                         li
-                            a(href='#neurologica') Neurologica
+                            a(href='#kinesiologia-neurologia-domicilio') Neurologia
                         li
-                            a(href='#respiratoria') Respiratoria
+                            a(href='#kinesiologia-respiratoria-domicilio') Respiratoria
                         li
-                            a(href='#traumatologia') Traumatologia
+                            a(href='#kinesiologia-traumatologica-domicilio') Traumatologia
 
             ul.nav.navbar-nav.navbar-right
                 li

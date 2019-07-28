@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function (req, res, next) {
   if (req.hostname === 'kinesishouse.cl') {
-    res.redirect('http://www.kinesishouse.cl');
+    res.redirect(301, 'http://www.kinesishouse.cl' + req.path);
     return ;
   }
   next();

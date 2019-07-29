@@ -6,13 +6,13 @@ const router = express.Router();
 router.get('/', function (req, res) {
   res.render('index', {
     pageTitle: 'Kinesiologo a domicilio',
-    images: 'images'
+    images: 'images',
     metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
     tituloH1: 'Kinesiolgo a Domicilio'
   })
 });
 
-router.get('/profesional-kinesiologo', function (req, res, next) {
+router.get('/profesional-kinesiologo', function (req, res) {
   res.render('profesional-kinesiologo', {
     pageTitle: 'kinesiologo profesional | kinesiologia a domicilio',
     images: 'images',

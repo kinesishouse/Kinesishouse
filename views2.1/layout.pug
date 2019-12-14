@@ -12,11 +12,21 @@ html(lang='es-CL' dir='ltr' )
     meta(name="viewport", content="width=device-width, initial-scale=1")
     meta(name="keywords", content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china")
     meta(name="description", content="servicio de kinesiologo a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.")
+<<<<<<< HEAD:views/layout.pug
     title ▷ Kinesiologia a Domicilio Santiago | kinesiologia respiratoria 2019
+=======
+    title ▷ <%= tiTuloh1 %>
+>>>>>>> 24ef19f1f95106ab96a4fe0d316b248938d869c0:views2.1/layout.pug
     link(rel="canonical" href="http://www.kinesishouse.cl/")
-    link(rel='stylesheet', type='text/css', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous')
     link(rel="stylesheet", type="text/css", href="stylesheets/main.min.css")
     link(rel="icon" type="images/png" href="images/Favicon_png.webp")
+    link(rel='apple-touch-icon' href='touch-icon-iphone.png')
+    link(rel='apple-touch-icon' sizes='76x76' href='touch-icon-ipad.png')
+    link(rel='apple-touch-icon' sizes='120x120' href='touch-icon-iphone-retina.png')
+    link(rel='apple-touch-icon' sizes='152x152' href='touch-icon-ipad-retina.png')
+     // Chrome, Firefox OS and Opera
+    meta(name='theme-color' content='#4285f4')
     meta(property='fb:app_id' content='342670069681285')
     meta(property='og:locale' content='es_CL')
     meta(property='og:type' content='website')
@@ -48,7 +58,8 @@ html(lang='es-CL' dir='ltr' )
       "addressRegion" : "metropolitana",
       "addressCountry" : "chile",
       "postalCode" : "8320000"
-      },
+      },    
+          
       "openingHoursSpecification" : {
       "@type" : "OpeningHoursSpecification",
       "dayOfWeek" : {
@@ -85,8 +96,10 @@ html(lang='es-CL' dir='ltr' )
       noscript
         iframe(async="" src='https://www.googletagmanager.com/ns.html?id=GTM-MGLSFCR' height='0' width='0' style='display:none;visibility:hidden')
 
-      script(async="" src="https://code.jquery.com/jquery-3.3.1.slim.min.js", integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo", crossorigin="anonymous")
       script(async="" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js", integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1", crossorigin="anonymous")
-      script(async="" type='text/javascript', src='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
+      script(async="" src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous')
+      script(async="" src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous')
       script(async="" src="js/script.min.js")
+
+
       include floatbuttom

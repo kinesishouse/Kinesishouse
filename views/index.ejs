@@ -1,18 +1,17 @@
-<% include partial/head.ejs %>	
-<% include partial/navbar.ejs %>
+<%- include('head'); -%>	
+<%- include('navbar'); -%>
 
 <body>
-  <% include partial/tagmanager.ejs %>
+  <%- include('tagmanager'); -%>
 
     <h1 class="grey-text text-darken-3  flow-text"><%= tiTuloh1%></h1>
-    <% include partial/slider.ejs %>
-  
+    <%- include('slider'); -%>
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
           <br><br>
          
           <div class="row center">
-            <h2 class="header grey-text text-darken-3  flow-text">rehabilitacion en la comodidad de tu hogar</h2>
+            <h2 class="header grey-text text-darken-3  flow-text">Rehabilitacion en la comodidad de tu hogar</h2>
           </div>
           
           <br><br>
@@ -20,7 +19,7 @@
         </div>
       </div>
     <hr>
-    
+
       <div class="container">
         <div class="section">
     
@@ -212,10 +211,18 @@
 <!-- otra seccion-->
 
 
-         
-            
 
+<<<<<<< HEAD
           
-<% include partial/boton.ejs%>      
+<<<<<<< HEAD
+<%- include('boton'); -%>      
+=======
+<%- include('boton'); -%>
+>>>>>>> develop
+
+<%- include('footer'); -%>
+=======
+<% include partial/boton.ejs %>      
 
 <% include partial/footer.ejs %>
+>>>>>>> 849d81849e9c153ef50a38fc340668cf0c01d704

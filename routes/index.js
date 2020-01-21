@@ -5,7 +5,7 @@ const router = express.Router();
 /* GET home page. */
 router.get('/', function (req, res) {
   res.render('index', {
-    pageTitle: 'H1 de pruebas ',
+      pageTitle: 'Kinesiologo a domicilio ',
       images: 'images',
       metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'kinesiologo a domicilio Santiago'

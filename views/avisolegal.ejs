@@ -1,8 +1,13 @@
-<% include partial/head.ejs %>	
+<!DOCTYPE html>
+<html lang="es-CL">
 
+<%- include('partial/head.ejs'); %>
+<%- include('partial/navbar.ejs'); %>
 <body>
-    <h1 class="header center orange-text"><%= tiTuloh1%></h1>
-    <% include partial/navbar.ejs %>
+  <%- include('partial/tagmanager.ejs'); %>
+<div class="section container">
+    <h1 class="grey-text text-darken-3  flow-text"><%= tiTuloh1%></h1></div>
+
     <div id="content" class="site-content">
 
             <div class="ast-container">
@@ -124,5 +129,10 @@
                 </div> <!-- ast-container -->
     
             </div><!-- #content -->
-            <% include partial/boton.ejs%>       
-<% include partial/footer.ejs %>	
+            <%- include('partial/slideer.ejs'); %>
+    <%- include('partial/boton.ejs'); %>      
+
+    <%- include('partial/footer.ejs'); %>
+    </body>
+    
+    </html>

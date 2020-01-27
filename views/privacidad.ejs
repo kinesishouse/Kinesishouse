@@ -1,9 +1,14 @@
-<% include partial/head.ejs %>	
+<!DOCTYPE html>
+<html lang="es-CL">
 
+<%- include('partial/head.ejs'); %>
+<%- include('partial/navbar.ejs'); %>
 <body>
-    <h1 class="header center orange-text"><%= tiTuloh1%></h1>
-    <% include partial/navbar.ejs %>
+  <%- include('partial/tagmanager.ejs'); %>
+<div class="section container">
+    <h1 class="grey-text text-darken-3  flow-text"><%= tiTuloh1%></h1></div>
 
+   
     <p>
            <p>
                 Privacidad y condiciones generales
@@ -165,5 +170,10 @@
                 Documento revisado el 17-04-2018.
             </p> 
     </p>
-    <% include partial/boton.ejs%>   
-    <% include partial/footer.ejs %>
+    <%- include('partial/slideer.ejs'); %>
+    <%- include('partial/boton.ejs'); %>      
+
+    <%- include('partial/footer.ejs'); %>
+    </body>
+    
+    </html>

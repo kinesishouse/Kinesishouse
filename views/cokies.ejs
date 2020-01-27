@@ -1,8 +1,13 @@
-<% include partial/head.ejs %>	
+<!DOCTYPE html>
+<html lang="es-CL">
 
+<%- include('partial/head.ejs'); %>
+<%- include('partial/navbar.ejs'); %>
 <body>
-    <h1 class="header center orange-text"><%= tiTuloh1%></h1>
-    <% include partial/navbar.ejs %>
+  <%- include('partial/tagmanager.ejs'); %>
+<div class="section container">
+    <h1 class="grey-text text-darken-3  flow-text"><%= tiTuloh1%></h1></div>
+     <%- include('partial/slideer.ejs'); %>
     <p><span style="font-family: Garamond, serif;"><span style="font-size: medium;">Tras una auditoría realizada para la información sobre las Cookies que se usan en esta web, te informamos:</span></span></p>
     <p><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><b>NUESTRA POLÍTICA DE COOKIES </b></span></span></p>
     <p align="JUSTIFY"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;">La LSSI-CE,  obliga a todos los que tenemos un blog o una web a </span></span></span><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><b>advertir al usuario de la existencia de cookies, informar sobre ellas y requerirle permiso para descargarlas.</b></span></span></span></p>
@@ -494,5 +499,10 @@
     <p align="JUSTIFY"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><b>https://aquivatuweb.com/</b></span></span><span style="font-family: Garamond, serif;"><span style="font-size: medium;">  pone a disposición de los usuarios que quieran impedir la instalación de las mencionadas cookies, enlaces facilitados al efecto por navegadores cuyo uso se considera más extendido:</span></span></p>
     <p align="JUSTIFY"><a href="http://support.google.com/chrome/bin/answer.py?hl=es-419&amp;answer=95647"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><u>Google Chrome</u></span></span></span></a><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"> – </span></span></span><a href="#ie=ie-10"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><u>Internet Explorer</u></span></span></span></a><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"> – </span></span></span><a href="http://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-que-los-sitios-we"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><u>Mozilla Firefox</u></span></span></span></a><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"> – </span></span></span><a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES%20%97%20http://support.apple.com/kb/ph5042"><span style="color: #000000;"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><u>Apple Safari</u></span></span></span></a></p>
     <p align="JUSTIFY"><span style="font-family: Garamond, serif;"><span style="font-size: medium;"><b>Política de Cookies a 29 de mayo de 2018.</b></span></span></p>
-    <% include partial/boton.ejs%>   
-    <% include partial/footer.ejs %>
+   
+    <%- include('partial/boton.ejs'); %>      
+
+    <%- include('partial/footer.ejs'); %>
+    </body>
+    
+    </html>

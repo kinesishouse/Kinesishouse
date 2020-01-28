@@ -8,7 +8,8 @@ router.get('/', function (req, res) {
       pageTitle: 'Kinesiologo a domicilio ',
       images: 'images',
       metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
-      tiTuloh1: 'kinesiologo a domicilio Santiago'
+      tiTuloh1: 'kinesiologo a domicilio Santiago',
+      index: 'index'
   })
 });
 
@@ -17,7 +18,8 @@ router.get('/profesional-kinesiologo', function (req, res) {
     pageTitle: 'kinesiologo a domicilio | Santiago region Metropolitana',
     images: 'images',
     metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-    tituloH1: 'Curriculum de licenciado en Kinesiologia'
+    tituloH1: 'Curriculum de licenciado en Kinesiologia',
+    index: 'index'
   })
 });
 router.get('/about', function (req, res) {
@@ -25,7 +27,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'acerca de mi como profesional ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'nosotros'
+      tiTuloh1: 'nosotros',
+      index: 'index'
     });
   }); 
 
@@ -34,7 +37,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'formulario de contacto kinesiologo a domicilio Santiago ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'formulario de contacto '
+      tiTuloh1: 'formulario de contacto ',
+      index: 'index'
     });
   }); 
   router.get('/politica-de-privacidad', function (req, res) {
@@ -42,7 +46,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'politica de privacidad ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'politica de privacidad '
+      tiTuloh1: 'politica de privacidad ',
+      index: 'noindex'
     });
   }); 
   router.get('/politica-de-cokies', function (req, res) {
@@ -50,7 +55,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'politica de cokkies ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'politica de cookies '
+      tiTuloh1: 'politica de cookies ',
+      index: 'noindex'
     });
   });
   router.get('/aviso-legal', function (req, res) {
@@ -58,7 +64,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'aviso legal ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'aviso legal '
+      tiTuloh1: 'aviso legal ',
+      index: 'noindex'
     });
   });  
   router.get('/kiensiologo-respiratorio', function (req, res) {
@@ -66,7 +73,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'kinesiologo respiratorio a domicilio Santiago ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'kinesiologo respiratorio a domicilio '
+      tiTuloh1: 'kinesiologo respiratorio a domicilio ',
+      index: 'index'
     });
   }); 
   router.get('/kiensiologo-respiratorio./kinesiologo-respiratorio-infantil', function (req, res) {
@@ -74,7 +82,8 @@ router.get('/about', function (req, res) {
       pageTitle: 'kinesiologo respiratorio a domicilio niños ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-      tiTuloh1: 'kinesiologo respiratorio '
+      tiTuloh1: 'kinesiologo respiratorio ',
+      index: 'index'
     });
   }); 
 

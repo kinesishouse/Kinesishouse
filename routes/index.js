@@ -86,5 +86,13 @@ router.get('/about', function (req, res) {
       index: 'index'
     });
   }); 
-
+   router.get('/kiensiologo-traumatologia', function (req, res) {
+    res.render('./traumatologia', {
+      pageTitle: 'kinesiologo en traumatologia a domicilio Santiago ',
+      images: 'images',
+      metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
+      tiTuloh1: 'kinesiologo en traumatologia a domicilio ',
+      index: 'index'
+    });
+  }); 
 module.exports = router;

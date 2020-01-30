@@ -82,7 +82,8 @@ router.get('/about', function (req, res) {
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'kinesiologo respiratorio a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio'
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio',
+      schema: 'migajas.ejs'
     });
   }); 
   router.get('/kiensiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {

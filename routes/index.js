@@ -9,7 +9,8 @@ router.get('/', function (req, res) {
       images: 'images',
       metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'kinesiologo a domicilio Santiago',
-      index: 'index'
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/'
   })
 });
 
@@ -19,7 +20,8 @@ router.get('/profesional-kinesiologo', function (req, res) {
     images: 'images',
     metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
     tituloH1: 'Curriculum de licenciado en Kinesiologia',
-    index: 'index'
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/profesional-kinesiologo'
   })
 });
 router.get('/about', function (req, res) {
@@ -28,7 +30,8 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'nosotros',
-      index: 'index'
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/about'
     });
   }); 
 
@@ -38,7 +41,8 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'formulario de contacto ',
-      index: 'index'
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/contacto'
     });
   }); 
   router.get('/politica-de-privacidad', function (req, res) {
@@ -47,7 +51,8 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'politica de privacidad ',
-      index: 'noindex'
+      index: 'noindex',
+      canonical: 'http://www.kinesishouse.cl/politica-de-privacidad'
     });
   }); 
   router.get('/politica-de-cokies', function (req, res) {
@@ -56,7 +61,8 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'politica de cookies ',
-      index: 'noindex'
+      index: 'noindex',
+      canonical: 'http://www.kinesishouse.cl/politica-de-cokies'
     });
   });
   router.get('/aviso-legal', function (req, res) {
@@ -65,7 +71,8 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'aviso legal ',
-      index: 'noindex'
+      index: 'noindex',
+      canonical: 'http://www.kinesishouse.cl/aviso-legal'
     });
   });  
   router.get('/kiensiologo-respiratorio', function (req, res) {
@@ -74,16 +81,18 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'kinesiologo respiratorio a domicilio ',
-      index: 'index'
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio'
     });
   }); 
-  router.get('/kiensiologo-respiratorio./kinesiologo-respiratorio-infantil', function (req, res) {
-    res.render('respiratorio-niños', {
+  router.get('/kiensiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
+    res.render('./respiratorio-niños', {
       pageTitle: 'kinesiologo respiratorio a domicilio niños ',
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'kinesiologo respiratorio ',
-      index: 'index'
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio/kinesiologo-respiratorio-infantil'
     });
   }); 
    router.get('/kiensiologo-traumatologia', function (req, res) {
@@ -92,7 +101,8 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
       tiTuloh1: 'kinesiologo en traumatologia a domicilio ',
-      index: 'index'
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia'
     });
   }); 
 module.exports = router;

@@ -10,7 +10,8 @@ router.get('/', function (req, res) {
       metaDescripcion: 'servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Kinesiologo a domicilio Santiago',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/'
+      canonical: 'http://www.kinesishouse.cl/',
+      schemma: 'js/ld+json.js'
   })
 });
 

@@ -105,5 +105,15 @@ router.get('/about', function (req, res) {
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia'
     });
+  });
+   router.get('/kiensiologo-neurologia', function (req, res) {
+    res.render('./neurologia', {
+      pageTitle: 'kinesiologo neurologia a domicilio Santiago ',
+      images: 'images',
+      metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
+      tiTuloh1: 'kinesiologo neurologia a domicilio ',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-neurologia'
+    });
   }); 
 module.exports = router;

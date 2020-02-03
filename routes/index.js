@@ -123,7 +123,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: '▷ servicio de kinesiologia a domicilio en adulto mayor, ejercicios, kinesiologia integral, postrados, post operados.',
       tiTuloh1: 'kinesiologo para geriatrico | adulto mayor a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-neurologia'
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-adulto-mayor'
     });
   }); 
    router.get('/kiensiologo-deportivo', function (req, res) {

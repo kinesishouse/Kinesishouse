@@ -121,7 +121,7 @@ router.get('/about', function (req, res) {
       pageTitle: 'kinesiologo para adulto mayor | geriatrico | a domicilio Santiago ',
       images: 'images',
       metaDescripcion: '▷ servicio de kinesiologia a domicilio en adulto mayor, ejercicios, kinesiologia integral, postrados, post operados.',
-      tiTuloh1: 'kinesiologo neurologia a domicilio ',
+      tiTuloh1: 'kinesiologo para geriatrico | adulto mayor a domicilio ',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kiensiologo-neurologia'
     });
@@ -131,7 +131,7 @@ router.get('/about', function (req, res) {
       pageTitle: 'kinesiologo para adulto mayor | geriatrico | a domicilio Santiago ',
       images: 'images',
       metaDescripcion: '▷ servicio de kinesiologia a domicilio deportiva, ejercicios, kinesiologia integral, postrados, post operados.',
-      tiTuloh1: 'kinesiologo neurologia a domicilio ',
+      tiTuloh1: 'kinesiologia deportiva a domicilio ',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kiensiologo-deportivo'
     });

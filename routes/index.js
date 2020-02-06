@@ -66,7 +66,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/aviso-legal'
     });
   });  
-  router.get('/kiensiologo-respiratorio', function (req, res) {
+  router.get('/kinesiologo-respiratorio', function (req, res) {
     res.render('./respiratorio', {
       pageTitle: 'kinesiologo respiratorio a domicilio Santiago ',
       images: 'images',
@@ -76,7 +76,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio'
     });
   }); 
-  router.get('/kiensiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
+  router.get('/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
     res.render('./respiratorio-niños', {
       pageTitle: 'kinesiologo respiratorio a domicilio niños ',
       images: 'images',
@@ -86,7 +86,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio/kinesiologo-respiratorio-infantil'
     });
   }); 
-   router.get('/kiensiologo-traumatologia', function (req, res) {
+   router.get('/kinesiologo-traumatologia', function (req, res) {
     res.render('./traumatologia', {
       pageTitle: 'kinesiologo en traumatologia a domicilio Santiago ',
       images: 'images',
@@ -96,7 +96,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia'
     });
   });
-   router.get('/kiensiologo-neurologia', function (req, res) {
+   router.get('/kinesiologo-neurologia', function (req, res) {
     res.render('./neurologia', {
       pageTitle: 'kinesiologo neurologia a domicilio Santiago ',
       images: 'images',
@@ -106,7 +106,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kiensiologo-neurologia'
     });
   }); 
-   router.get('/kiensiologo-adulto-mayor', function (req, res) {
+   router.get('/kinesiologo-adulto-mayor', function (req, res) {
     res.render('./adultomayor', {
       pageTitle: 'kinesiologo para adulto mayor | geriatrico | a domicilio Santiago ',
       images: 'images',
@@ -116,7 +116,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kiensiologo-adulto-mayor'
     });
   }); 
-   router.get('/kiensiologo-deportivo', function (req, res) {
+   router.get('/kinesiologo-deportivo', function (req, res) {
     res.render('./kinedeportiva', {
       pageTitle: 'kinesiologo para adulto mayor | geriatrico | a domicilio Santiago ',
       images: 'images',
@@ -127,7 +127,7 @@ router.get('/about', function (req, res) {
     });
   }); 
 
-  router.get('/kiensiologia-domicilio', function (req, res) {
+  router.get('/kinesiologia-domicilio', function (req, res) {
     res.render('./kinesiologia', {
       pageTitle: 'kinesiologia a domicilio | preguntas frecuentes ',
       images: 'images',

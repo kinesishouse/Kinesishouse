@@ -15,16 +15,6 @@ router.get('/', function (req, res) {
   })
 });
 
-router.get('/profesional-kinesiologo', function (req, res) {
-  res.render('profesional-kinesiologo', {
-    pageTitle: 'kinesiologo a domicilio | Santiago region Metropolitana',
-    images: 'images',
-    metaDescripcion: ' curriculum de kinesiologo profesional que atiende en santiago de chile atencion especial en todas las comunas de la region metropolitana',
-    tituloH1: 'Curriculum de licenciado en Kinesiologia',
-    index: 'index',
-    canonical: 'http://www.kinesishouse.cl/profesional-kinesiologo'
-  })
-});
 router.get('/about', function (req, res) {
     res.render('about', {
       pageTitle: 'acerca de mi como profesional ',
@@ -132,6 +122,17 @@ router.get('/about', function (req, res) {
       images: 'images',
       metaDescripcion: '▷ servicio de kinesiologia a domicilio deportiva, ejercicios, kinesiologia integral, postrados, post operados.',
       tiTuloh1: 'kinesiologia deportiva a domicilio ',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-deportivo'
+    });
+  }); 
+
+  router.get('/kiensiologia-domicilio', function (req, res) {
+    res.render('./kinesiologia', {
+      pageTitle: 'kinesiologia a domicilio | preguntas frecuentes ',
+      images: 'images',
+      metaDescripcion: '▷ kinesiologia a domicilio | preguntas precuentes sobre fisioterapia',
+      tiTuloh1: 'kinesiologia a domicilio | preguntas y respuestas',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kiensiologo-deportivo'
     });

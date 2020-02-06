@@ -134,7 +134,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: '▷ kinesiologia a domicilio | preguntas precuentes sobre fisioterapia',
       tiTuloh1: 'kinesiologia a domicilio | preguntas y respuestas',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-deportivo'
+      canonical: 'http://www.kinesishouse.cl/kiensiologia-domicilio'
     });
   }); 
 module.exports = router;

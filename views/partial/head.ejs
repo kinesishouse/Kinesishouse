@@ -84,7 +84,24 @@
        <!-- Compiled and minified CSS -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" as="styles">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="public/css/header.min.css">
+   <style>
+       header{
+            background: url(public/images/Header/Health.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 400px;
+              }
+              section{
+                  padding-top: 4vw;
+                  padding-bottom: 4vw;
+              }
+              @media screen and (max-width: 670px){
+                  header{
+                      min-height: 500px;
+                  }
+                  
+              }
+   </style>
     <!--Import Google Icon Font-->
     <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="font-display: swap" crossorigin>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet">        

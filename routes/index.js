@@ -126,14 +126,14 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-adulto-mayor'
     });
   }); 
-   router.get('/kinesiologo-adulto-mayor/artrosis', function (req, res) {
-    res.render('./atrosis', {
+   router.get('/kinesiologo-adulto-mayor/artrosis-rodilla', function (req, res) {
+    res.render('./artrosis-rodilla', {
       pageTitle: 'kinesiologo para adulto mayor | Artrosis ',
       images: 'images',
       metaDescripcion: '▷ artrosis de rodilla mecanismos terapeuticos en kinesiologia',
       tiTuloh1: 'kinesiologo para geriatrico | artrosiss de rodilla ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kinesiologo-adulto-mayor/artrosis'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-adulto-mayor/artrosis-rodilla'
     });
   }); 
    router.get('/kinesiologo-deportivo', function (req, res) {

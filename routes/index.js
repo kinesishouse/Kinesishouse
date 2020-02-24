@@ -73,7 +73,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: ' ▷ servicio de kinesiologia respiratoria a domicilio en santiago de chile',
       tiTuloh1: 'kinesiologo respiratorio a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio'
     });
   }); 
   router.get('/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
@@ -83,7 +83,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: 'kinesiologia respiratoria niños a domicilio en santiago de chile',
       tiTuloh1: 'kinesiologo respiratorio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-respiratorio/kinesiologo-respiratorio-infantil'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil'
     });
   }); 
    router.get('/kinesiologo-traumatologia', function (req, res) {
@@ -93,17 +93,17 @@ router.get('/about', function (req, res) {
       metaDescripcion: ' ▷ servicio de kinesiologia a domicilio en traumatologia',
       tiTuloh1: 'kinesiologo en traumatologia a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia'
     });
   });
    router.get('/kinesiologo-traumatologia/artroscopia-cadera', function (req, res) {
-    res.render('./artroscopia-cadera', {
+    res.render('./artoscopia-cadera', {
       pageTitle: 'Kinesiolog&iacute;a en rehabilitaci&oacute;n  ARTROSCOPÍA DE CADERA (AC): ',
       images: 'images',
       metaDescripcion: ' ▷ rehabilitacion en artroscopia de cadera ',
       tiTuloh1: 'Kinesiolog&iacute;a en rehabilitaci&oacute;n  ARTROSCOPÍA DE CADERA (AC): ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia/artroscopia-cadera'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/artroscopia-cadera'
     });
   });
    router.get('/kinesiologo-neurologia', function (req, res) {
@@ -113,7 +113,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: '▷ servicio de kinesiologia a domicilio en neurologia, acidentes cerebros vasculares, guilliam barre, etc.',
       tiTuloh1: 'kinesiologo neurologia a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-neurologia'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-neurologia'
     });
   }); 
    router.get('/kinesiologo-adulto-mayor', function (req, res) {
@@ -123,7 +123,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: '▷ servicio de kinesiologia a domicilio en adulto mayor, ejercicios, kinesiologia integral, postrados, post operados.',
       tiTuloh1: 'kinesiologo para geriatrico | adulto mayor a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-adulto-mayor'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-adulto-mayor'
     });
   }); 
    router.get('/kinesiologo-deportivo', function (req, res) {
@@ -133,7 +133,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: '▷ servicio de kinesiologia a domicilio deportiva, ejercicios, kinesiologia integral, postrados, post operados.',
       tiTuloh1: 'kinesiologia deportiva a domicilio ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologo-deportivo'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-deportivo'
     });
   }); 
 
@@ -144,7 +144,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: '▷ kinesiologia a domicilio | preguntas precuentes sobre fisioterapia',
       tiTuloh1: 'kinesiologia a domicilio | preguntas y respuestas',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kiensiologia-domicilio'
+      canonical: 'http://www.kinesishouse.cl/kinesiologia-domicilio'
     });
   }); 
 module.exports = router;

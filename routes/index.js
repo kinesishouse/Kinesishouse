@@ -96,6 +96,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia'
     });
   });
+   router.get('/kinesiologo-traumatologia/artroscopia-cadera', function (req, res) {
+    res.render('./artroscopia-cadera', {
+      pageTitle: 'Kinesiolog&iacute;a en rehabilitaci&oacute;n  ARTROSCOPÍA DE CADERA (AC): ',
+      images: 'images',
+      metaDescripcion: ' ▷ rehabilitacion en artroscopia de cadera ',
+      tiTuloh1: 'Kinesiolog&iacute;a en rehabilitaci&oacute;n  ARTROSCOPÍA DE CADERA (AC): ',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kiensiologo-traumatologia/artroscopia-cadera'
+    });
+  });
    router.get('/kinesiologo-neurologia', function (req, res) {
     res.render('./neurologia', {
       pageTitle: 'kinesiologo neurologia a domicilio Santiago ',

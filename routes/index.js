@@ -77,11 +77,11 @@ router.get('/about', function (req, res) {
     });
   }); 
   router.get('/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
-    res.render('./respiratorio-niños', {
-      pageTitle: 'kinesiologo respiratorio a domicilio niños ',
+    res.render('./kinesiologia-respiratoria-infantil', {
+      pageTitle: 'kinesiologo respiratorio infantil a domicilio  ',
       images: 'images',
       metaDescripcion: 'kinesiologia respiratoria niños a domicilio en santiago de chile',
-      tiTuloh1: 'kinesiologo respiratorio ',
+      tiTuloh1: 'kinesiologo respiratorio infantil a domicilio ',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil'
     });

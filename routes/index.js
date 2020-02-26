@@ -107,7 +107,7 @@ router.get('/about', function (req, res) {
     });
   });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
-    res.render('./artosis-rotuliana', {
+    res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',
       images: 'images',
       metaDescripcion: ' ▷ kinesiologia y en artrosis rotuliana ',

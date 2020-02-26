@@ -76,7 +76,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio'
     });
   }); 
-  router.get('/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
+  router.get('/kinesiologo-respiratorio/kinesiologia-respiratoria-infantil', function (req, res) {
     res.render('./kinesiologia-respiratoria-infantil', {
       pageTitle: 'kinesiologo respiratorio infantil a domicilio  ',
       images: 'images',

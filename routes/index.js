@@ -106,6 +106,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/artroscopia-cadera'
     });
   });
+     router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
+    res.render('./artosis-rotuliana', {
+      pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',
+      images: 'images',
+      metaDescripcion: ' ▷ kinesiologia y en artrosis rotuliana ',
+      tiTuloh1: '▷ Kinesiologia en rehabilitacion  artrosis rotuliana',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/artrosis-rotuliana'
+    });
+  });
    router.get('/kinesiologo-neurologia', function (req, res) {
     res.render('./neurologia', {
       pageTitle: 'kinesiologo neurologia a domicilio Santiago ',

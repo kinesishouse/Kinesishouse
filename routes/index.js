@@ -12,8 +12,6 @@ router.get('/', function (req, res) {
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/',
       schemma: 
-               
-      ]
   })
 });
 

@@ -121,7 +121,7 @@ router.get('/about', function (req, res) {
       pageTitle: 'Kinesiologia en rehabilitacion  bursitis del trocanter mayor ',
       images: 'images',
       metaDescripcion: ' kinesiologia y en bursitis del trocanter mayor, patologia bursitis trocanteriana, rehabilitacion y tratamiento ',
-      tiTuloh1: '▷ Kinesiologia en rehabilitacion  artrosis rotuliana',
+      tiTuloh1: '▷ Kinesiologia en rehabilitacion  bursitis del trocanter mayor',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/bursitis-trocanter-mayor'
     });

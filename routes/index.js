@@ -11,8 +11,8 @@ router.get('/', function (req, res) {
       tiTuloh1: 'Kinesiologo a domicilio Santiago',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/',
-      schemma: 
-  })
+      schemma: 'js/ld+json.js'
+  });
 });
 
 router.get('/about', function (req, res) {

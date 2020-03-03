@@ -116,7 +116,7 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/artrosis-rotuliana'
     });
   });
-      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
+      router.get('/kinesiologo-traumatologia/bursitis-trocanter-mayor', function (req, res) {
     res.render('./bursitis-trocanter-mayor', {
       pageTitle: 'Kinesiologia en rehabilitacion  bursitis del trocanter mayor ',
       images: 'images',

@@ -126,6 +126,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/bursitis-trocanter-mayor'
     });
   });
+   router.get('/kinesiologo-traumatologia/condromalacia-rotuliana', function (req, res) {
+    res.render('./condromalacia-rotuliana', {
+      pageTitle: 'Kinesiologia en rehabilitacion  condromalacia-rotuliana ',
+      images: 'images',
+      metaDescripcion: ' kinesiologia y en condromalacia-rotuliana, terapia en condromalacia patelar, patologia condromalacia-rotuliana, rehabilitacion y tratamiento ',
+      tiTuloh1: '▷ Kinesiologia en rehabilitacion  condromalacia-rotuliana',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/condromalacia-rotuliana'
+    });
+  });
    router.get('/kinesiologo-neurologia', function (req, res) {
     res.render('./neurologia', {
       pageTitle: 'kinesiologo neurologia a domicilio Santiago ',

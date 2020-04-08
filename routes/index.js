@@ -116,6 +116,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/ossgodd-schlatter'
     });
   });
+  router.get('/kinesiologo-traumatologia/enfermedad-sever', function (req, res) {
+    res.render('./sever', {
+      pageTitle: 'Kinesiologia en rehabilitacion  enfermedad de sever ',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en sever, metodos terapeuticos, operacion , rehabilitacion recomedaciones,dolor anterior de rodilla ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en enfermedad de sever',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/enfermedad-sever'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

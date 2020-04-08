@@ -126,6 +126,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/enfermedad-sever'
     });
   });
+  router.get('/kinesiologo-traumatologia/fractura-cadera', function (req, res) {
+    res.render('./cadera-fractura', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en fractura de cadera ',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en frctura de cadera, metodos terapeuticos, operacion , rehabilitacion recomedaciones, proceso de marcha en fractura de cadera ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en fractura de cadera',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/fractura-cadera'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

@@ -106,6 +106,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/artroscopia-cadera'
     });
   });
+  router.get('/kinesiologo-traumatologia/ossgodd-schlatter', function (req, res) {
+    res.render('./ossgodd-later', {
+      pageTitle: 'Kinesiologia en rehabilitacion  ossgodd-schlatter ',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en ossgodd-schlatter, metodos terapeuticos, operacion , rehabilitacion recomedaciones,dolor anterior de rodilla ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  ossgodd-schlatter',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/ossgodd-schlatter'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

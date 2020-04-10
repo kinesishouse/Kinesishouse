@@ -167,6 +167,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/luxacion-rotula'
     });
   });
+  router.get('/kinesiologo-traumatologia/fractura-tobillo', function (req, res) {
+    res.render('./fractura-tobillo', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en fractura tobillo',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en fractura tobillo, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en fractura de tobillo ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en fractura de tobillo',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/fractura-tobillo'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

@@ -187,6 +187,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/osteocondritis-rodilla'
     });
   });
+   router.get('/kinesiologo-traumatologia/pinzamiento-cadera', function (req, res) {
+    res.render('./pinzamiento-cadera', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en pinzamiento de cadera',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en pinzamiento de cadera, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en pinzamiento de cadera ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en pinzamiento de cadera',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/pinzamiento de cadera'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

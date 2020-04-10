@@ -157,6 +157,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/fractura-metacarpianos'
     });
   });
+   router.get('/kinesiologo-traumatologia/luxacion-rotula', function (req, res) {
+    res.render('./luxacion-rotula', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en luxacion de la rotula',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en luxacion de la rotula, metodos terapeuticos, operacion , rehabilitacion recomedaciones,fisioterapia en luxacion de la rotula ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en luxacion de la rotula',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/luxacion-rotula'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

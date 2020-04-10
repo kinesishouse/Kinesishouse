@@ -177,6 +177,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/fractura-tobillo'
     });
   });
+   router.get('/kinesiologo-traumatologia/osteocondritis-rodilla', function (req, res) {
+    res.render('./osteocondritis-rodilla', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en osteocondritis de rodilla',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en osteocondritis de rodilla, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en osteocondritis de rodilla ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en osteocondritis de rodilla',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/osteocondritis-rodilla'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

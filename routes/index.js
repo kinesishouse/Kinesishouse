@@ -136,6 +136,17 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/fractura-cadera'
     });
   });
+
+   router.get('/kinesiologo-traumatologia/fractura-rotula', function (req, res) {
+    res.render('./fractura-rotula', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en fractura de rotula ',
+      images: 'images',
+      metaDescripcion: ' rehabilitacion en frctura de rotula, metodos terapeuticos, operacion , rehabilitacion recomedaciones, proceso de marcha en fractura de rotula ',
+      tiTuloh1: 'Kinesiologia en rehabilitacion  en fractura de rotula',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/fractura-rotula'
+    });
+  });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
     res.render('./artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',

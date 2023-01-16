@@ -15,6 +15,7 @@ const routes = require('./routes/index.js');
 
 const app = express();
 
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -34,7 +35,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(favicon(__dirname + '/public/images/Favicon.webp'));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname + 'public'));
+app.use('*/js' ,express.static(path.join(__dirname, 'public/js')));
+app.use('*/css',express.static(path.join(__dirname, 'public/css')));
+app.use('*/images',express.static(path.join(__dirname, 'public/images')));
 
 app.use(function (req, res, next) {
   if (req.hostname === 'kinesishouse.cl') {

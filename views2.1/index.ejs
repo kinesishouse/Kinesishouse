@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-  <%- include('heads/head.ejs'); %>
+<%- include('partial/head.ejs'); %>
 
 <body>
-  <%- include('navbar/navbar.ejs'); %>
+  <%- include('partial/navbar.ejs'); %>
 
 
-  <%- include('botones/menu-flotante.ejs'); %>
+
+ <!-- menu flotante left-->
+ <div class="menu-btn">
+  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons hide-on-large-and-down">menu</i></a>
+    
+</div>
 
 <!--header-->
 <header>
@@ -15,7 +20,7 @@
   <section class="header-main-pic z-depth-2">
       <div class="intro-area">
           <div class="container">
-            <h1> <%= tiTuloh1%> </h1>
+            <h1>Kinesiologo a domicilio</h1>
             <p>rehabilitacion en la comodidad de tu hogar</p>
           </div>
         </div>
@@ -285,9 +290,9 @@
       <%- include('partial/precios.ejs'); %>
       <%- include('partial/comentarios.ejs'); %>
     
-      <%- include('botones/boton.ejs'); %>
+      <%- include('partial/boton.ejs'); %>
 
-      <%- include('footers/footer.ejs'); %>
+      <%- include('partial/footer.ejs'); %>
       </body>
       
       </html>

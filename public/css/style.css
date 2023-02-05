@@ -45,6 +45,13 @@
     font-size: 4rem;
     font-weight: 800;
     }
+  .p_blog {
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+  }
+  .ul_blog > li{
+    margin-bottom: 50px;
+  }
 
 
 .nav-wrapper > a > img {

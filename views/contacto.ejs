@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+
+<%- include('heads/head.ejs'); %>
+
+
+<body>
+  <%- include('navbar/navbar.ejs'); %>
+<div class="section container">
+  <div class="row">
+    <form class="s12">
+      <div class="row card-panel">
+        <div class="imput-field col s6">
+          <input type="text" placeholder="ingresa tu nombre" id="nombre" class="validate" required>
+          <label for="nombre">nombre:</label>
+        </div>
+         <div class="imput-field col s6">
+          <input type="text"  id="apellido" class="validate" required>
+          <label for="apellido">apellido:</label>
+        </div>
+        <div class="imput-field col s12">
+          <input type="text"  id="texto" class="validate" required>
+          <label for="texto">mensaje:</label>
+        </div>
+         <div class="imput-field col s12">
+          <input type="text"  id="email" class="validate" required>
+          <label for="email">email:</label>
+        </div>
+        <button class="btn" type="submit">enviar</button>
+      </div>
+    </form>
+  </div>
+ 
+    
+    <%- include('botones/boton.ejs'); %>      
+
+    <%- include('footers/footer.ejs'); %>
+    </body>
+    
+    </html>

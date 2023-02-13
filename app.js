@@ -2,6 +2,7 @@
 
 const createError = require('http-errors');
 const express = require('express');
+const robots = require('express-robots-txt');
 const compression = require('compression');
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -19,7 +20,13 @@ const app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-
+//lectura archivo robots.txt
+app.use(robots({
+  UserAgent: '*',
+  allow: '*',
+  CrawlDelay: '5',
+  Sitemap: 'http://kinesishouse.cl/sitemap.xml',
+}));
 // middlewares
 app.use((req, res, next) => {
 	console.log(`${req.url} - ${req.method}`);
@@ -39,6 +46,8 @@ app.use(express.static(__dirname + 'public'));
 app.use('*/js' ,express.static(path.join(__dirname, 'public/js')));
 app.use('*/css',express.static(path.join(__dirname, 'public/css')));
 app.use('*/images',express.static(path.join(__dirname, 'public/images')));
+app.use(robots(__dirname + '/robots.txt'));
+
 
 app.use(function (req, res, next) {
   if (req.hostname === 'kinesishouse.cl') {

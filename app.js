@@ -25,7 +25,7 @@ app.use(robots({
   UserAgent: '*',
   allow: '*',
   CrawlDelay: '5',
-  Sitemap: 'http://kinesishouse.cl/sitemap.xml',
+  Sitemap: 'http://www.kinesishouse.cl/sitemap.xml',
 }));
 // middlewares
 app.use((req, res, next) => {
@@ -46,6 +46,9 @@ app.use(express.static(__dirname + 'public'));
 app.use('*/js' ,express.static(path.join(__dirname, 'public/js')));
 app.use('*/css',express.static(path.join(__dirname, 'public/css')));
 app.use('*/images',express.static(path.join(__dirname, 'public/images')));
+app.use('*/robots', express.static(path.join(__dirname, 'public/robots.txt')));
+app.use('*/sitemap', express.static(path.join(__dirname, 'public/sitemap.xml')));
+
 app.use(robots(__dirname + '/robots.txt'));
 
 

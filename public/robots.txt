@@ -1,2 +1,3 @@
 User-agent: *
+Allow: *
 sitemap: http://www.kinesishouse.cl/sitemap.xml

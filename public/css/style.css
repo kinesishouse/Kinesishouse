@@ -6,7 +6,8 @@
   
   html {
     font-size: 66.5%;
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    user-select: none;
   }
   body {
     font-family: 'Poppins', sans-serif;
@@ -19,6 +20,7 @@
   }
   h1 {
     margin-bottom: 20px;
+    margin-top: 250px;
   }
   
   
@@ -72,6 +74,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+#brand-logos > img{
+  width: 150px;
 }
         
 /* intro-area css start */
@@ -311,7 +316,7 @@ footer {
 
 @media only screen and (max-width: 769px){
     .menu-btn {
-        background-color: white;
+        background-color: #f6f9fc;
         border-radius: 50%;
         box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
         cursor: pointer;

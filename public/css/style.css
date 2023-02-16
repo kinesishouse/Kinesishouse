@@ -18,6 +18,7 @@
   main.container {
     margin-top: 30px;
   }
+ 
   h1 {
     margin-bottom: 20px;
     margin-top: 250px;
@@ -80,6 +81,7 @@
 }
         
 /* intro-area css start */
+
 .intro-area {
     height: calc(100vh - 61px);
     display: flex;
@@ -279,6 +281,9 @@ footer {
     padding: 0.625rem 0.9375rem;
     margin-top: 0.3125rem;
   }
+  .ft-main {
+    justify-content: space-evenly;
+  }
   /* Footer social */
   .ft-social {
     padding: 0 1.875rem 1.25rem;
@@ -312,58 +317,18 @@ footer {
       flex: 1;
   }
 
-/*fin footer*/
-
-@media only screen and (max-width: 769px){
-    .menu-btn {
-        background-color: #f6f9fc;
-        border-radius: 50%;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
-        cursor: pointer;
-        height: 56px;
-        left: 24px;
-        position: fixed;
-        bottom: 24px;
-        width: 56px;
-        z-index: 997;
-       
-        
-       
-      }
-      .menu-btn > a {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin: 0px auto;
-      }
-      .menu-btn > a > i {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-top: 15px;
-      }
-  }
-  @media only screen and (min-width: 891px){
-      .menu-btn > a > i {
-          display: none;
-
-      }
-     nav ul a {
-         font-size: 2.0rem;
-
-     }
-     .intro-area p {
-         margin-bottom: 100px;
-     }
-  }
-  @media only screen and (min-width: 29.8125rem /* 477px */) {
-    .ft-main {
-      justify-content: space-evenly;
+  @media only screen and (min-width: 891px) {
+    .menu-btn > a > i {
+        display:none;
     }
-  }
-  @media only screen and (min-width: 77.5rem /* 1240px */) {
-    .ft-main {
-      justify-content: space-evenly;
+    nav ul a {
+        font-size: 2rem;
     }
-}     
+    .intro-area p {
+        margin-bottom: 100px;
+    }
+   
+    
+  } 
+
 

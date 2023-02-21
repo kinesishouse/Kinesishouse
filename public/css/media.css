@@ -1,9 +1,9 @@
 
 @media only screen and (min-width: 375px) and (max-width: 891px){
     .menu-btn {
-        background-color: #f6f9fc;
+        background-color: #eeeeee;
         border-radius: 50%;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, .16);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .16);
         cursor: pointer;
         height: 56px;
         left: 24px;

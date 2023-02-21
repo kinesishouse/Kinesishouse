@@ -43,6 +43,14 @@ app.use('*/images',express.static(path.join(__dirname, 'public/images')));
 app.use('/robots', express.static(path.join(__dirname, 'public/robots.txt')));
 app.use('/sitemap', express.static(path.join(__dirname, 'public/sitemap.xml')));
 
+app.use(function (req, res, next) {
+  if (req.hostname === 'kinesishouse.cl') {
+    res.redirect(301, 'http://www.kinesishouse.cl' + req.path);
+    return ;
+  }
+  next();
+});
+
 
 // routes
 app.use(routes);

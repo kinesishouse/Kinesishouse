@@ -51,6 +51,20 @@ app.use(function (req, res, next) {
   next();
 });
 
+// cambio a redireccion futura <<<<<<<<<<<<<<<<<<<<<<<<<<
+//app.use(function (req, res, next) {
+//  if (req.hostname === 'kinesishouse.cl') {
+    // Redireccionar a https://www.kinesishouse.cl
+//    res.redirect(301, 'https://www.kinesishouse.cl' + req.path);
+//    return;
+//  } else if (req.hostname === 'www.kinesishouse.cl' && req.protocol === 'http') {
+    // Redireccionar http://www.kinesishouse.cl a https://www.kinesishouse.cl
+//    res.redirect(301, 'https://www.kinesishouse.cl' + req.path);
+//    return;
+//  }
+//  next();
+//});
+
 
 // routes
 app.use(routes);

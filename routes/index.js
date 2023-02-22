@@ -249,7 +249,7 @@ router.get('/about', function (req, res) {
     });
   }); 
    router.get('/kinesiologo-adulto-mayor/artrosis-rodilla', function (req, res) {
-    res.render('./artrosis-rodilla', {
+    res.render('./traumatologia/artrosis-rodilla', {
       pageTitle: 'kinesiologo para adulto mayor | Artrosis ',
       images: 'images',
       metaDescripcion: 'artrosis de rodilla mecanismos terapeuticos en kinesiologia, desarrollo fisiopatologico de la enfermedad',

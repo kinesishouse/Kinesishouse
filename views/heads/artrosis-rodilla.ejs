@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="es-CL">
 
- 
 
 <head>
 
@@ -15,10 +12,10 @@
     <meta name="geo.placename" content="Santiago">
     <meta name="geo.position" content="-33.44889;-70.669265">
     <meta name="ICBM" content="-33.44889, -70.669265">
-    <meta name="robots" content=" noindex ">
+    <meta name="robots" content=" <%= index%> ">
     <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
-    <meta name="description" content=" error 404 pagina no encontrada ">
-    <link rel="canonical" href=" error 404">
+    <meta name="description" content=" <%= metaDescripcion%> ">
+    <link rel="canonical" href=" <%= canonical%> ">
     <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
     <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
     <!--   metas de redes sociales-->
@@ -31,51 +28,33 @@
     <meta property="og:image:height" content="300">
     <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
     <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
-    <meta property="og:url" content="http://www.kinesishouse.cl/">
+    <meta property="og:url" content="http://www.kinesishouse.cl//kinesiologo-traumatologia/artrosis-rodilla">
     <meta property="og:site_name" content="kinesis house">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
     <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
    
-       <!--precarga de fuentes-->
-   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-   <link rel="dns-prefetch" href="https://fonts.gstatic.com/"">
-
-    
-   <!--Import Google Icon Font-->
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <!--preload css y js-->
-   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-   <link rel="preload" href="/public/css/style.min.css">
-   <link rel="preload" href="/public/css/media.min.css">
-   <link rel="preload" href="https://code.jquery.com/jquery-2.1.1.min.js" as="script">
-   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
-
-   <!-- Compiled and minified CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">  
-   <link rel="stylesheet" href="/public/css/style.css">
-   <link rel="stylesheet" href="/public/css/media.css" media="screen and (min-width: 375px) and (max-width: 891px)">
-
+    <%- include('carga_css.ejs'); %>
     
     
    <script async type="application/ld+json">
     {
         "@context" : "http://schema.org",
         "@type" : "LocalBusiness",
-        "name" : "kinesiólogo a Domicilio",
-        "description": "Servicio de kinesiologia a Domicilio en sector oriente de la capital, patologias de traumatologia, respiratoria y neurologia,
+        "name" : "kinesiólogo a Domicilio artrosis de rodilla,
+        "description": "Servicio de kinesiologia a Domicilio en sector oriente de la capital Peñalolen, adulto mayor con artrosis de rodilla
         "image" : "http://www.kinesishouse.cl/images/Respiratoria_jpg.webp",
         "telephone" : "+56956833633",
         "email" : "kinesishouse@gmail.com",
         "address" : {
         "@type" : "PostalAddress",
-        "addressLocality" : "Vitacura Región Metropolitana",
+        "addressLocality" : "Peñalolen Región Metropolitana",
         "addressRegion" : "metropolitana",
         "addressCountry" : "chile",
-        "postalCode" : "8320000",
+        "postalCode" : "7910000",
         "geo": {
-            "latitude": -33.4247879,
-            "longitude": -70.5174976075393
+            "latitude": -33.48622465,
+            "longitude": -70.5092902956144
         }
         },
         "openingHoursSpecification" : {
@@ -85,14 +64,14 @@
         "name" : "Lunes a Sábado 8:00-20:00"
         }
         },
-        "url" : "http://www.kinesishouse.cl/",
+        "url" : "http://www.kinesishouse.cl/kinesiologo-adulto-mayor/artrosis-rodilla",
         "review" : {
         "@type" : "Review",
         "author" : {
         "@type" : "Person",
         "name" : "Paulo Silva"
         },
-        "reviewBody" : "servicio de kinesiología a domicilio  en las comunas del sector oriente de la capital"
+        "reviewBody" : "servicio de kinesiología a domicilio  en las comunas del sector oriente de la capital Peñalolen"
         "reviewRating": {
             "ratingValue": 5,
             "bestRating": 5
@@ -101,49 +80,6 @@
         }
 </script>
 
-    <title>lo sentimos esta pagina no existe</title>
+    <title><%= pageTitle%></title>
        
 </head>
-
-<body>
-  <%- include('navbar/navbar.ejs'); %>
-
-
-  <%- include('botones/menu-flotante.ejs'); %>
-
-<!--header-->
-<header>
-
-  <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-          <div class="container">
-            <h1> error 404 lo sentimos esta pagina no existe </h1>
-            <p>rehabilitacion en la comodidad de tu hogar</p>
-          </div>
-        </div>
-  </section>
-
-  
-</header>   
-<!-- contenido y servicios -->
-  <!-- section main-->
-<h2>error 404 pagina no encontrada</h2>
-
-<!-- contenido y servicios -->
-
-<h2>si deseas otra informacion sigue las siguientes categorias</h2> 
-
-  
-
-  
-
-
-      <%- include('partial/precios.ejs'); %>
-      <%- include('partial/comentarios.ejs'); %>
-    
-      <%- include('botones/boton.ejs'); %>
-
-      <%- include('footers/footer.ejs'); %>
-      </body>
-      
-      </html>

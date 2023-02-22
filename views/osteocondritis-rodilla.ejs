@@ -1,10 +1,9 @@
 <html lang="es-CL">
 
-<%- include('partial/head.ejs'); %>
+<%- include('heads/head.ejs'); %>
 
 <body>
-  <%- include('partial/tagmanager.ejs'); %>
-  <%- include('partial/navbar.ejs'); %>
+  <%- include('naavbar/navbar.ejs'); %>
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -21,51 +20,59 @@
 
  
 
-   <div class="container">
+   <main class="container">
      <div class="row">
       <div class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
            <h2 class="flow-text">Kinesiolog&iacute;a  en  OSTEOCONDRITIS DISECANTE DE RODILLA  </h2>
 
-        <p>
-            OSTEOCONDRITIS DISECANTE DE RODILLA
-DEFINICIÓN
- Esta es uan patología  del desarrollo y maduración de la rodilla que afecta al hueso incluyendo a los procesos de osificación esto ocurre entre las edades de 10 a 20 años e incluyendo hasta cartílago.
-¿FACTORES QUE LA PROVOCAN?
-•	Traumatismo
-•	 Genética
-•	 la edad
-•	 enfermedades metabólicas
-•	 trastornos circulatorios.
+        <p class="p_blog">
+            
+            Esta es uan patología  del desarrollo y maduración de la rodilla que afecta al hueso incluyendo a los procesos de osificación esto ocurre entre las edades de 10 a 20 años e incluyendo hasta cartílago.
+        </p>
+            <h3>¿FACTORES QUE LA PROVOCAN?</h3>
+            <p class="p_blog">
+              <ul>
+                <li>Traumatismo</li>
+                <li>Genética</li>
+                <li>la edad</li>
+                <li>enfermedades metabólicas</li>
+                <li> trastornos circulatorios.</li>
+              </ul>
+            </p>
+           <h3>SÍNTOMAS</h3> 
+           <p class="p_blog">
+            Derrame articular en la rodilla de manera difusa, dolor que puede ser en la zona interna o externa que aumenta con la actividad como subir o bajar escaleras o incluso el doblar la extremidad, crepitos articulares o alteración de la flexo-extensión por bloqueo articular.
+           </p>
+            .
+           <h3>DIAGNÓSTICO</h3> 
+           <p class="p_blog">
+            El diagnostico especifico se lleva a cabo con la toma de imágenes de radiografía y resonancia magnética para determinar el tipo de daño articular.
+           </p>
+           <h3>TRATAMIENTO</h3> 
+           <p class="p_blog">
+            Las primeras fases del tratamiento serán de evitar la carga de peso ya que es una patología que afecta tanto la zona ósea como cartilaginosa, con el objetivo de disminuir la sintomatología  y el dolor (incluyendo inflamación y derrame articular).
+            Hay que determinar por medio de la resonancia si es necesario la intervención quirúrgica ya que los fragmentos que están limitando y alterando la funcionalidad deben ser removidos, si el tratamiento no es efectivo se tratara quirúrgicamente aplicando intervención artroscópica
+           </p>  
 
-SÍNTOMAS
-Derrame articular en la rodilla de manera difusa, dolor que puede ser en la zona interna o externa que aumenta con la actividad como subir o bajar escaleras o incluso el doblar la extremidad, crepitos articulares o alteración de la flexo-extensión por bloqueo articular.
-.
-DIAGNÓSTICO
-El diagnostico especifico se lleva a cabo con la toma de imágenes de radiografía y resonancia magnética para determinar el tipo de daño articular.
-TRATAMIENTO
-Las primeras fases del tratamiento serán de evitar la carga de peso ya que es una patología que afecta tanto la zona ósea como cartilaginosa, con el objetivo de disminuir la sintomatología  y el dolor (incluyendo inflamación y derrame articular).
-Hay que determinar por medio de la resonancia si es necesario la intervención quirúrgica ya que los fragmentos que están limitando y alterando la funcionalidad deben ser removidos, si el tratamiento no es efectivo se tratara quirúrgicamente aplicando intervención artroscópica
+            <h3>RECUPERACIÓN</h3> 
+            <p class="p_blog">
 
-RECUPERACIÓN
-El tratamiento es variable y tiene una duración aproximadamente de 4 meses, idealmente sin cargar peso sobre la extremidad afectada, se buscara por medio de la kinesiología disminuir dolor, evitar la atrofia muscular, y reducir los edemas en la zona afectada.
-Esta patología es variable en cuanto a los resultados, al ser el cartílago el afectado por lo general siempre tenderán a tener secuelas al largo plazo, ya que el cartílago no posee la capacidad de regeneración como otros tejidos
+            
+            El tratamiento es variable y tiene una duración aproximadamente de 4 meses, idealmente sin cargar peso sobre la extremidad afectada, se buscara por medio de la kinesiología disminuir dolor, evitar la atrofia muscular, y reducir los edemas en la zona afectada.
+            Esta patología es variable en cuanto a los resultados, al ser el cartílago el afectado por lo general siempre tenderán a tener secuelas al largo plazo, ya que el cartílago no posee la capacidad de regeneración como otros tejidos
 
         </p>
         </div>
       
-      <div class="container left-align">
-
-        <div class="row">
-        <a class="waves-effect waves-light btn" href="/">inicio</a>
-        </div>
-    
-       </div>
+      
      </div>
-    </div>
+    </main>
    
-    <%- include('partial/boton.ejs'); %>      
+    <%- include('botones/boton.ejs'); %>     
+    <%- include('botones/menu-flotante.ejs'); %>      
+ 
 
-    <%- include('partial/footer.ejs'); %>
+    <%- include('footers/footer.ejs'); %>
     </body>
     
     </html>

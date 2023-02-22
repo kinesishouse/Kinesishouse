@@ -98,7 +98,7 @@ router.get('/about', function (req, res) {
     });
   });
    router.get('/kinesiologo-traumatologia/artroscopia-cadera', function (req, res) {
-    res.render('./artoscopia-cadera', {
+    res.render('./traumatologia/artoscopia-cadera', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSCOPÍA DE CADERA (AC): ',
       images: 'images',
       metaDescripcion: ' rehabilitacion en artroscopia de cadera, metodos terapeuticos, operacion , rehabilitacion recomedaciones ',
@@ -108,7 +108,7 @@ router.get('/about', function (req, res) {
     });
   });
   router.get('/kinesiologo-traumatologia/ossgodd-schlatter', function (req, res) {
-    res.render('./ossgodd-later', {
+    res.render('./traumatologia/ossgodd-later', {
       pageTitle: 'Kinesiologia en rehabilitacion  ossgodd-schlatter ',
       images: 'images',
       metaDescripcion: ' rehabilitacion en ossgodd-schlatter, metodos terapeuticos, operacion , rehabilitacion recomedaciones,dolor anterior de rodilla ',
@@ -118,7 +118,7 @@ router.get('/about', function (req, res) {
     });
   });
   router.get('/kinesiologo-traumatologia/enfermedad-sever', function (req, res) {
-    res.render('./sever', {
+    res.render('./traumatologia/sever', {
       pageTitle: 'Kinesiologia en rehabilitacion  enfermedad de sever ',
       images: 'images',
       metaDescripcion: ' rehabilitacion en sever, metodos terapeuticos, operacion , rehabilitacion recomedaciones,dolor anterior de rodilla ',
@@ -128,7 +128,7 @@ router.get('/about', function (req, res) {
     });
   });
   router.get('/kinesiologo-traumatologia/fractura-cadera', function (req, res) {
-    res.render('./cadera-fractura', {
+    res.render('./traumatologia/cadera-fractura', {
       pageTitle: 'Kinesiologia en rehabilitacion  en fractura de cadera ',
       images: 'images',
       metaDescripcion: ' rehabilitacion en frctura de cadera, metodos terapeuticos, operacion , rehabilitacion recomedaciones, proceso de marcha en fractura de cadera ',
@@ -139,7 +139,7 @@ router.get('/about', function (req, res) {
   });
 
    router.get('/kinesiologo-traumatologia/fractura-rotula', function (req, res) {
-    res.render('./fractura-rotula', {
+    res.render('./traumatologia/fractura-rotula', {
       pageTitle: 'Kinesiologia en rehabilitacion  en fractura de rotula ',
       images: 'images',
       metaDescripcion: ' rehabilitacion en farctura de rotula, metodos terapeuticos, operacion , rehabilitacion recomedaciones, proceso de marcha en fractura de rotula ',
@@ -149,7 +149,7 @@ router.get('/about', function (req, res) {
     });
   });
   router.get('/kinesiologo-traumatologia/fractura-metacarpianos', function (req, res) {
-    res.render('./fractura-metacarpianos', {
+    res.render('./traumatologia/fractura-metacarpianos', {
       pageTitle: 'Kinesiologia en rehabilitacion  en fractura de metacarpianos',
       images: 'images',
       metaDescripcion: ' rehabilitacion en fractura de metacarpianos, metodos terapeuticos, operacion , rehabilitacion recomedaciones,fisioterapia en fractura de metacarpianos ',
@@ -159,7 +159,7 @@ router.get('/about', function (req, res) {
     });
   });
    router.get('/kinesiologo-traumatologia/luxacion-rotula', function (req, res) {
-    res.render('./luxacion-rotula', {
+    res.render('./traumatologia/luxacion-rotula', {
       pageTitle: 'Kinesiologia en rehabilitacion  en luxacion de la rotula',
       images: 'images',
       metaDescripcion: ' rehabilitacion en luxacion de la rotula, metodos terapeuticos, operacion , rehabilitacion recomedaciones,fisioterapia en luxacion de la rotula ',
@@ -169,7 +169,7 @@ router.get('/about', function (req, res) {
     });
   });
   router.get('/kinesiologo-traumatologia/fractura-tobillo', function (req, res) {
-    res.render('./fractura-tobillo', {
+    res.render('./traumatologia/fractura-tobillo', {
       pageTitle: 'Kinesiologia en rehabilitacion  en fractura tobillo',
       images: 'images',
       metaDescripcion: ' rehabilitacion en fractura tobillo, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en fractura de tobillo ',
@@ -179,7 +179,7 @@ router.get('/about', function (req, res) {
     });
   });
    router.get('/kinesiologo-traumatologia/osteocondritis-rodilla', function (req, res) {
-    res.render('./osteocondritis-rodilla', {
+    res.render('./traumatologia/osteocondritis-rodilla', {
       pageTitle: 'Kinesiologia en rehabilitacion  en osteocondritis de rodilla',
       images: 'images',
       metaDescripcion: ' rehabilitacion en osteocondritis de rodilla, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en osteocondritis de rodilla ',
@@ -189,7 +189,7 @@ router.get('/about', function (req, res) {
     });
   });
    router.get('/kinesiologo-traumatologia/pinzamiento-cadera', function (req, res) {
-    res.render('./pinzamiento-cadera', {
+    res.render('./traumatologia/pinzamiento-cadera', {
       pageTitle: 'Kinesiologia en rehabilitacion  en pinzamiento de cadera',
       images: 'images',
       metaDescripcion: ' rehabilitacion en pinzamiento de cadera, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en pinzamiento de cadera ',
@@ -199,7 +199,7 @@ router.get('/about', function (req, res) {
     });
   });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {
-    res.render('./artrosis-rotuliana', {
+    res.render('./traumatologia/artrosis-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  ARTROSIS ROTULIANA  ',
       images: 'images',
       metaDescripcion: ' kinesiologia y en artrosis rotuliana, patologia artrosis femoropatelar, rehabilitacion y tratamiento ',
@@ -209,7 +209,7 @@ router.get('/about', function (req, res) {
     });
   });
       router.get('/kinesiologo-traumatologia/bursitis-trocanter-mayor', function (req, res) {
-    res.render('./bursitis-trocanter-mayor', {
+    res.render('./traumatologia/bursitis-trocanter-mayor', {
       pageTitle: 'Kinesiologia en rehabilitacion  bursitis del trocanter mayor ',
       images: 'images',
       metaDescripcion: ' kinesiologia y en bursitis del trocanter mayor, patologia bursitis trocanteriana, rehabilitacion y tratamiento ',
@@ -219,7 +219,7 @@ router.get('/about', function (req, res) {
     });
   });
    router.get('/kinesiologo-traumatologia/condromalacia-rotuliana', function (req, res) {
-    res.render('./condromalacia-rotuliana', {
+    res.render('./traumatologia/condromalacia-rotuliana', {
       pageTitle: 'Kinesiologia en rehabilitacion  condromalacia-rotuliana ',
       images: 'images',
       metaDescripcion: ' kinesiologia y en condromalacia-rotuliana, terapia en condromalacia patelar, patologia condromalacia-rotuliana, rehabilitacion y tratamiento ',

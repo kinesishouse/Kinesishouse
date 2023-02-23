@@ -195,7 +195,7 @@ router.get('/about', function (req, res) {
       metaDescripcion: ' rehabilitacion en pinzamiento de cadera, metodos terapeuticos, operacion qururgica , rehabilitacion recomedaciones,fisioterapia en pinzamiento de cadera ',
       tiTuloh1: 'Kinesiologia en rehabilitacion  en pinzamiento de cadera',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/pinzamiento de cadera'
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/pinzamiento-cadera'
     });
   });
      router.get('/kinesiologo-traumatologia/artrosis-rotuliana', function (req, res) {

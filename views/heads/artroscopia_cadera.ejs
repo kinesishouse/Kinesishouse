@@ -37,48 +37,49 @@
     <%- include('carga_css.ejs'); %>
     
     
-   <script async type="application/ld+json">
-    {
-        "@context" : "http://schema.org",
-        "@type" : "LocalBusiness",
-        "name" : "kinesiólogo a Domicilio",
-        "description": "Servicio de kinesiologia a Domicilio en sector oriente de la capital, patologias de traumatologia, artroscopia de cadera,
-        "image" : "http://www.kinesishouse.cl/images/artroscopia-cadera.webp",
-        "telephone" : "+56956833633",
-        "email" : "kinesishouse@gmail.com",
-        "address" : {
-        "@type" : "PostalAddress",
-        "addressLocality" : "Ñuñoa Región Metropolitana",
-        "addressRegion" : "metropolitana",
-        "addressCountry" : "chile",
-        "postalCode" : "7750000",
-        "geo": {
-            "latitude": -33.4566678,
-            "longitude": -70.5978415
-        }
-        },
-        "openingHoursSpecification" : {
-        "@type" : "OpeningHoursSpecification",
-        "dayOfWeek" : {
-        "@type" : "DayOfWeek",
-        "name" : "Lunes a Sábado 8:00-20:00"
-        }
-        },
-        "url" : "http://www.kinesishouse.cl/kinesiologo-traumatologia/artroscopia-cadera",
-        "review" : {
-        "@type" : "Review",
-        "author" : {
-        "@type" : "Person",
-        "name" : "Paulo Silva"
-        },
-        "reviewBody" : "servicio de kinesiología a domicilio Ñuñoa rehabiñlitacion operacion de cadera"
-        "reviewRating": {
-            "ratingValue": 5,
-            "bestRating": 5
+    <script async type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "LocalBusiness",
+            "name" : "kinesiólogo a Domicilio",
+            "description": "Servicio de kinesiologia a Domicilio en sector oriente de la capital, patologias de traumatologia, artroscopia de cadera",
+            "image" : "http://www.kinesishouse.cl/images/artroscopia-cadera.webp",
+            "telephone" : "+56956833633",
+            "email" : "kinesishouse@gmail.com",
+            "address" : {
+                "@type" : "PostalAddress",
+                "addressLocality" : "Ñuñoa Región Metropolitana",
+                "addressRegion" : "metropolitana",
+                "addressCountry" : "chile",
+                "postalCode" : "7750000",
+                "geo": {
+                    "latitude": -33.4566678,
+                    "longitude": -70.5978415
+                }
+            },
+            "openingHoursSpecification" : {
+                "@type" : "OpeningHoursSpecification",
+                "dayOfWeek" : "Lunes a Sábado",
+                "opens": "08:00",
+                "closes": "20:00"
+            },
+            "url" : "http://www.kinesishouse.cl/kinesiologo-traumatologia/artroscopia-cadera",
+            "review" : {
+                "@type" : "Review",
+                "author" : {
+                    "@type" : "Person",
+                    "name" : "Paulo Silva"
+                },
+                "reviewBody" : "servicio de kinesiología a domicilio Ñuñoa rehabiñlitacion operacion de cadera",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5",
+                    "bestRating": "5"
+                }
             }
-         }
         }
-</script>
+    </script>
+    
 
     <title><%= pageTitle%></title>
        

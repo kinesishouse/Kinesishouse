@@ -279,4 +279,14 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologia-domicilio'
     });
   }); 
+  router.get('/acupuntura', function (req, res) {
+    res.render('./acupuntura', {
+      pageTitle: 'Acupuntura a domicilio | servicio integral con kineisologia',
+      images: 'images',
+      metaDescripcion: '▷ profesional titulado de kinesiologia y acupuntura especializado en medicina china y validado por Minsal',
+      tiTuloh1: 'Acupuntura a domicilio | servicio integral con kineisologia',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/acupuntura'
+    });
+  }); 
 module.exports = router;

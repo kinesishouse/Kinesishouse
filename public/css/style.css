@@ -159,6 +159,9 @@ background: #eee;
 #level {
   font-weight: 800;
 }
+.producto {
+  font-size: 14px;
+}
 
   .product {
     max-width: 28rem;

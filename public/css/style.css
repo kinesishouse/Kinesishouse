@@ -161,6 +161,11 @@ background: #eee;
 }
 .producto {
   font-size: 14px;
+  cursor: hand;
+  color:blue;
+}
+strong {
+  color: darkslategray;
 }
 
   .product {

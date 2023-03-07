@@ -1,6 +1,10 @@
 'use strict';
 const express = require('express');
 const router = express.Router();
+const respiratorioRoutes = require('./respiratorio');
+
+
+
 
 /* GET home page. */
 
@@ -67,6 +71,8 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/aviso-legal'
     });
   });  
+
+  //utilizar rutas definidas en respiratorio.js
   router.get('/kinesiologo-respiratorio', function (req, res) {
     res.render('./respiratorio', {
       pageTitle: 'kinesiologo respiratorio a domicilio Santiago ',
@@ -87,6 +93,29 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil'
     });
   }); 
+  router.get('/kinesiologo-respiratorio/epoc', function (req, res) {
+    res.render('./respiratorio/epoc', {
+      pageTitle: 'kinesiologo respiratorio | Epoc | tratamiento respiratorio  ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en EPOC tratamiento manejo de recidivas y complicaciones',
+      tiTuloh1: 'kinesiologo respiratorio | EPOC y su tratamiento',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/epoc'
+    });
+  }); 
+  router.get('/kinesiologo-respiratorio/vrs', function (req, res) {
+    res.render('./respiratorio/virusvrs', {
+      pageTitle: 'kinesiologo respiratorio | vrs | virus respiratorio sincicial  ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en VRS tratamiento manejo de recidivas y complicaciones',
+      tiTuloh1: 'kinesiologo respiratorio | VRS y su tratamiento',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/vrs'
+    });
+  }); 
+
+
+
    router.get('/kinesiologo-traumatologia', function (req, res) {
     res.render('./traumatologia', {
       pageTitle: 'kinesiologo en traumatologia a domicilio Santiago ',

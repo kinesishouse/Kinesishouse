@@ -113,6 +113,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/vrs'
     });
   }); 
+  router.get('/kinesiologo-respiratorio/fibrosis-quistica', function (req, res) {
+    res.render('./respiratorio/fibrosisquistica', {
+      pageTitle: 'kinesiologo respiratorio | fibrosis quistica | tratamiento y rehabilitación ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en fibrosis quistica y su tratamiento manejo de recidivas y complicaciones',
+      tiTuloh1: 'kinesiologo respiratorio |fibrosis quistica y su tratamiento',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/fibrosis-quistica'
+    });
+  }); 
 
 
 

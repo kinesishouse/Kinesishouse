@@ -277,6 +277,36 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-neurologia'
     });
   }); 
+  router.get('/kinesiologo-neurologia/guilliam-barre', function (req, res) {
+    res.render('./neurologia/guilliam-barre', {
+      pageTitle: 'kinesiologo neurologia | guilliam-barrea | tratamiento y rehabilitación ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia en neurologia a domicilio en guilliam-barre y su tratamiento manejo de recidivas y complicaciones',
+      tiTuloh1: 'kinesiologo neurologia |guilliam-barre y su tratamiento',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-neurologia/guilliam-barre'
+    });
+  });
+  router.get('/kinesiologo-neurologia/acv', function (req, res) {
+    res.render('./neurologia/acv', {
+      pageTitle: 'kinesiologo neurologia | accidente cerebro vascular | hemiplejia',
+      images: 'images',
+      metaDescripcion: 'kinesiologia en neurologia a domicilio en ACVy su tratamiento manejo de recidivas y complicaciones',
+      tiTuloh1: 'kinesiologo neurologia | ACV y su tratamiento',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-neurologia/acv'
+    });
+  });
+  router.get('/kinesiologo-neurologia/cerebelo', function (req, res) {
+    res.render('./neurologia/cerebelo', {
+      pageTitle: 'kinesiologo neurologia | cerebelo | trastornos cerebelosos',
+      images: 'images',
+      metaDescripcion: 'kinesiologia en neurologia a domicilio en cerebelo y su tratamiento manejo de recidivas y complicaciones',
+      tiTuloh1: 'kinesiologo neurologia | patologias al cerebelo',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-neurologia/cerebelo'
+    });
+  }); 
    router.get('/kinesiologo-adulto-mayor', function (req, res) {
     res.render('./adulto-mayor', {
       pageTitle: 'kinesiologo para adulto mayor | geriatrico | a domicilio Santiago ',

@@ -127,7 +127,7 @@ router.get('/about', function (req, res) {
     res.render('./respiratorio/neumonia', {
       pageTitle: 'kinesiologo respiratorio | Neumonia | tratamiento y rehabilitación ',
       images: 'images',
-      metaDescripcion: 'kinesiologia respiratoria a domicilio en neumonia y su tratamiento Kinesico',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en neumonia y su tratamiento Kinesico tecnica de aspiracion de secreciones, diagnostico rehabilitación pulmonar por kinesiologia especilizada',
       tiTuloh1: 'kinesiologo respiratorio |fibrosis quistica y su tratamiento',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/neumonia'

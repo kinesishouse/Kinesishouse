@@ -123,6 +123,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/fibrosis-quistica'
     });
   }); 
+  router.get('/kinesiologo-respiratorio/neumonia', function (req, res) {
+    res.render('./respiratorio/neumonia', {
+      pageTitle: 'kinesiologo respiratorio | Neumonia | tratamiento y rehabilitación ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en neumonia y su tratamiento Kinesico',
+      tiTuloh1: 'kinesiologo respiratorio |fibrosis quistica y su tratamiento',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/neumonia'
+    });
+  }); 
 
 
 

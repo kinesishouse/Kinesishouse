@@ -133,6 +133,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/neumonia'
     });
   }); 
+  router.get('/kinesiologo-respiratorio/auscultacion', function (req, res) {
+    res.render('./respiratorio/auscultacion', {
+      pageTitle: 'kinesiologo respiratorio | todo lo que necesitas saber sobre auscultacion ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria diagnostico por asucultacion con fonendoscopio, caracteristicas de ruidos normales y adventicios',
+      tiTuloh1: 'kinesiologo respiratorio | Diagnostico por auscultacion',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/auscultacion'
+    });
+  }); 
 
 
 

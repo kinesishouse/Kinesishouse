@@ -143,6 +143,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/auscultacion'
     });
   }); 
+router.get('/kinesiologo-respiratorio/asma', function (req, res) {
+  res.render('./respiratorio/asma', {
+    pageTitle: 'kinesiologo respiratorio en asma | todo lo que necesitas saber asmaticos ',
+    images: 'images',
+    metaDescripcion: 'kinesiologia respiratoria en asma , caracteristicas de pacientes asmaticos y el tratamiento de kinesiologia como es la recuperación',
+    tiTuloh1: 'kinesiologo respiratorio en asma | tramamiento y terapias',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/asma'
+  });
+}); 
 
 
 

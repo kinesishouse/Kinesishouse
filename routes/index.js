@@ -133,6 +133,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/neumonia'
     });
   }); 
+  router.get('/kinesiologo-respiratorio/aspiracion-secreciones', function (req, res) {
+    res.render('./respiratorio/aspiracion-secreciones', {
+      pageTitle: 'kinesiologo respiratorio | aspiracion-secreciones | tratamiento y rehabilitación ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en aspiracion-secreciones y su tratamiento Kinesico tecnica de aspiracion de secreciones, diagnostico rehabilitación pulmonar por kinesiologia especilizada',
+      tiTuloh1: 'kinesiologo respiratorio | aspiracion-secreciones y su tratamiento en kinesiología',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/aspiracion-secreciones'
+    });
+  }); 
   router.get('/kinesiologo-respiratorio/auscultacion', function (req, res) {
     res.render('./respiratorio/auscultacion', {
       pageTitle: 'kinesiologo respiratorio | todo lo que necesitas saber sobre auscultacion ',

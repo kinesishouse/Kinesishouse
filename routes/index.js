@@ -143,6 +143,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/aspiracion-secreciones'
     });
   }); 
+  router.get('/kinesiologo-respiratorio/distres-respiratorio', function (req, res) {
+    res.render('./respiratorio/distres-respiratorio', {
+      pageTitle: 'kinesiologo respiratorio | distres respiratorio | tratamiento y rehabilitación ',
+      images: 'images',
+      metaDescripcion: 'kinesiologia respiratoria a domicilio en aspiracion-secreciones y su tratamiento Kinesico tecnica de aspiracion de secreciones, diagnostico rehabilitación pulmonar por kinesiologia especilizada',
+      tiTuloh1: 'kinesiologo respiratorio | distres respiratorio y su tratamiento en kinesiología',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/distres-respiratorio'
+    });
+  }); 
   router.get('/kinesiologo-respiratorio/auscultacion', function (req, res) {
     res.render('./respiratorio/auscultacion', {
       pageTitle: 'kinesiologo respiratorio | todo lo que necesitas saber sobre auscultacion ',
@@ -382,8 +392,8 @@ router.get('/kinesiologo-respiratorio/asma', function (req, res) {
     res.render('./kinesiologia', {
       pageTitle: 'kinesiologia a domicilio | preguntas frecuentes ',
       images: 'images',
-      metaDescripcion: '▷ kinesiologia a domicilio | preguntas precuentes sobre fisioterapia',
-      tiTuloh1: 'kinesiologia a domicilio | preguntas y respuestas',
+      metaDescripcion: '▷ kinesiologia a domicilio terapia de rehabilitacion en las comunas del sector oriente de la capital, todo en la comodidad de tu hogar, prefiere el domicilio',
+      tiTuloh1: '▷ kinesiologia a domicilio | sector oriente de Santiago | nada mas comodo que rehabilitacion en el hogar',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologia-domicilio'
     });

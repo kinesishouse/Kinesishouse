@@ -12,7 +12,7 @@ router.get('/', function (req, res) {
   res.render('index', {
       pageTitle: 'Kinesiologo a domicilio en Santiago ',
       images: 'images',
-      metaDescripcion: '▷ servicio de kinesiologo a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
+      metaDescripcion: '▷ servicio de kinesiologo a domicilio ⭐⭐⭐⭐⭐ para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Kinesiologo a domicilio Santiago',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/',
@@ -77,7 +77,7 @@ router.get('/about', function (req, res) {
     res.render('./respiratorio', {
       pageTitle: 'kinesiologo respiratorio a domicilio Santiago ',
       images: 'images',
-      metaDescripcion: ' ▷ servicio de kinesiologia respiratoria a domicilio en santiago de chile, neumonia, bronquitis, epoc, aspiracion de secreciones',
+      metaDescripcion: ' ▷ servicio de kinesiologia respiratoria a domicilio ⭐⭐⭐⭐⭐ en santiago de chile, neumonia, bronquitis, epoc, aspiracion de secreciones',
       tiTuloh1: 'kinesiologo respiratorio a domicilio',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio'
@@ -128,7 +128,7 @@ router.get('/about', function (req, res) {
       pageTitle: 'kinesiologo respiratorio | Neumonia | tratamiento y rehabilitación ',
       images: 'images',
       metaDescripcion: 'kinesiologia respiratoria a domicilio en neumonia y su tratamiento Kinesico tecnica de aspiracion de secreciones, diagnostico rehabilitación pulmonar por kinesiologia especilizada',
-      tiTuloh1: 'kinesiologo respiratorio |Neumonia y su tratamiento en kinesiología',
+      tiTuloh1: 'kinesiologo respiratorio 🫁 |Neumonia y su tratamiento en kinesiología',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/neumonia'
     });
@@ -168,7 +168,7 @@ router.get('/kinesiologo-respiratorio/asma', function (req, res) {
     pageTitle: 'kinesiologo respiratorio en asma | todo lo que necesitas saber asmaticos ',
     images: 'images',
     metaDescripcion: 'kinesiologia respiratoria en asma , caracteristicas de pacientes asmaticos y el tratamiento de kinesiologia como es la recuperación',
-    tiTuloh1: 'kinesiologo respiratorio en asma | tramamiento y terapias',
+    tiTuloh1: 'kinesiologo respiratorio en asma 🩺 | tramamiento y terapias',
     index: 'index',
     canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/asma'
   });
@@ -317,6 +317,26 @@ router.get('/kinesiologo-respiratorio/asma', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/condromalacia-rotuliana'
     });
   });
+   router.get('/kinesiologo-traumatologia/columna', function (req, res) {
+    res.render('./traumatologia/columna', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en columna ',
+      images: 'images',
+      metaDescripcion: ' kinesiologia de columna, terapia en patologia de la columna, lumbagos, ciatico, problemas a la cervical ',
+      tiTuloh1: '▷ Kinesiologia en rehabilitacion columna | lumbar | cervical | toraxica',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/columna'
+    });
+  });
+  router.get('/kinesiologo-traumatologia/dolor-lumbar', function (req, res) {
+    res.render('./traumatologia/dolor-lumbar', {
+      pageTitle: 'Kinesiologia en rehabilitacion  en dolor lumbar ',
+      images: 'images',
+      metaDescripcion: '⭐⭐⭐⭐⭐ kinesiologo en dolor lumbar 👨‍⚕️, terapia en patologia de lumbago, espalda baja, discopatia lumbar ',
+      tiTuloh1: '▷ Kinesiologo en rehabilitacion en dolor lumbar | lumbar | lumbalgia | HNP o discopatia',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/dolor-lumbar'
+    });
+  });
    router.get('/kinesiologo-neurologia', function (req, res) {
     res.render('./neurologia', {
       pageTitle: 'kinesiologo neurologia a domicilio Santiago ',
@@ -361,7 +381,7 @@ router.get('/kinesiologo-respiratorio/asma', function (req, res) {
     res.render('./adulto-mayor', {
       pageTitle: 'kinesiologo para adulto mayor | geriatrico | a domicilio Santiago ',
       images: 'images',
-      metaDescripcion: '▷ servicio de kinesiologia a domicilio en adulto mayor, ejercicios, kinesiologia integral, postrados, post operados, alzeimer, parkinson, sedentarismo.',
+      metaDescripcion: '▷ servicio de kinesiologia a domicilio en adulto mayor 🧓 , ejercicios, kinesiologia integral, postrados, post operados, alzeimer, parkinson, sedentarismo.',
       tiTuloh1: 'kinesiologo para geriatrico | adulto mayor a domicilio ',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/kinesiologo-adulto-mayor'

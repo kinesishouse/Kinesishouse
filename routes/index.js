@@ -337,6 +337,16 @@ router.get('/kinesiologo-respiratorio/asma', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/dolor-lumbar'
     });
   });
+  router.get('/kinesiologo-traumatologia/cinta-kinesiologica', function (req, res) {
+    res.render('./traumatologia/cinta-kinesiologica', {
+      pageTitle: 'Kinesiologia en rehabilitacion  con cinta kinesiologica ',
+      images: 'images',
+      metaDescripcion: '⭐⭐⭐⭐⭐ kinesiologo aplicacion cinta kinesiologica 👨‍⚕️, aplicaciones de cinta kinesica, para que sirven los colores y como aplicar segun cada patologia averigualo aqui ',
+      tiTuloh1: '▷ Kinesiologo en rehabilitacion aplicaion de cinta kinesiologica | tape kinesico',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/kinesiologo-traumatologia/cinta-kinesiologica'
+    });
+  });
    router.get('/kinesiologo-neurologia', function (req, res) {
     res.render('./neurologia', {
       pageTitle: 'kinesiologo neurologia a domicilio Santiago ',

@@ -173,6 +173,16 @@ router.get('/kinesiologo-respiratorio/asma', function (req, res) {
     canonical: 'http://www.kinesishouse.cl/kinesiologo-respiratorio/asma'
   });
 }); 
+router.get('/kinesiologia-gratis', function (req, res) {
+  res.render('./kinesiologia-gratis', {
+    pageTitle: 'kinesiologia gratis en chile ',
+    images: 'images',
+    metaDescripcion: 'servicio de kinesiologia gratis en chile, todas las intituciones donde puedes rehabilitarte de manera gratuita o a bajo costo',
+    tiTuloh1: 'kinesiologia gratis en chile | kinesiologo gratuito ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/kinesiologia-gratis'
+  });
+});
 
 
 

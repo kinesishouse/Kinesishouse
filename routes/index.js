@@ -41,6 +41,16 @@ router.get('/about', function (req, res) {
       canonical: 'http://www.kinesishouse.cl/contacto'
     });
   }); 
+  router.get('/404', function (req, res) {
+    res.render('404', {
+      pageTitle: 'pagina no encontrada ',
+      images: 'images',
+      metaDescripcion: ' ▷ pagina no encontrrada intenta alternativas',
+      tiTuloh1: 'Pagina no encontrada ',
+      index: 'index',
+      canonical: 'http://www.kinesishouse.cl/contacto'
+    });
+  }); 
   router.get('/politica-de-privacidad', function (req, res) {
     res.render('privacidad', {
       pageTitle: 'politica de privacidad ',
@@ -629,13 +639,13 @@ router.get('/kinesiologia-gratis', function (req, res) {
     });
   }); 
   router.get('/vendaje-moderno', function (req, res) {
-    res.render('./vendajes/vendaje-gilchrist', {
+    res.render('./vendajes/vendaje-moderno', {
       pageTitle: 'Vendaje Moderno: Innovación y Facilidad en la Aplicación - Tecnologías Avanzadas',
       images: 'images',
       metaDescripcion: '▷ Descubre el vendaje moderno y su revolucionaria aplicación facilitada por las nuevas tecnologías. Aprende cómo la innovación en los vendajes permite una colocación más sencilla y precisa, optimizando la eficacia del tratamiento. Explora cómo los vendajes modernos integran medicamentos o artefactos que brindan efectos terapéuticos, como el uso de fármacos para reducir la inflamación o dispositivos para aplicar calor o frío. Conoce las ventajas del vendaje moderno en el alivio del dolor, aceleración del proceso de curación y mejora de la funcionalidad. Sumérgete en el mundo de las técnicas vanguardistas de vendaje y cómo estas soluciones avanzadas benefician a pacientes y profesionales de la salud en diversas áreas médicas y de rehabilitación',
       tiTuloh1: '▷ Vendaje Moderno: Innovación y Facilidad en la Aplicación - Tecnologías Avanzadas',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/vendaje-gilchrist'
+      canonical: 'http://www.kinesishouse.cl/vendaje-moderno'
     });
   }); 
   router.get('/vendaje-quemaduras', function (req, res) {

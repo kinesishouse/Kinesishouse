@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('heads/heads-kinesiologia.ejs'); %>
+<%- include('partial/head.ejs'); %>
 
 <body>
-  <%- include('navbar/navbar.ejs'); %>
+  <%- include('partial/navbar.ejs'); %>
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -14,10 +14,8 @@
   
           </div>
         </div>
-  </nav>
-  
+  </nav>  
   <!--fin breadcumbs-->
-
 
    <div class="container">
      <div class="row">
@@ -130,10 +128,8 @@
      </div>
     </div>
    
-    <%- include('botones/boton.ejs'); %>
-    <%- include('botones/menu-flotante.ejs'); %>      
-
-    <%- include('footers/footer.ejs'); %>
+    <%- include('partial/footer.ejs'); %>
+    <%- include('partial/boton.ejs'); %>
     </body>
-    
+    <script src="../js/action.min.js"></script>      
     </html>

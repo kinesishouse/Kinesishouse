@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es-CL">
-  <%- include('heads/head_adulto-mayor.ejs'); %>
+
+<%- include('partial/head.ejs'); %>
+
 <body>
-  <%- include('navbar/navbar.ejs'); %>
-  <%- include('botones/menu-flotante.ejs'); %>
+  <%- include('partial/navbar.ejs'); %>
 
 <!--header-->
 <header>
@@ -262,7 +263,8 @@
     
 
 </main>
-<%- include('botones/boton.ejs'); %>
-<%- include('footers/footer.ejs'); %>
+<%- include('partial/footer.ejs'); %>
+<%- include('partial/boton.ejs'); %>
 </body>
+<script src="../js/action.min.js"></script>      
 </html>

@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="es-CL">
-  <%- include('heads/head_trauma.ejs'); %>
+
+<%- include('partial/head.ejs'); %>
+
 <body>
-  <%- include('navbar/navbar.ejs'); %>
-  <%- include('botones/menu-flotante.ejs'); %>
-
+  <%- include('partial/navbar.ejs'); %>
 <!--header-->
-<header>
+<header class="header-blog">
 
-  <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-          <div class="container">
-            <h1> <%= tiTuloh1%> </h1>
-            <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-          </div>
-        </div>
-  </section>
+            <h1 class="h1-blog"> <%= tiTuloh1%> </h1>
+            <p class="p-blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
 
   
 </header>   
@@ -325,7 +319,8 @@
     
 
 </main>
-<%- include('botones/boton.ejs'); %>
-<%- include('footers/footer.ejs'); %>
+<%- include('partial/footer.ejs'); %>
+<%- include('partial/boton.ejs'); %>
 </body>
+<script src="../js/action.min.js"></script>      
 </html>

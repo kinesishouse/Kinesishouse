@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('heads/head.ejs'); %>
+<%- include('partial/head.ejs'); %>
 
 <body>
-  <%- include('navbar/navbar.ejs'); %>
-<div class="section container"></div>
+  <%- include('partial/navbar.ejs'); %>
+<header class="header-blog">
+  <h1 class="h1-blog">
+    Acerca de mi como Kinesiologo y especialista en Medicina China
+  </h1>
+</header>   
+<main class="main-blog">
+  <h2 class="h2-blog">
+    Curriculum profesional de kinesiologo 
+  </h2>
+</main>
    
-   
-    <%- include('botones/boton.ejs'); %>      
-
-    <%- include('footers/footer.ejs'); %>
-    </body>
-    
-    </html>
+<%- include('partial/footer.ejs'); %>
+<%- include('partial/boton.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
+</html>

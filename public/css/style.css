@@ -61,12 +61,11 @@
   }
   .nav__icon {
     width: 30px;
-    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 12px;
+    margin-top: 15px;
   }  
   
   
@@ -93,10 +92,6 @@
     z-index: 8;
 
 }
-.dropdown__icon {
-  width: 25px;
-  height: 25px;
-}
 .dropdown__list{
     list-style: none;
 }
@@ -110,7 +105,6 @@
   position: relative;
   background-color: var(--bg, transparent);
   border-radius: 6px;
-  width
 }
 .dropdown__list:has( :checked ){
   --rows: 1fr;
@@ -130,8 +124,6 @@
   margin-left: auto;
   transform: var(--rotate, 0);
   transition: .2s transform;
-  width: 25px;
-  height: 25px;
 }
 .dropdown__content{
   display: grid;
@@ -465,7 +457,7 @@
   
   /*fin boton de llamadas*/
 
-.container {
+  .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -550,11 +542,6 @@
     line-height: 1.4;
     padding-bottom: 15px;
 }
-.a-button { 
-  text-decoration: none;
-  color: black;
-}
-
 
 .text-overlay {
     position: absolute;
@@ -678,7 +665,7 @@
 .price {
   font-size: 36px;
   font-weight: bold;
-  color: var(--button-color); /* Color azul claro para precios */
+  color: #00a2ff; /* Color azul claro para precios */
   text-align: center;
   margin: 20px 0;
 }
@@ -712,6 +699,7 @@
 /*price table fin*/
 
 /*comentarios + */
+/*comentarios + */
 .comments-section {
   background-color: #d1f1ff; /* Color celeste claro */
   padding: 20px;
@@ -727,13 +715,19 @@
       flex-direction: column;
   }
 }
+section .comments-container #comment {
+  background-color: #fff !important;
+  border-radius: 10px !important;
+  padding: 10px !important;
+  flex: 0 0 300px !important; /* Tamaño fijo de cada comentario */
 
-#comment {
+}
+
+.comment {
   background-color: #fff;
   border-radius: 10px;
   padding: 10px;
   flex: 0 0 300px; /* Tamaño fijo de cada comentario */
-  margin: 10px;
 }
 
 .comment-text {
@@ -745,7 +739,6 @@
   max-width: 100%;
   border-radius: 5px;
   height: 100px;
-  width: 100px;
 }
 
 .view-more-btn {
@@ -821,7 +814,9 @@
   color: #fff; /* Color de texto para los enlaces de la sección de Políticas */
   text-decoration: none; /* Opcional: Añadir subrayado a los enlaces */
 } 
-
+@media (max-width: 768px) {
+  flex-direction: column;
+}
 
 @media (min-width: 768px) {
   .header__content {

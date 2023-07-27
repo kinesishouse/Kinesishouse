@@ -555,7 +555,7 @@ router.get('/kinesiologia-gratis', function (req, res) {
       metaDescripcion: '▷ Aprende las mejores técnicas y consejos para la aplicación adecuada del vendaje de tobillo. Descubre recomendaciones profesionales sobre el uso de vendajes funcionales y compresivos para tratar y prevenir lesiones en el tobillo. Mejora tus habilidades en la aplicación de vendajes terapéuticos para esguinces, torceduras y otras afecciones del tobillo. Explora cómo el vendaje proporciona soporte y estabilidad, permitiendo una recuperación efectiva y una pronta vuelta a la actividad física. Conoce la importancia del vendaje en el cuidado y protección del tobillo, y cómo su uso adecuado puede beneficiar a atletas, pacientes y personas activas en general',
       tiTuloh1: '▷ Vendaje de Tobillo: Técnicas y Consejos para una Correcta Aplicación',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/recomendacion-vendaje'
+      canonical: 'http://www.kinesishouse.cl/vendaje-tobillo'
     });
   }); 
   router.get('/vendaje-jones', function (req, res) {

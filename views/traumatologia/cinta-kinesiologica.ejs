@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html lang="es-CL" itemscope itemtype="http://schema.org/Article">
+<html lang="es-CL">
 
-<%- include('../heads/cinta-kinesiologica.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-<%- include('../navbar/navbar.ejs'); %>
+  <%- include('../partial/navbar.ejs'); %>
 
-<header>
-
-  <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-          <div class="container">
-            <h1> <%= tiTuloh1%> </h1>
-            <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-          </div>
-        </div>
-  </section>
-
-  
-</header>   
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog"> 
  <!-- breadcumbs-->
  <nav > 
   <div class="nav-wrapper container">
@@ -49,7 +41,7 @@
      <h2>
       ¿cinta kinesiologica para que sirve?
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
         La cinta kinesiológica es un vendaje adhesivo elástico que se utiliza en la práctica deportiva y en el tratamiento de lesiones musculares. La cinta se aplica directamente sobre la piel y se utiliza para mejorar la función muscular, reducir el dolor y mejorar la circulación sanguínea. La cinta es resistente al agua y puede ser usada durante varios días sin necesidad de ser retirada.
 
         La función principal de la cinta kinesiológica es proporcionar soporte a los músculos y las articulaciones. La cinta se estira y se aplica en una dirección específica para proporcionar soporte a los músculos y las articulaciones, mejorando la postura y la función muscular. La cinta también ayuda a reducir el dolor y la inflamación en las áreas lesionadas, mejorando la recuperación.
@@ -69,7 +61,7 @@
      <div class="divider">
      </div>
      <h2> cinta kinesiologica   colores</h2>
-     <p class="p_blog">
+     <p class="p-blog">
         La cromoterapia es una terapia alternativa que utiliza los colores para mejorar la salud y el bienestar emocional. Según la cromoterapia, cada color tiene una vibración energética única que puede afectar positivamente al cuerpo y la mente.
 
         En relación a la cinta kinesiológica, algunos terapeutas pueden utilizar la cromoterapia en conjunto con la aplicación de la cinta, seleccionando el color de la cinta según la teoría cromática que mejor se adapte a la condición del paciente. Por ejemplo, se podría utilizar cinta roja para aumentar la energía y la vitalidad, o cinta azul para reducir la inflamación y promover la relajación.
@@ -91,7 +83,7 @@
         
      </p>
      <h2>kinesio tape evidencia de su uso</h2>
-     <p class="p_blog">
+     <p class="p-blog">
         Existe evidencia científica que respalda la efectividad del tape kinesiológico en el tratamiento de diversas afecciones musculoesqueléticas y en la mejora del rendimiento deportivo.
 
         En cuanto a su efectividad en el tratamiento de lesiones musculares, un estudio publicado en la revista Journal of Athletic Training encontró que el tape kinesiológico puede ayudar a reducir el dolor y mejorar la función muscular en personas con dolor lumbar crónico. Otro estudio en la revista Clinical Rehabilitation encontró que la aplicación de la cinta kinesiológica puede ser efectiva en la reducción del dolor y la inflamación en personas con tendinitis rotuliana.
@@ -106,7 +98,7 @@
      </div>
      <h2>¿para que sirve la cinta kinesiologica ?       
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
         a continuación te presento una lista con algunas de las aplicaciones más comunes del tape kinesiológico:
         <ol>
             <li>Esguinces de tobillo</li>
@@ -138,7 +130,7 @@
      <div class="divider">
      </div>
      <h2> diferencias entre precio y calida de la cinta kinesiologica  </h2>
-     <p class="p_blog">
+     <p class="p-blog">
         La calidad de la cinta kinesiológica depende de varios factores, como el material utilizado en su fabricación, la técnica de tejido, la cantidad y calidad del adhesivo y la resistencia y elasticidad del tejido. Estos factores pueden afectar la durabilidad, adherencia y eficacia del producto.
 
         En cuanto al material utilizado en la fabricación, las cintas kinesiológicas de alta calidad suelen estar hechas de algodón, que es cómodo para la piel y altamente absorbente. La técnica de tejido también es importante, ya que determina la resistencia y elasticidad de la cinta. La mayoría de las cintas kinesiológicas de alta calidad están tejidas de forma única, lo que les da una elasticidad y resistencia óptimas.
@@ -176,11 +168,10 @@ Es importante destacar que cada marca puede ofrecer diferentes tipos de cinta ki
    </div>
   </section>
   
- </main> 
-    <%- include('../botones/boton.ejs'); %> 
-    <%- include('../botones/menu-flotante.ejs'); %> 
-
-    <%- include('../footers/footer.ejs'); %>
-  </body>
-    
- </html>
+</main>
+   
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
+</html>

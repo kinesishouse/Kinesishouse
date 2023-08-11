@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<%- include('../heads/artrosis-rotuliana.ejs'); %>
+<html lang="es-CL">
+
+<%- include('../partial/head.ejs'); %>
+
+
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <%- include('../botones/menu-flotante.ejs'); %>
+  <%- include('../partial/navbar.ejs'); %>
 
-<!--header-->
-<header>
-
-  <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-          <div class="container">
-            <h1> <%= tiTuloh1%> </h1>
-            <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-          </div>
-        </div>
-  </section>
-
-  
-</header>   
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">   
 <%- include('../breadcrumb/artrosis-rotuliana.ejs'); %>
-<main class="container">
   <section class="section">
    <div class="row">
     <div class="col">
-     <p class="p_blog">
+     <p class="p-blog">
       La artrosis rotuliana es la p&eacute;rdida de cart&iacute;lago del sector de la patela (r&oacute;tula) la que al da&ntilde;arse, no es capaz de soportar presi&oacute;n.
                Cada vez es m&aacute;s habitual escuchar sobre las dolencias de artrosis que afectan a las personas, mayoritariamente adulta. Esta patolog&iacute;a de da&ntilde;o articular, es la m&aacute;s com&uacute;n de las enfermedades articulares y afecta zonas como la regi&oacute;n de la espalda baja, rodillas o caderas.
                ¿QU&Eacute; ES LA ARTROSIS ROTULIANA?
@@ -75,11 +67,13 @@ medicinas complementarias, (reiki, acupuntura, control de la dieta entre otros
     </div>
    </div>
   </section>
- </main>
-<%- include('../botones/boton.ejs'); %>
-<%- include('../footers/footer.ejs'); %>
+</main>
+   
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
 </body>
-
+<script src="../js/action.min.js"></script>      
+</html>
 
     
    

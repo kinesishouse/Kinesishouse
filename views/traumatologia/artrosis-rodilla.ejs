@@ -1,41 +1,29 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/artrosis-rodilla.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <%- include('../botones/menu-flotante.ejs'); %>
+  <%- include('../partial/navbar.ejs'); %>
 
-<!--header-->
-<header>
-
-  <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-          <div class="container">
-            <h1> <%= tiTuloh1%> </h1>
-            <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-          </div>
-        </div>
-  </section>
-
-  
-</header>   
-<%- include('../breadcrumb/artrosis-rodilla.ejs'); %>
-<main class="container">
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">
   <section class="section">
    <div class="row">
     <div class="col">
      <h2 class="flow-text">
       Kinesiolog&iacute;a  y ARTROSIS DE RODILLA
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       La artrosis de rodilla  es una lesi&oacute;n acumulada en el tiempo por lo general es habitual y evidente en pacientes adultos mayores aun as&iacute; esta comienza a manifestarse a edades m&aacute;s tempranas, la causa es consecuencia de deportes de impacto repetitivos sin posibilidad para el organismo de una adecuada recuperaci&oacute;n como el f&uacute;tbol o el correr (runners), por lo que se recomienda usar el equipamiento necesario que ayudar&aacute; a prevenir el desgaste del cart&iacute;lago adem&aacute;s de la dosificaci&oacute;n pertinente en los m&eacute;todos de entrenamiento o trabajo f&iacute;sico.
      </p>
      <h2>
       QUE ES EL CARTILAGO Y COMO SE DISTRIBUYE NE LA RODILLA
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       La Artrosis de Rodilla es el da&ntilde;o y desgaste del cart&iacute;lago  y  hueso subcondral se establece que lo que duele es principalmente esta &uacute;ltima zona por sus terminaciones nerviosas ya que el cart&iacute;lago no pose inervaci&oacute;n sensitiva. El cart&iacute;lago se forma durante el periodo de gestaci&oacute;n y cubre las zonas Oseas que articulan con otro, siendo un elemento que ayuda a la amortiguaci&oacute;n o disminuci&oacute;n del roce, &eacute;stas superficies son muy lisas, adem&aacute;s que contiene una peque&ntilde;a cantidad de l&iacute;quido sinovial (producido por las membranas sinoviales), permiten que el coeficiente de roce articular sea m&iacute;nimo y no se produzca desgaste de estas superficies articulares.
                  La rodilla est&aacute; compuesta por tres estructuras: el F&eacute;mur, la Tibia y la R&oacute;tula o Patela, lo que la divide en tres zonas: Femorotibial Medial, Lateral y femoralPatelar. En la artrosis de rodilla se pueden involucrar uno, dos o los tres compartimentos.
                  Se denomina Osteocondritis a lesiones localizadas del cart&iacute;lago, que comprenden  desde un ablandamiento (Grado I), evolucionando a surcos y Fasciculaciones, terminando en Grado 4  que se produce exposici&oacute;n &oacute;sea (Artrosis). El t&eacute;rmino Condromalacia se asocia a la Osteocondritis, que se produce en la superficie articular de la R&oacute;tula.
@@ -44,7 +32,7 @@
      <h2>
       ¿COMO QU&Eacute; SE PRODUCE LA ARTROSIS DE RODILLA?
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       Es por dos principales factores:
                  En primer lugar aquella que se produce en adultos mayores y factores hederitarios, afectando a varias articulaciones o enfocadas en zonas de mayor estimulo, principalmente en aquellas que son de carga y en las peque&ntilde;as como las de las manos y los pies, lo que se denomina Enfermedad Artr&oacute;sica. La Rodilla es una de las m&aacute;s com&uacute;nmente afectadas y habitualmente involucra los tres compartimentos en forma simult&aacute;nea esta habitualmente se la conoce como gonartrosis o gonalgia t&eacute;rminos asociados a artrosis de rodilla o dolor en la rodilla.
                  Otra forma de provocar esta lesi&oacute;n son las Artrosis Secundarias que provienen del desgaste inducido por alguna alteraci&oacute;n estructural. Estas alteraciones estructurales pueden ser Biomec&aacute;nicas o Post-Traum&aacute;ticas.
@@ -54,7 +42,7 @@
      <h2>
       ¿QUE DEPORTES QUE SON PROPENSOS A GENERAR FUTURA ARTROSIS?
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       Las actividades deportivas  que m&aacute;s generan da&ntilde;o a la rodilla son aquellos de impacto repetitivo, 
                especialmente de contacto y que involucran rotaciones y flexiones repetitivas, esto evita la capacidad del 
                organismo de auto reparaci&oacute;n y compensaci&oacute;n frente a la carga de trabajo generando el da&ntilde;o ya sea progresivamente o de inmediato en el proceso de una fractura directa  en la zona. Se califican entre ellos el f&uacute;tbol, artes marciales y runners, entre otros. Cabe destacar que los deportes competitivos en general provocan gran da&ntilde;o de los cart&iacute;lagos de la rodilla.
@@ -62,21 +50,21 @@
      <h2>
       S&Iacute;NTOMAS ARTROSIS DE RODILLA
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       Generalmente las dolencias son al comenzar la actividad de la caminata, al pararse despu&eacute;s de un largo periodo sentado o al bajar de la cama. Tambi&eacute;n se refieren dolores progresivos durante las actividades de la vida diaria, con o sin aumento de edema, pero que van disminuyendo la capacidad funcional.
                  Otro s&iacute;ntoma normal de la artrosis de rodilla es la disminuci&oacute;n de la movilidad, se altera la movilidad en sus rangos m&aacute;ximos y hay aumento de volumen de edemas posterior  de hacer una actividad f&iacute;sica mayor.
      </p>
      <h2>
       DIAGN&Oacute;STICO GONOARTROSIS
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       Todo depender&aacute; del da&ntilde;o. El diagn&oacute;stico de radiograf&iacute;a  es m&aacute;s tard&iacute;o en cuanto a lo que se espera en evitar la sintomatolog&iacute;a o da&ntilde;o por gonartrosis, o sea, cuando ya uno ve en im&aacute;genes radiogr&aacute;ficas con esclerosis (mayor condensaci&oacute;n c&aacute;lcicas, por lo que la radiograf&iacute;a se ve m&aacute;s blanca), osteofitos estructuras como picos de loro o quistes subcondrales, por lo general ya es una artrosis m&aacute;s avanzada.
                  En estadios precoces se diagnostican con Resonancia Magn&eacute;tica, en la cual se puede ver la lesi&oacute;n del cart&iacute;lago, ya sea localizada como una Osteocondritis o Difusa en las Artrosis Tricompartimentales
      </p>
      <h2>
       TERAPIA Y REHABILITACION
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       Puede ser M&eacute;dico-Kin&eacute;sico o Quir&uacute;rgico.
                  En las situaciones en que hay una artrosis difusa sin una causa corregible quir&uacute;rgicamente, los usuarios podr&aacute;n realizar un tratamiento farmacol&oacute;gico que incluye el uso de antiinflamatorios a largo plazo, kinesiterapia con fortalecimiento de la musculatura, que de alguna manera es un amortiguador, el uso de medicamentos fortalecedores del cart&iacute;lago, tales como la Glucosamina o el &Aacute;cido Hialur&oacute;nico, que se implemente como suplemento junto con el col&aacute;geno. 
                  Cuando existe artrosis unicompartimental, la cual se encuentra asociada a una secuela traum&aacute;tica o deformaci&oacute;n, se sugiere realizar cirug&iacute;a, especialmente si son j&oacute;venes, corrigiendo estas alteraciones del eje biomec&aacute;nico con alguna osteotom&iacute;a femoral o tibial, o por otro lado alguna correcci&oacute;n de la posici&oacute;n de la r&oacute;tula.
@@ -87,7 +75,7 @@
      <h2>
       REHABILITACION kinesica
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       La artrosis de rodilla tendr&aacute; un manejo diferente seg&uacute;n el da&ntilde;o al cart&iacute;lago siendo cualquier aplicaci&oacute;n terap&eacute;utica solo compensatoria en el corto plazo, si se siguen las indicaciones m&eacute;dicas y de kinesiolog&iacute;a se puede evitar la progresi&oacute;n de la patolog&iacute;a en casos moderados a leves, ya en casos avanzados en necesaria la cirug&iacute;a. 
                  En los otros casos se buscara eliminar dolor, inflamaci&oacute;n, mejorar flexibilidad y fortalecimiento
      </p>
@@ -97,14 +85,14 @@
      <h3>
       0.- FASE PREOPERATORIA
      </h3>
-     <p class="p_blog">
+     <p class="p-blog">
       OBJETIVO: MEJORAR FLEXIBILIDAD, DISMINUIR DOLOR, FORTALECER CUADRICEP, ISQUIOTIBIAL, ADUCTORES Y MUSCULATURA GLUTEA EN GENERAL, ESTAS ESTRUCTURAS FUERTES Y FLEXIBLES FAVORECERAN A LA ESTUCTURA COMO UNOS AMORTIGUADORES, REDUCIENDO EL AVANCE DE LA PATOLOGIA Y PREPARARAN EN CASO FUTURO DE OPERACI&Oacute;N QUIRURGICA
      </p>
      <h3>
       1.- FASE I POSTOPERATORIA (DÍA 1 A 10)
      </h3>
      <br/>
-     <p class="p_blog">
+     <p class="p-blog">
       Objetivos: Lograr la contracci&oacute;n activa del m&uacute;sculo cu&aacute;driceps, lograr caminata independiente y segura (control isom&eacute;trico), lograr extender pasiva de la rodilla a 0 grados, lograr flexi&oacute;n de rodilla m&iacute;nimo de 90 grados y controlar inflamaci&oacute;n, dolor, edema y sangramiento
                  En esta base como medida general se aplican todos los elementos b&aacute;sicos en fisioterapia como lo son crioterapia, vendaje, electro estimulaci&oacute;n, ultrasonido
                  T&eacute;cnicas de masajes como drenaje linf&aacute;tico manual 
@@ -118,7 +106,7 @@
      <h3>
       2.- FASE II DEL MOVIMIENTO (SEMANA 2-6)
      </h3>
-     <p class="p_blog">
+     <p class="p-blog">
       Objetivos: Mejorar el rango articular, aumentar la fuerza-potencia y resistencia muscular, lograr la estabilidad din&aacute;mica de la rodilla, disminuir el edema y la inflamaci&oacute;n, establecer el retorno a las actividades funcionales, en esta fase ya se pueden aplicar ejercicios de cadena cin&eacute;tica cerrada, como squad, bicicleta est&aacute;tica para mejorar la movilidad activa de la rodilla y con ellos mejorar la funcionalidad.
                Pd. aun as&iacute; se siguen aplicando inicialmente los elementos tradicionales de fisioterapia
                
@@ -127,7 +115,7 @@
      <h3>
       >3.- FASE III INTERMEDIA (SEMANA 5-12)
      </h3>
-     <p class="p_blog">
+     <p class="p-blog">
       Objetivos: mejorar fuerza-potencia y resistencia, control exc&eacute;ntrico y conc&eacute;ntrico de la extensi&oacute;n de rodilla, entrenamiento cardiovascular, desarrollar actividades funcionales.
                
                Semana 5-10 rehabilitaci&oacute;n: seguir con la secuencia de las fases I y II, inicio de un programa de marcha progresivo, inicio de programa de resistencia en cardio-respiratoria, progresar a fortalecimiento de extremidad inferior completa, volver a las actividades funcionales y mejorar  en el control funcional exc&eacute;ntrico y conc&eacute;ntrico de la rodilla.
@@ -135,7 +123,7 @@
      <h3>
       4.- FASE IV DE ACTIVIDAD AVANZADA (SEMANA 10-26)
      </h3>
-     <p class="p_blog">
+     <p class="p-blog">
       Objetivos: ideal paciente adulto joven que dese practicar actividad f&iacute;sica recreacional (no competitiva), mantener y mejorar la fuerza -resistencia global, retornar al estilo de vida normal.
                  Ejercicios: Continuar realizando el programa de fisioterapia y mantenci&oacute;n, fortalecimiento de EEII de manera global, elevaciones de miembro inferior con rodilla extendida, aducci&oacute;n y abducci&oacute;n de cadera, squad , subir pelda&ntilde;os de lado de frente y bajarlos, ejercicios con carga en maquina seg&uacute;n sea tolerado, elongaciones con extensi&oacute;n de rodilla a 0° y con flexi&oacute;n de esta a 105°, inicio gradual de la realizaci&oacute;n de deportes recreacionales.
                  PREVENCI&Oacute;N
@@ -149,16 +137,11 @@
     </div>
    </div>
   </section>
- </main>
-<%- include('../botones/boton.ejs'); %>
-<%- include('../footers/footer.ejs'); %>
-</body>
-
-
-    
+</main>
    
- 
-    
- </html>
-
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
+</html>
    

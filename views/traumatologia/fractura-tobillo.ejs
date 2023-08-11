@@ -1,22 +1,12 @@
 <html lang="es-CL">
 
-<%- include('../heads/fractura-tobillo.ejs'); %>
+<%- include('../partial/head.ejs'); %>
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
-
-    <section class="header-main-pic z-depth-2">
-        <div class="intro-area">
-            <div class="container">
-              <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-            </div>
-          </div>
-    </section>
-  
-    
-  </header>   
+  <%- include('../partial/navbar2.ejs'); %>
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header> 
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -32,39 +22,45 @@
   <!--fin breadcumbs-->
 
  
-  <main class="container">
-    <div class="row">
-     <div class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
+  <main class="main-blog">
+    <div class="">
+     <div class="">
       <article>
-       <h2 class="flow-text">
+       <h2 class="h2-blog">
         Kinesiolog&iacute;a  en  LUXOFRACTURA DE TOBILLO
        </h2>
-       <p class="p_blog">
+       <p class="p-blog">
         Este tipo de lesi&oacute;n puede tener diversos tipo de mecanismo que la provoquen, por lo general el m&aacute;s habitual es producto de la rotaci&oacute;n de l en la que se puede fracturar o tibia o peron&eacute; o ambas juntas la lesi&oacute;n o rasgos de la fractura puede ser desde oblicua, transversal o conminuta.
        </p>
-       <h3>
+       <img class="img-blog" src="/public/images/traumatologia/fractura-tobillo.webp" alt="kinesiologia fractura tobillo">
+
+       <h3 class="h3-blog" >
         DEFINICI&Oacute;N LUXOFRACTURA DE TOBILLO
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         Este tipo de lesi&oacute;n incluso el da&ntilde;o &oacute;seo adem&aacute;s del da&ntilde;o que puede ocurrir producto de una luxaci&oacute;n en la zona que ira desde la ruptura a de la capsula articular hasta ligamentos estabilizadores de la zona.
        </p>
+       <img class="img-blog" src="/public/images/traumatologia/fractura-tobillo3.webp" alt="kinesiologia fractura tobillo procesos">
+
        <h3>
         ¿POR QU&Eacute; SE PRODUCE LA LUXOFRACTURA DE TOBILLO?
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         Generalmente es por un aumento de la energ&iacute;a en el mecanismo de lesi&oacute;n de inversi&oacute;n excesiva con carga de peso y rotaci&oacute;n, aunque tambi&eacute;n existen casos en que el mecanismo de lesi&oacute;n implica impacto al caer de altura o que sobre la estructura impacten elementos que afectos su continuidad.
        </p>
        <h3>
         DEPORTE EN QUE M&Aacute;S SE PRODUCE
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         En la mayor&iacute;a de los deportes colectivos se produce este tipo de lesiones ya que en el enfoque competitivo los deportistas est&aacute;n muy enfocado en los resultaos terminando por afectar a compa&ntilde;eros o contendientes con este tipo de lesi&oacute;n
           Entre ellos podemos nombrar al rugby, futbol, basquetbol etc...
        </p>
+       <img class="img-blog" src="/public/images/traumatologia/fractura-tobillo2.webp" alt="kinesiologia fractura tobillo">
+
        <h3>
         S&Iacute;NTOMAS MAS CARACTERISTICOS
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         el dolor agudo inmediato despu&eacute;s de la lesi&oacute;n.
  un aumento de volumen
  deformidad del tobillo
@@ -75,13 +71,13 @@
        <h3>
         DIAGN&Oacute;STICO
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         El diagnostico b&aacute;sico se realiza con imagenologia en especial tomas de rayos en antero posterior, lateral y oblicuo, aunque tambi&eacute;n es &uacute;til el uso de tomograf&iacute;a para tener una  visi&oacute;n mayor en 3 D
        </p>
        <h3>
         TRATAMIENTO
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         El tratamiento inicial para este tipo de lesi&oacute;n es la estabilizaci&oacute;n
           Inicialmente puede ser con elemento como botas o yesos, adem&aacute;s dependiendo del da&ntilde;o es probable que se requiera cirug&iacute;a en la que se implementaran elementos de osteos&iacute;ntesis
           Los objetivos de rehabilitaci&oacute;n kin&eacute;sica ir&aacute;n enfocados inicialmente a disminuir los edemas y dolor asociados a la intervenci&oacute;n y fractura
@@ -89,6 +85,8 @@
           Como disminuci&oacute;n de rango articular
           Ganancia de fuerza y reintegro deportivo
        </p>
+       <img class="img-blog" src="/public/images/traumatologia/fractura-tobillo1.webp" alt="kinesiologia fractura tobillo">
+
        <h3>
         RECUPERACI&Oacute;N
        </h3>
@@ -99,7 +97,7 @@
        <h3>
         TIEMPOS DE RECUPERACI&Oacute;N
        </h3>
-       <p class="p_blog">
+       <p class="p-blog">
         .
           Respetando la fisiolog&iacute;a normal de reparaci&oacute;n de la estructura &oacute;sea estos ser&aacute;n:
           
@@ -115,10 +113,8 @@
     </div>
    </main>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-    <%- include('../footers/footer.ejs'); %>
-    </body>
-    
-    </html>
+   <%- include('../partial/footer2.ejs'); %>
+   <%- include('../partial/boton2.ejs'); %>
+   </body>
+   <script src="../js/action.min.js"></script>      
+   </html>

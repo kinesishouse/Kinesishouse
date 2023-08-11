@@ -1,22 +1,12 @@
 <html lang="es-CL">
 
-<%- include('../heads/ossgodd-schlatter.ejs'); %>
+<%- include('../partial/head.ejs'); %>
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
-
-    <section class="header-main-pic z-depth-2">
-        <div class="intro-area">
-            <div class="container">
-              <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-            </div>
-          </div>
-    </section>
-  
-    
-  </header>   
+  <%- include('../partial/navbar2.ejs'); %>
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>   
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -32,7 +22,7 @@
   <!--fin breadcumbs-->
 
  
-  <main class="container">
+  <main class="main-blog">
     <div class="row">
      <div class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
       <article>
@@ -42,6 +32,9 @@
        <p class="p_blog">
         Osgood-Schlatter es una alteraci&oacute;n en el n&uacute;cleo de crecimiento donde se inserta el tend&oacute;n rotuliano, es com&uacute;n en ni&ntilde;os y adolescentes.
        </p>
+
+       <img class="img-blog" src="/public/images/traumatologia/ossgoodlatter.webp" alt="kinesiologia en ossgodlatter">
+
        <h3>
         POR QU&Eacute; SE PRODUCE EL OSGOOD-SCHLATTER
        </h3>
@@ -55,6 +48,8 @@
        <p class="p_blog">
         El s&iacute;ntoma principal es el dolor en la zona anterior de la rodilla, el paciente por lo general adolecente, referir&aacute; que durante la actividad deportiva el dolor le limita su actividad, adem&aacute;s del dolor se puede referir inflamaci&oacute;n en la zona, en algunas ocasiones por el examen radiogr&aacute;fico se puede observar un leve desplazamiento del n&uacute;cleo de crecimiento &oacute;seo de la tuberosidad tibial.
        </p>
+       <img class="img-blog" src="/public/images/traumatologia/ossgoodlatter1.webp" alt="kinesiologia en ossgodlatter">
+
        <h3>
         ¿EVALUACION M&Eacute;DICA?
        </h3>
@@ -62,21 +57,22 @@
         Si bien la Enfermedad de Osgood-Schlatter no es una enfermedad grave, es conveniente consultar al inicio de las molestias para descartar otras patolog&iacute;as como meniscopat&iacute;a, infecciones o tumores, entre otras, y evitar un reposo deportivo prolongado.
           La enfermedad de Osgood-Schlatter no se asocia a fiebre, decaimiento, baja de peso, enrojecimiento ni derrame articular, por lo tanto, frente a cualquiera de estos s&iacute;ntomas debe consultar inmediatamente.
        </p>
+       <img class="img-blog" src="/public/images/traumatologia/ossgoodlatter2.webp" alt="kinesiologia en la reina ossgodlatter">
+
        <h3>
         DIAGN&Oacute;STICO MEDICO
        </h3>
        <p class="p_blog">
         Un diagn&oacute;stico m&aacute;s preciso solo necesitara del uso de la radiograf&iacute;a tradicional (lateral y anteroposterior) para analizar la rodilla lesionada y evidenciar otras posibles lesiones, adem&aacute;s es buena la toma de alguna ecograf&iacute;a de tejidos blandos para poder descartar otro tipo de lesiones asociado a tendinopatias (tendinopatia rotuliana).
        </p>
+       <img class="img-blog" src="/public/images/traumatologia/ossgoodlatter3.webp" alt="kinesiologia en peñalolen ossgodlatter">
+
       </article>
      </div>
     </div>
-   </main>
-   
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-    <%- include('../footers/footer.ejs'); %>
-    </body>
-    
-    </html>
+  </main>
+  <%- include('../partial/footer.ejs'); %>
+  <%- include('../partial/boton.ejs'); %>
+  </body>
+  <script src="../js/action.min.js"></script>      
+  </html>

@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html lang="es-CL" itemscope itemtype="http://schema.org/Article">
+<html lang="es-CL">
 
-<%- include('../heads/dolor-lumbar.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-<%- include('../navbar/navbar.ejs'); %>
+  <%- include('../partial/navbar.ejs'); %>
 
-<header>
-
-  <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-          <div class="container">
-            <h1> <%= tiTuloh1%> </h1>
-            <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-          </div>
-        </div>
-  </section>
-
-  
-</header>   
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">
  <!-- breadcumbs-->
  <nav > 
   <div class="nav-wrapper container">
@@ -32,7 +24,6 @@
 </nav>
 
 <!--fin breadcumbs-->
-<main class="container">
   <section>
    <div class="row">
     <div class="col s12" id="H2_blog">
@@ -48,7 +39,7 @@
      <h2>
        dolor lumbar y kinesiologia
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
         
 El dolor lumbar, también conocido como dolor de espalda baja, es una condición muy común que afecta tanto a personas activas como a personas sedentarias, sin embargo, se observa con mayor frecuencia en la segunda categoría.
 La definición del dolor lumbar es amplia, pero en términos generales, se refiere a cualquier tipo de dolor o molestia que se siente en la parte inferior de la espalda, incluyendo la zona lumbar y sacroiliaca.
@@ -130,13 +121,13 @@ Es importante destacar que existen diferentes patologías relacionadas con el do
      <div class="divider">
      </div>
      <h3> lumbar</h3>
-     <p class="p_blog">
+     <p class="p-blog">
        en las condiciones de la columna lumbar y el papel de la rehabilitacion de esta el kinesiologo juega un rol importantisimo ya que a diferencia de la accion medica que solo diagnostica la zona del problema el kinesiologo en terminos de rehabilitacion debe realizar su propio diagnostico kinesico para poder determinar cual es la estructura que realmente esta disparando la sintomatologia, ya que el tratamiento no sera igual si el dolor es por sindrome facetario, desgarro del disco vertebral, contractura muscular, o sindrome del piriforme entre tantas otras patologias.
        cada lesion tendra objetivos terapeuticos diferentes y estos en si mismo dependeran del daño y la escala del dolor que tenga el paciente al momento de la intervencion terapeutica, en todas ellas si o si debe atenderse un esquema de ejercicios terapeuticos los cuales seran la base fundamental del proceso de rehabilitación y en la cual las patologias lumbares son super dependientes
         
      </p>
      <h3>patologias de las vertebras lumbares</h3>
-     <p class="p_blog">
+     <p class="p-blog">
         La columna vertebral cumple una función vital en nuestro cuerpo, ya que protege la médula espinal y proporciona estructura a la jaula torácica, que alberga órganos importantes. La disposición de la médula y las raíces nerviosas se puede observar en un esquema anatómico de la vértebra.
         El dolor lumbar es una afección común en la población y puede tener diferentes causas dependiendo del estilo de vida de cada individuo. En personas que realizan deporte regularmente, las causas más comunes son el lumbago, fracturas por estrés o lisis de pars articular y contracturas de musculatura paravertebral. Mientras tanto, en personas sedentarias, los trastornos propios del desgaste (artrosis), desbalances musculares, discopatías sintomáticas y otras patologías también pueden ser causa de dolor lumbar. Es importante destacar que una persona sedentaria puede desarrollar patologías que son más frecuentes en personas que realizan deporte regularmente y viceversa.
         
@@ -146,7 +137,7 @@ Es importante destacar que existen diferentes patologías relacionadas con el do
      <h3>
          programa terapeutico en lumbago
      </h3>
-     <p class="p_blog">
+     <p class="p-blog">
          el tratamiento del lumbago por lo general tiende a seguir ciertas reglas que son super efectivas y las cuales son basadas en estudios clinicos controlados, un objetivo principal es obviamente disminuir el dolor, en este apartado se pueden usar diferentes elementos, como electroestimulación transcutanea, ultrasonido terapeutico, compresas calientes para disminuir la tension muscular, masajes localizados en la zona. entre otros
          dentro de mi gama terapeutica personalmente me gusta trabajar en conjunto con tecnicas de acupuntura china las cuales son un plus super efectivo para controlar la sintomatologia y poder comenzar con los ejercicios terapeuticos enfocados al lumbago
      </p>
@@ -154,7 +145,7 @@ Es importante destacar que existen diferentes patologías relacionadas con el do
      <div class="divider">
      </div>
      <h3> kinesiterapia y ejercicios terapeuticos  </h3>
-     <p class="p_blog">
+     <p class="p-blog">
          dentro de los ejercicios terapeuticos existe una gama que es muy efectiva para el dolor lumbar
          dentro de menos dolorosos para comenzar a movilizar la columna estan los de movilizacion pelvica, los cuales sencillamente se pide realizar movimineto de retroversion pelvica, o rotaciones de la misma 
 
@@ -178,11 +169,10 @@ Es importante destacar que existen diferentes patologías relacionadas con el do
    </div>
   </section>
   
- </main> 
-    <%- include('../botones/boton.ejs'); %> 
-    <%- include('../botones/menu-flotante.ejs'); %> 
-
-    <%- include('../footers/footer.ejs'); %>
-  </body>
-    
- </html>
+</main>
+   
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
+</html>

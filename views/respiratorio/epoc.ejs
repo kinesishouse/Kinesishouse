@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
+  <%- include('../partial/navbar.ejs'); %>
 
-    <section class="header-main-pic z-depth-2">
-        <div class="intro-area">
-            <div class="container">
-              <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-            </div>
-          </div>
-    </section>
-  
-    
-  </header>  
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog"> 
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -37,7 +30,7 @@
         <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
           
             <h2 class="flow-text">Kinesiolog&iacute;a en rehabilitaci&oacute;n respiratoria patolog&iacute;a EPOC</h2>
-            <p class="p_blog">
+            <p class="p-blog">
                 La Enfermedad Pulmonar Obstructiva Cr&oacute;nica (EPOC) es una afecci&oacute;n respiratoria cr&oacute;nica que afecta a los pulmones, causando una disminuci&oacute;n progresiva en la capacidad respiratoria del paciente. Los principales factores de riesgo para desarrollar EPOC son el tabaquismo y la exposici&oacute;n a contaminantes ambientales.
                 
                 La EPOC es una enfermedad progresiva, lo que significa que se desarrolla lentamente a lo largo del tiempo y empeora con el tiempo. Los s&iacute;ntomas incluyen tos, producci&oacute;n de esputo y dificultad para respirar. Estos s&iacute;ntomas pueden empeorar durante los per&iacute;odos de exacerbaci&oacute;n, en los cuales los pacientes pueden requerir hospitalizaci&oacute;n.
@@ -47,12 +40,12 @@
                 El kinesi&oacute;logo respiratorio es un profesional de la salud que se especializa en el abordaje de las enfermedades respiratorias. El kinesi&oacute;logo trabaja con una serie de herramientas que ayudar&aacute;n al paciente a mejorar las condiciones que provoca esta patolog&iacute;a.
                 </p>
 
-                <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/epoc.webp" alt="enfermedad pulmonar obstructiva cronica">
+                <img class="img-blog" loading="lazy" src="/public/images/respiratorio/epoc.webp" alt="enfermedad pulmonar obstructiva cronica">
 
                 
                 
-                <h2>El kinesi&oacute;logo es un profesional de la salud en EPOC</h2>
-                <p class="p_blog">
+                <h2 class="h2-blog">El kinesi&oacute;logo es un profesional de la salud en EPOC</h2>
+                <p class="p-blog">
                 que se especializa en la evaluaci&oacute;n, tratamiento y prevenci&oacute;n de trastornos del movimiento y la funci&oacute;n del cuerpo. En el caso de la patolog&iacute;a EPOC (Enfermedad Pulmonar Obstructiva Cr&oacute;nica), el kinesi&oacute;logo tiene un papel muy importante en el manejo de esta condici&oacute;n.
                 
                 El kinesi&oacute;logo puede ayudar a los pacientes con EPOC a mejorar su capacidad pulmonar y reducir los s&iacute;ntomas de la enfermedad mediante diferentes t&eacute;cnicas.
@@ -72,7 +65,7 @@
                 
                 </p>
                 
-                <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/epoc2.webp" alt="hkinesiologo en EPOC">
+                <img class="img-blog" loading="lazy" src="/public/images/respiratorio/epoc2.webp" alt="kinesiologo en EPOC">
 
 
                 
@@ -82,11 +75,10 @@
     </div>
     </div>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
+  </main>
+   
+  <%- include('../partial/footer2.ejs'); %>
+  <%- include('../partial/boton2.ejs'); %>
   </body>
-    
- </html>
+  <script src="../js/action.min.js"></script>      
+  </html>

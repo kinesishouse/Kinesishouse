@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
+  <%- include('../partial/navbar.ejs'); %>
 
-    <section class="header-main-pic z-depth-2">
-        <div class="intro-area">
-            <div class="container">
-              <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-            </div>
-          </div>
-    </section>
-  
-    
-  </header>  
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -35,22 +28,22 @@
     <div class="container">
       <div class="row">
         <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
-            <h2 class="flow-text">
+            <h2 class="h2-blog">
              Kinesiolog&iacute;a en rehabilitaci&oacute;n respiratoria patolog&iacute;a Neumon&iacute;a
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              La neumon&iacute;a es una infecci&oacute;n pulmonar aguda que puede ser causada por diferentes tipos de microorganismos, como bacterias, virus y hongos. Los s&iacute;ntomas incluyen fiebre, tos con moco, dificultad para respirar, dolor en el pecho, fatiga y debilidad. La neumon&iacute;a puede ser una enfermedad grave, especialmente en ni&ntilde;os peque&ntilde;os, ancianos y personas con sistemas inmunol&oacute;gicos debilitados (ya sean pacientes con cancer o VIH). Es importante que cualquier persona que experimente s&iacute;ntomas de neumon&iacute;a busque atenci&oacute;n m&eacute;dica de inmediato para recibir tratamiento adecuado y prevenir complicaciones graves.
             </p>
-            <h2>
+            <h2 class="h2-blog">
              Causas principales de neumon&iacute;a:
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              La neumon&iacute;a puede ser causada por diferentes tipos de microorganismos, pero las causas principales son las bacterias y los virus. Las bacterias que con mayor frecuencia causan neumon&iacute;a son Streptococcus pneumoniae, Haemophilus influenzae y Staphylococcus aureus. Los virus que pueden causar neumon&iacute;a incluyen el virus de la influenza, el virus sincitial respiratorio, el adenovirus y el virus de la parainfluenza. La neumon&iacute;a tambi&eacute;n puede ser causada por hongos, especialmente en personas con sistemas inmunol&oacute;gicos debilitados, como pacientes con VIH/SIDA, pacientes con c&aacute;ncer o personas que reciben tratamiento con corticosteroides.
             </p>
-            <h2>
+            <h2 class="h2-blog">
              Sintomatolog&iacute;a de la neumon&iacute;a:
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              La neumon&iacute;a puede tener diferentes s&iacute;ntomas, pero los s&iacute;ntomas m&aacute;s comunes incluyen:
              <ul>
                  <li>Fiebre</li>
@@ -68,68 +61,68 @@
                        
                      
             </p>
-            <h2>
+            <h2 class="h2-blog">
              Diagn&oacute;stico de la neumon&iacute;a:
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              El diagn&oacute;stico de la neumon&iacute;a se basa en los s&iacute;ntomas cl&iacute;nicos y en los resultados de los ex&aacute;menes de diagn&oacute;stico. Los ex&aacute;menes cl&iacute;nicos pueden incluir la auscultaci&oacute;n del pecho con un estetoscopio para detectar sonidos respiratorios anormales. Los ex&aacute;menes de diagn&oacute;stico pueden incluir radiograf&iacute;as de t&oacute;rax, tomograf&iacute;as computarizadas (TC) y an&aacute;lisis de sangre para detectar la presencia de bacterias o virus en la sangre. Adem&aacute;s, los m&eacute;dicos pueden realizar pruebas de laboratorio para analizar muestras de esputo y detectar la presencia de bacterias o virus.
             </p>
-            <h2>
+            <h2 class="h2-blog">
              Tratamiento de la neumon&iacute;a:
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              El tratamiento de la neumon&iacute;a depende de la causa subyacente de la infecci&oacute;n. Si la neumon&iacute;a es causada por una bacteria, se puede tratar con antibi&oacute;ticos. Si la neumon&iacute;a es causada por un virus, no hay un tratamiento espec&iacute;fico y los m&eacute;dicos pueden prescribir medicamentos antivirales para aliviar los s&iacute;ntomas. En algunos casos, los pacientes pueden necesitar hospitalizaci&oacute;n y recibir tratamiento intravenoso con antibi&oacute;ticos o antivirales.
              Adem&aacute;s del tratamiento farmacol&oacute;gico, se pueden recomendar otros tratamientos para aliviar los s&iacute;ntomas de la neumon&iacute;a. Los pacientes pueden necesitar tomar medicamentos para reducir la fiebre y y la sintomatologia general
                        
                    
             </p>
-            <h2>
+            <h2 class="h2-blog">
              Diagn&oacute;stico de la neumon&iacute;a laboratorio e imagen:
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              El diagn&oacute;stico de la neumon&iacute;a generalmente se realiza a trav&eacute;s de la historia cl&iacute;nica y un examen f&iacute;sico completo. Se pueden realizar pruebas de laboratorio, como an&aacute;lisis de sangre y cultivos de esputo, para identificar el tipo de infecci&oacute;n y el agente causante de la neumon&iacute;a. Tambi&eacute;n se pueden realizar pruebas de imagen, como radiograf&iacute;as de t&oacute;rax o tomograf&iacute;as computarizadas (TC), para evaluar la gravedad y la extensi&oacute;n de la infecci&oacute;n.
             </p>
-            <img alt="radiografia de torax en neumonia" class="responsive-img" loading="lazy" src="/public/images/respiratorio/radiografia-torax.webp"/>
-            <h2>
+            <img alt="radiografia de torax en neumonia" class="img-blog" loading="lazy" src="/public/images/respiratorio/radiografia-torax.webp"/>
+            <h2 class="h2-blog">
              Tratamiento de la neumon&iacute;a:
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              el kinesi&oacute;logo desempe&ntilde;a un papel importante en la rehabilitaci&oacute;n pulmonar y en la prevenci&oacute;n de complicaciones respiratorias. A continuaci&oacute;n, te detallo algunos aspectos clave del tratamiento de la neumon&iacute;a y c&oacute;mo el kinesi&oacute;logo puede ayudar:
 
              El tratamiento de la neumon&iacute;a depende de la causa subyacente de la infecci&oacute;n. Si la neumon&iacute;a es bacteriana, se tratar&aacute; con antibi&oacute;ticos. Los antibi&oacute;ticos se administran generalmente por v&iacute;a oral o intravenosa, seg&uacute;n la gravedad de la infecci&oacute;n. Si la neumon&iacute;a es viral, se pueden administrar.
                  
        
             </p>
-            <h3>
+            <h3 class="h3-blog">
              Oxigenoterapia:
             </h3>
-            <p class="p_blog">
+            <p class="p-blog">
              En algunos casos, la neumon&iacute;a puede provocar una disminuci&oacute;n en los niveles de ox&iacute;geno en sangre. El kinesi&oacute;logo puede colaborar en la administraci&oacute;n de ox&iacute;geno a trav&eacute;s de diferentes dispositivos como c&aacute;nulas nasales o mascarillas.
             </p>
-            <img alt="oxigeno terapia" class="responsive-img" loading="lazy" src="/public/images/respiratorio/oxigeno-terapia.webp"/>
-            <h3>
+            <img alt="oxigeno terapia" class="img-blog" loading="lazy" src="/public/images/respiratorio/oxigeno-terapia.webp"/>
+            <h3 class="h3-blog">
              Ejercicios respiratorios:
             </h3>
-            <p class="p_blog">
+            <p class="p-blog">
              El kinesi&oacute;logo puede dise&ntilde;ar y supervisar programas de ejercicios respiratorios que incluyan t&eacute;cnicas de respiraci&oacute;n profunda, tos efectiva y expansi&oacute;n pulmonar, para ayudar a mejorar la funci&oacute;n respiratoria y disminuir la posibilidad de complicaciones.
             </p>
-            <h3>
+            <h3 class="h3-blog">
              Movilizaci&oacute;n temprana:
             </h3>
-            <p class="p_blog">
+            <p class="p-blog">
              El kinesi&oacute;logo puede promover la movilizaci&oacute;n temprana del paciente para prevenir la p&eacute;rdida de fuerza muscular y disminuir el riesgo de complicaciones relacionadas con la inmovilidad.
             </p>
-            <h3>
+            <h3 class="h3-blog"> 
              Asistencia ventilatoria:
             </h3>
-            <p class="p_blog">
+            <p class="p-blog">
              En casos graves, la neumon&iacute;a puede requerir ventilaci&oacute;n mec&aacute;nica, un procedimiento que involucra la utilizaci&oacute;n de un respirador. El kinesi&oacute;logo puede colaborar en la administraci&oacute;n de la ventilaci&oacute;n mec&aacute;nica y en la prevenci&oacute;n de complicaciones asociadas a la misma.
             </p>
-            <img alt="ventilacion mecanica" class="responsive-img" loading="lazy" src="/public/images/respiratorio/ventilacion-mecanica.webp"/>
-            <h3>
+            <img alt="ventilacion mecanica" class="img-blog" loading="lazy" src="/public/images/respiratorio/ventilacion-mecanica.webp"/>
+            <h3 class="h3-blog">
              aspiracion de secreciones:
             </h3>
-            <p class="p_blog">
+            <p class="p-blog">
              La aspiraci&oacute;n de secreciones es una t&eacute;cnica utilizada para eliminar la mucosidad o secreciones que se acumulan en las v&iacute;as respiratorias de un paciente con neumon&iacute;a. Esta t&eacute;cnica es especialmente importante en pacientes que tienen dificultad para eliminar las secreciones de forma natural debido a su enfermedad.
              La aspiraci&oacute;n se realiza mediante la inserci&oacute;n de un tubo de succi&oacute;n a trav&eacute;s de la nariz o la boca del paciente hasta el nivel de las v&iacute;as respiratorias. El kinesi&oacute;logo, en colaboraci&oacute;n con el equipo m&eacute;dico, puede utilizar diferentes t&eacute;cnicas de aspiraci&oacute;n de secreciones en funci&oacute;n de la edad del paciente y de la gravedad de la neumon&iacute;a.
        
@@ -141,11 +134,11 @@
        
                      
             </p>
-            <img alt="aspiracion de secreciones con turbina" class="responsive-img" loading="lazy" src="/public/images/respiratorio/aspirador-secreciones.webp"/>
-            <h2>
+            <img alt="aspiracion de secreciones con turbina" class="img-blog" loading="lazy" src="/public/images/respiratorio/aspirador-secreciones.webp"/>
+            <h2 class="h2-blog">
              vacunacion preventiva contra la influencia en Chile
             </h2>
-            <p class="p_blog">
+            <p class="p-blog">
              El proceso de vacunaci&oacute;n contra la influenza en Chile es una campa&ntilde;a anual que busca prevenir la enfermedad y reducir su impacto en la poblaci&oacute;n. La vacunaci&oacute;n se realiza generalmente entre marzo y mayo, antes del invierno, que es cuando la enfermedad se propaga con mayor facilidad.
              En Chile, la vacuna contra la influenza es gratuita y est&aacute; dirigida a grupos prioritarios, que incluyen a ni&ntilde;os y ni&ntilde;as entre 6 meses y 5 a&ntilde;os, adultos mayores de 65 a&ntilde;os, mujeres embarazadas y personas con ciertas condiciones de salud cr&oacute;nicas, como enfermedades respiratorias o cardiovasculares.
        
@@ -157,17 +150,16 @@
        
               
             </p>
-            <img alt="kinesiologo y Neumonia" class="responsive-img" loading="lazy" src="/public/images/respiratorio/fibrosis-quistica.webp"/>
+            <img alt="kinesiologo y Neumonia" class="img-blog" loading="lazy" src="/public/images/respiratorio/fibrosis-quistica.webp"/>
            </article>
 
     </div>
     </div>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
+  </main>
+   
+  <%- include('../partial/footer2.ejs'); %>
+  <%- include('../partial/boton2.ejs'); %>
   </body>
-    
- </html>
+  <script src="../js/action.min.js"></script>      
+  </html>

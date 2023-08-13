@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
+  <%- include('../partial/navbar.ejs'); %>
 
-    <section class="header-main-pic z-depth-2">
-        <div class="intro-area">
-            <div class="container">
-              <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-            </div>
-          </div>
-    </section>
-  
-    
-  </header>  
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -35,18 +28,19 @@
     <div class="container">
       <div class="row">
         <div class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
-           <h2 class="flow-text">Kinesiolog&iacute;a en rehabilitaci&oacute;n  respiratoria infantil</h2>
-           <p class="p_blog">
+           <h2 class="h2-blog">Kinesiolog&iacute;a en rehabilitaci&oacute;n  respiratoria infantil</h2>
+           <p class="p-blog">
             Las enfermedades respiratorias agudas en ni&ntilde;os son la principal causa de hospitalizaci&oacute;n en ni&ntilde;os y bebes. Con la implementaci&oacute;n de los programas IRA, la manipulaci&oacute;n oportuna de la kinesiolog&iacute;a respiratoria, espec&iacute;ficamente en menores de 2 a&ntilde;os y bebes, ha contribuido en la disminuir el uso excesivo de antibi&oacute;ticos, que genera resistencia a este a futuro en los pacientes.
                   La kinesiolog&iacute;a respiratoria infantil  es indicada por lo general en cuadros obstructivos (s&iacute;ndrome bronquial obstructivo) SBO, que representan el 20% del total de consultas respiratorias ni&ntilde;os en la atenci&oacute;n primaria de chile.
                   Los principales microorganismos que generan patolog&iacute;a obstructiva o infecciones respiratorias agudas en los ni&ntilde;os, son virales. Entre ellos virus sincicial, adenovirus, influenza, sobre todo en los ni&ntilde;os menores de 2 a&ntilde;os. Ya en mayores de escolar, los agentes infecciosos son principalmente de origen bacteriano, en estos  casos corresponde el uso de antibi&oacute;ticos.
                   “las sesiones   kinesiolog&iacute;a que en lo general son indicadas por el m&eacute;dico, estas incluyen principalmente el uso de t&eacute;cnicas manuales y posicionales, con ayudas de medicamentos como aeroles de inhalaci&oacute;n o si el caso lo amerita aspiraci&oacute;n de secreciones con turbina. Adem&aacute;s tienen un fuerte compromiso de educaci&oacute;n familiar, de forma que se detecten en el hogar aquellos signos y s&iacute;ntomas de alarma, as&iacute; como la reducci&oacute;n de conductas de riesgo para el paciente. Se dan recomendaciones en caso de pacientes  con fumadores en la familia, adecuada calefacci&oacute;n esto es evitar el uso de quema de combustible se ale&ntilde;a, carb&oacute;n o parafina, uso adecuado de inhaladores con aeroc&aacute;mara, modo seguro de toser y lavado de manos frecuente en el cuidador 
                   Existen virus que complican y obstruyen diversas zonas en el sistema respiratorio, desde nariz y laringe, hasta pulmones, como es el caso de cuadros neumon&iacute;as  y bronquiales. En cada condici&oacute;n  se eval&uacute;a la el pulm&oacute;n y v&iacute;a respiratoria en general, de modo que el ni&ntilde;o tenga mejores condiciones de ventilaci&oacute;n, buen dormir y calidad de reposo y comida.
            </p>
-           <h2>
+           <img  loading="lazy"src="/public/images/respiratorio/respiratorioniño.webp" alt="kinesiologo respiratorio infantil">
+           <h2 class="h2-blog">
             Las maniobras manuales del kinesi&oacute;logo
            </h2>
-           <p class="p_blog">
+           <p class="p-blog">
             Para la gran mayor&iacute;a de los padres pueden ser choqueantes ciertas manipulaciones en la sesi&oacute;n de  kinesiolog&iacute;a respiratoria, sobre todo en hijos primerizos, aun as&iacute; todo est&aacute;n de acuerdo que una vez realizada el paciente presente una gran mejor&iacute;a. Por lo mismo la estancia de los adultos responsables en la sesi&oacute;n ayuda a que el ni&ntilde;o se sienta seguro antes de realizar la terapia de kinesiolog&iacute;a para mejorar la funci&oacute;n ventilatoria.
                 Recomendaciones en  patolog&iacute;a respiratorias en ni&ntilde;os: 
                 
@@ -58,18 +52,19 @@
       6.Es preferible alimentar a los pacientes una hora antes de aplicar la terapia por el kinesi&oacute;logo  para evitar v&oacute;mitos y aspiraci&oacute;n de este a las v&iacute;as respiratorias.
       7.	Luego de la terapia kin&eacute;sica  se debe hidratar bastante al infante, ya que &eacute;ste pierde liquido por la sudoraci&oacute;n y esto favorecer&aacute; para mantener la adecuada condiciones reol&oacute;gicas de las secreciones, facilitando as&iacute; la eliminaci&oacute;n de &eacute;stas.
            </p>
-           <h2>
+           <h2 class="h2-blog">
             El rol del llanto durante la kinesioterapia
            </h2>
-           <p class="p_blog">
+           <p class="p-blog">
             Aunque la terapia kin&eacute;sica respiratoria  pareciese excesiva y violenta siendo los padres los m&aacute;s preocupados, esta no genera ni da&ntilde;o interno ni dolor, solo las molestias e incomodidades que percibe el infante durante la sesi&oacute;n. La caja tor&aacute;cica de los ni&ntilde;os es muy el&aacute;stica a esas edades por lo mismo permite mejor excursi&oacute;n en las maniobras para la eliminaci&oacute;n de secreciones, esto no genera da&ntilde;o alguno en los ni&ntilde;os y a diferencia de los pacientes adultos facilita la remoci&oacute;n de las secreciones el llanto en los ni&ntilde;os permite la eliminaci&oacute;n de las secreciones de manera m&aacute;s f&aacute;cil,
                   Ya que al movilizar m&aacute;s flujos de aire esto facilita la expulsi&oacute;n de secreciones facilitando la t&eacute;cnica.
                   En casos de que no existan cambios notables se deben actuar con otros protocolos
            </p>
-           <h2>
+           <img src="/public/images/respiratorio/vias-respiratorias.webp" alt="kinesiologia respiratoria niño">
+           <h2 class="h2-blog">
             Score de tal
            </h2>
-           <p class="p_blo">
+           <p class="p-blog">
             El score de tal es un esquema terap&eacute;utico que valora la condici&oacute;n del paciente y determina que proceso terap&eacute;utico obtendr&aacute; en cuanto tiempo y como se aplicara, es en cierta medida como un triage modificado para patolog&iacute;as respiratorias en el cual se establece la gravedad de la patolog&iacute;a y si es necesario hospitalizar o continuar en el hogar el tratamiento kinesico en caso de un puntaje muy elevado
                   Valora par&aacute;metros como frecuencia respiratoria, saturaci&oacute;n, ruidos respiratorios (asociado a sibilancias) nivel de cianosis
                   El esquema incluye la terapia kin&eacute;sica, bronco dilataci&oacute;n y la implementaci&oacute;n de oxigeno suplementario, se esperan cambios en periodos de 2 horas para reevaluar par&aacute;metros y la toma de decisiones terap&eacute;uticas
@@ -77,6 +72,8 @@
                   Esta terapia desde 1993 fue clave en reducir la mortandad infantil en chile 
                   Cualquier consulta no dudes en enviarnos un correo electr&oacute;nico wassap o tel&eacute;fono.
            </p>
+
+           <img src="/public/images/respiratorio/scoredetal.webp" alt="evaluacion kinesica en niños">
                 
                 
       </div>
@@ -84,11 +81,10 @@
     </div>
     </div>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
+  </main>
+   
+  <%- include('../partial/footer2.ejs'); %>
+  <%- include('../partial/boton2.ejs'); %>
   </body>
-    
- </html>
+  <script src="../js/action.min.js"></script>      
+  </html>

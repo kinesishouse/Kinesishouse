@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="es-CL">
- <%- include('../heads/head.ejs'); %>
- <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
-   <section class="header-main-pic z-depth-2">
-    <div class="intro-area">
-     <div class="container">
-      <h1>
-       <%= tiTuloh1%>
-      </h1>
-      <p class="p_blog">
+
+<%- include('../partial/head.ejs'); %>
+
+
+<body>
+  <%- include('../partial/navbar.ejs'); %>
+
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">
+      <p class="p-blog">
        rehabilitaci&oacute;n en la comodidad de tu hogar
       </p>
-     </div>
-    </div>
-   </section>
-  </header>
+  
   <!-- breadcumbs-->
   <nav>
    <div class="nav-wrapper container">
@@ -37,10 +35,10 @@
   <div class="container">
    <div class="row">
     <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
-     <h2 class="flow-text">
+     <h2 class="h2-blog">
       Sindrome del distres respiratorio
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       el s&iacute;ndrome de distr&eacute;s respiratorio es una condici&oacute;n grave que afecta los pulmones de una persona y que puede requerir tratamiento m&eacute;dico urgente.
 
       El distres respiratorio se produce cuando los pulmones no pueden funcionar adecuadamente y no proporcionan suficiente ox&iacute;geno al cuerpo. Esto puede ser causado por una variedad de factores, como infecciones pulmonares, lesiones en el pecho, reacciones al&eacute;rgicas o inhalaci&oacute;n de sustancias t&oacute;xicas. Adem&aacute;s, ciertos trastornos m&eacute;dicos, como la insuficiencia card&iacute;aca o las enfermedades autoinmunitarias, tambi&eacute;n pueden aumentar el riesgo de desarrollar distres respiratorio.
@@ -52,8 +50,8 @@
                 Es importante destacar que el tratamiento del distres respiratorio debe ser siempre supervisado por un equipo m&eacute;dico especializado en ventilaci&oacute;n mec&aacute;nica, ya que esta es una condici&oacute;n que puede ser muy grave y requerir una atenci&oacute;n m&eacute;dica urgente. Como kinesi&oacute;logo especializado en ventilaci&oacute;n mec&aacute;nica, mi trabajo consiste en trabajar en conjunto con el equipo m&eacute;dico para garantizar la mejor atenci&oacute;n posible a los pacientes que sufren de esta condici&oacute;n.
      </p>
 
-     <h2>¿Como ayuda la ventilacion mecanica en la recuperacion del dsitres respiratorio?</h2>
-     <p class="p_blog">
+     <h2 class="h2-blog">¿Como ayuda la ventilacion mecanica en la recuperacion del dsitres respiratorio?</h2>
+     <p class="p-blog">
       Como profesional kinesi&oacute;logo capacitado en ventilaci&oacute;n mec&aacute;nica, puedo decirte que la ventilaci&oacute;n mec&aacute;nica es un procedimiento que se utiliza para proporcionar apoyo respiratorio a pacientes que no pueden respirar por s&iacute; mismos o que tienen dificultades para hacerlo.
 
                 En t&eacute;rminos generales, existen dos tipos de ventilaci&oacute;n mec&aacute;nica: la ventilaci&oacute;n invasiva y la ventilaci&oacute;n no invasiva. La ventilaci&oacute;n invasiva se realiza mediante la inserci&oacute;n de un tubo endotraqueal a trav&eacute;s de la boca o la nariz, mientras que la ventilaci&oacute;n no invasiva se realiza mediante una m&aacute;scara facial que se ajusta a la cara del paciente.
@@ -70,9 +68,9 @@
 
                 En resumen, como kinesi&oacute;logo capacitado en ventilaci&oacute;n mec&aacute;nica, puedo decir que la ventilaci&oacute;n mec&aacute;nica es una herramienta vital en el tratamiento de pacientes con disfunci&oacute;n respiratoria. El proceso de weaning y la desconexi&oacute;n de la ventilaci&oacute;n mec&aacute;nica son procesos delicados que deben ser realizados por un equipo multidisciplinario de profesionales m&eacute;dicos, incluyendo kinesi&oacute;logos especializados en esta &aacute;rea.
      </p>
-     <h2> ¿Cual es el trabajo de la kinesiologia intensiva en distres respiratorio?
+     <h2 class="h2-blog"> ¿Cual es el trabajo de la kinesiologia intensiva en distres respiratorio?
      </h2>
-     <p class="p_blog">
+     <p class="p-blog">
       Los kinesi&oacute;logos expertos en kinesiolog&iacute;a intensiva, su trabajo se enfoca en ayudar a los pacientes con condiciones graves que requieren cuidados intensivos, como aquellos que han sufrido un traumatismo, un derrame cerebral, una enfermedad pulmonar o card&iacute;aca, entre otros.
 
                 El principal aporte en esta &aacute;rea de la salud es el dise&ntilde;o y la implementaci&oacute;n de programas de tratamiento para pacientes cr&iacute;ticos. Esto incluye la evaluaci&oacute;n y el monitoreo de la funci&oacute;n respiratoria, cardiovascular y neuromuscular, y el desarrollo de planes de cuidados personalizados que aborden las necesidades espec&iacute;ficas de cada paciente.
@@ -81,14 +79,14 @@
                 
                 Mi objetivo principal es ayudar a los pacientes a recuperar la mayor cantidad de funciones f&iacute;sicas posible y mejorar su calidad de vida. Trabajo en estrecha colaboraci&oacute;n con otros profesionales de la salud, como m&eacute;dicos, enfermeros y terapeutas, para asegurarme de que el tratamiento sea efectivo y est&eacute; coordinado.
      </p>
-     <img alt="kinesiologo en asma las condes" class="responsive-img" loading="lazy" src="/public/images/respiratorio/respiratorio1.webp"/>
+     <img alt="kinesiologo en asma las condes" loading="lazy" class="img-blog" src="/public/images/respiratorio/respiratorio1.webp"/>
     </article>
    </div>
   </div>
-  <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
- </body>
+</main>
+   
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
 </html>

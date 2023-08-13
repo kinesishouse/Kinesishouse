@@ -1,92 +1,16 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <!DOCTYPE html>
-  <html lang="es-CL">
-   <%- include('../heads/head.ejs'); %>
-   <style>
-    .container2 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-        padding: 50px;
-    }
+<html lang="es-CL">
 
-    @media screen and (max-width: 768px) {
-        .container2 {
-            grid-template-columns: repeat(1, 1fr);
-        }
-    }
-    
-    .card2 {
-        background-color: #F5F5F5;
-        border-radius: 5px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .card2 img {
-        height: 100px;
-        margin-bottom: 20px;
-        max-width: 100%;
-    }
-    
-    .card2 h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-    }
-    
-    .card2 p {
-        font-size: 1rem;
-        margin-bottom: 20px;
-    }
-    .pasos-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        justify-items: center;
-        margin: 20px;
-      }
-      
-      .pasos {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-      }
-      
-      .pasos li {
-        margin: 10px 0;
-        padding: 10px;
-        background-color: #f2f2f2;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: bold;
-      }
-   </style>
-   <body>
-    <%- include('../navbar/navbar.ejs'); %>
-    <header>
-     <section class="header-main-pic z-depth-2">
-      <div class="intro-area">
-       <div class="container">
-        <h1>
-         <%= tiTuloh1%>
-        </h1>
-        <p class="p_blog">
-         rehabilitaci&oacute;n en la comodidad de tu hogar
-        </p>
-       </div>
-      </div>
-     </section>
+<%- include('../partial/head.ejs'); %>
+
+
+<body>
+  <%- include('../partial/navbar.ejs'); %>
+
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
     </header>
+    <main class="main-blog">
     <!-- breadcumbs-->
     <nav>
      <div class="nav-wrapper container">
@@ -107,16 +31,16 @@
     <div class="container">
      <div class="row">
       <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
-       <h2 class="flow-text">
+       <h2 class="h2-blog">
         ¡Bienvenidos a nuestro servicio de aspiraci&oacute;n de secreciones por kinesi&oacute;logos en la regi&oacute;n metropolitana de Chile!
        </h2>
-       <p class="p_blog">
+       <p class="p-blog">
         Somos Kinesis House l&iacute;der en servicios de salud respiratoria y estamos comprometidos en brindar soluciones integrales a nuestros pacientes. La aspiraci&oacute;n de secreciones es una t&eacute;cnica crucial para el tratamiento de enfermedades respiratorias y nuestra amplia experiencia en el campo nos permite ofrecer un servicio de alta calidad y seguridad est es una tecnica m&aacute;s la cual conbinada con los conociemientos de kinesiolog&iacute;a respiratoria, logra los mejores resultados en los pacientes con patologia respiratoria.
        </p>
-       <h2>
+       <h2 class="h2-blog">
         ¿quien aplica mejor la tecnica de aspiracion de secreciones con turbina?
        </h2>
-       <p class="p_blog">
+       <p class="p-blog">
         el kinesiologo est&aacute; altamente capacitado en la t&eacute;cnica de aspiraci&oacute;n y utilizan m&eacute;todos de &uacute;ltima generaci&oacute;n para garantizar la eficacia y seguridad del procedimiento. Adem&aacute;s, nos aseguramos de utilizar sondas de alta calidad y est&eacute;riles para minimizar el riesgo de infecciones.
        </p>
       </article>
@@ -124,16 +48,16 @@
     </div>
     <div class="container2">
      <div class="card2">
-      <img alt="Experiencia" src="/public/images/Respiratoria.webp"/>
-      <h2>
+      <img alt="Experiencia" loading="lazy" class="img-blog" src="/public/images/Respiratoria.webp"/>
+      <h2 class="h2-blog">
        Experiencia y Profesionalismo
       </h2>
       <p>
        Contamos con kinesi&oacute;logos altamente capacitados y con expertis en el tratamiento de enfermedades respiratorias. Nos aseguramos de mantener un alto nivel de profesionalismo en todo momento.
       </p>
      </div>
-     <div class="card2">
-      <img alt="Tecnología Avanzada" src="/public/images/respiratorio/epoc2.webp"/>
+     <div class="h2-blog">
+      <img alt="Tecnología Avanzada" loading="lazy" class="img-blog" src="/public/images/respiratorio/epoc2.webp"/>
       <h2>
        Tecnolog&iacute;a Avanzada
       </h2>
@@ -141,9 +65,9 @@
        Utilizamos equipos de &uacute;ltima generaci&oacute;n para garantizar la eficacia y seguridad del procedimiento de aspiraci&oacute;n de secreciones.
       </p>
      </div>
-     <div class="card2">
-      <img alt="Seguridad" src="/public/images/respiratorio/crepitacion-pulmonar.webp"/>
-      <h2>
+     <div class="h2-blog">
+      <img alt="Seguridad" loading="lazy" class="img-blog" src="/public/images/respiratorio/crepitacion-pulmonar.webp"/>
+      <h2 class="h2-blog">
        Seguridad
       </h2>
       <p>
@@ -151,51 +75,51 @@
       </p>
      </div>
      <div class="card2">
-      <img alt="Atención Personalizada" src="/public/images/respiratorio/aspirador-secreciones.webp"/>
-      <h2>
+      <img alt="Atención Personalizada" loading="lazy" class="img-blog" src="/public/images/respiratorio/aspirador-secreciones.webp"/>
+      <h2 class="h2-blog">
        Atenci&oacute;n Personalizada
       </h2>
-      <p>
+      <p class="p-blog">
        Nos preocupamos por cada uno de nuestros pacientes y les brindamos una atenci&oacute;n personalizada para asegurarnos de que reciban el mejor tratamiento posible.
       </p>
      </div>
      <div class="card2">
-      <img alt="Flexibilidad" src="/public/images/respiratorio/respiratorio4.webp"/>
-      <h2>
+      <img alt="Flexibilidad" loading="lazy" class="img-blog" src="/public/images/respiratorio/respiratorio4.webp"/>
+      <h2 class="h2-blog">
        Flexibilidad
       </h2>
-      <p>
+      <p class="p-blog">
        Nos adaptamos a las necesidades de nuestros pacientes y ofrecemos flexibilidad en los horarios de atenci&oacute;n
       </p>
      </div>
-     <p>
+     <p class="p-blog">
       En definitiva, si est&aacute;s buscando un servicio de aspiraci&oacute;n de secreciones de alta calidad y seguridad en la regi&oacute;n metropolitana de Chile, no dudes en contactarnos. ¡Estamos aqu&iacute; para brindarte el mejor cuidado respiratorio!
      </p>
     </div>
     <div class="container">
      <div class="row">
       <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
-       <h2>
+       <h2 class="h2-blog">
         ¿Cual es el objetivo de la aspiracion de secreciones con turbina?
        </h2>
-       <p class="p_blog">
+       <p class="p-blog">
         La aspiraci&oacute;n de secreciones es un procedimiento que se realiza para retirar la mucosidad acumulada en las v&iacute;as respiratorias, sobre todo en pacientes que no tienen una capacidad efectiva de toser y ademas estan con complicaciones como desaturacion de oxigeno, dificultad respiratoria o acumulo excesivo de secreciones, lo que permite mejorar la ventilaci&oacute;n y prevenir complicaciones respiratorias. Este procedimiento se realiza com&uacute;nmente en pacientes con enfermedades respiratorias, como la enfermedad pulmonar obstructiva cr&oacute;nica (EPOC), la fibrosis qu&iacute;stica y la neumon&iacute;a entre otros.
 
 Sin embargo, la aspiraci&oacute;n de secreciones tambi&eacute;n puede presentar riesgos, como la contaminaci&oacute;n bacteriana en caso de aspiracion en traquiostomia y la lesi&oacute;n de las v&iacute;as respiratorias. Es por eso que es importante que este procedimiento sea realizado por un profesional capacitado, como un kinesi&oacute;logo especializado en terapia respiratoria.
 
 El m&eacute;todo de aspiraci&oacute;n de secreciones puede ser tanto manual como mec&aacute;nico. En el m&eacute;todo manual, se utiliza una sonda en adultos por lo general es de numero 12 en caso de aspiraciones nasotraqueales y se aplica una presi&oacute;n negativa para extraer la mucosidad de las v&iacute;as respiratorias. En el m&eacute;todo mec&aacute;nico, se utiliza un dispositivo de aspiraci&oacute;n que aplica una presi&oacute;n negativa de manera autom&aacute;tica esta es la turbina de aspiraci&oacute;n o un sistema de vacio que por lo general esta en todos los centros clinicos.
        </p>
-       <h2>
+       <h2 class="h2-blog">
         ¿cuales son los tipos de aspiracion de secreciones ?
        </h2>
-       <p class="p_blog">
+       <p class="p-blog">
         Es importante mencionar que existen diferentes tipos de aspiraci&oacute;n de secreciones, dependiendo de la ubicaci&oacute;n y la cantidad de mucosidad acumulada en las v&iacute;as respiratorias. Algunos de los tipos m&aacute;s comunes son la aspiraci&oacute;n traqueal, la aspiraci&oacute;n endotraqueal y la aspiraci&oacute;n nasofar&iacute;ngea. En la segunda no se recomienda mucho, principalmente la terminan aplicando personas sin una buena tecnica de aspiracion nasotraqueal, el riesgo esta en que puede estimular el reflejo de vomito y el paciente cursara con aspiracion del material a las vias aereas y con ello una posible neumonia aspirativa
 
 Para realizar la aspiraci&oacute;n de secreciones, se utiliza una sonda de aspiraci&oacute;n est&eacute;ril y desechable, que se inserta en las v&iacute;as respiratorias del paciente, es ideal tambien el uso de guantes esteriles, mascarillas y antiparras. Es importante elegir el tama&ntilde;o adecuado de la sonda, ya que un tama&ntilde;o inadecuado puede causar lesiones en las v&iacute;as respiratorias. la tecnica por lo general se debe efectuar a 4 manos, eso quiere decir que la persona que va a aplicar la aspiracion necesitara un asistente que le presente o entregue los elementos para la aspiraci&oacute;n sin contaminarlos, recordar que la tecnica debe ser esteril. 
 
 En resumen, la aspiraci&oacute;n de secreciones es un procedimiento importante para prevenir complicaciones respiratorias en pacientes con enfermedades respiratorias. Sin embargo, es importante que sea realizado por un profesional capacitado y utilizando el m&eacute;todo y la sonda adecuados. Si necesitas m&aacute;s informaci&oacute;n sobre este servicio, no dudes en contactarnos.
        </p>
-       <h2>
+       <h2 class="h2-blog">
         Pasos para la t&eacute;cnica de aspiraci&oacute;n:
        </h2>
        <div class="pasos-container">
@@ -230,12 +154,10 @@ Controla la oximetr&iacute;a al finalizar la t&eacute;cnica de aspiraci&oacute;n
       </article>
      </div>
     </div>
-    <%- include('../botones/boton.ejs'); %>      
-  <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-  <%- include('../footers/footer.ejs'); %>
-   </body>
-  </html>
- </head>
+</main>
+   
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
 </html>

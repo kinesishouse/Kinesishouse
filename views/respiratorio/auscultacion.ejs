@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
+<%- include('../partial/head.ejs'); %>
+
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
+  <%- include('../partial/navbar.ejs'); %>
 
-    <section class="header-main-pic z-depth-2">
-        <div class="intro-area">
-            <div class="container">
-              <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
-            </div>
-          </div>
-    </section>
-  
-    
-  </header>  
+    <header class="header-blog">
+        <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+    </header>
+    <main class="main-blog">
     <!-- breadcumbs-->
     <nav > 
       <div class="nav-wrapper container">
@@ -36,8 +29,8 @@
       <div class="row">
         <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
           
-            <h2 class="flow-text">Kinesiolog&iacute;a en rehabilitaci&oacute;n evaluacion con fonendoscopio</h2>
-            <p class="p_blog">
+            <h2 class="h2-blog">Kinesiolog&iacute;a en rehabilitaci&oacute;n evaluacion con fonendoscopio</h2>
+            <p class="p-blog">
                 La fonendoscopia es una t&eacute;cnica fundamental en la evaluaci&oacute;n cl&iacute;nica de los pacientes, en particular en el examen de los ruidos respiratorios asociados a patologia respiratoria. En una persona sana, la auscultaci&oacute;n pulmonar normal revela sonidos respiratorios suaves y regulares, sin presencia de ruidos anormales.
           
                           El estetoscopio es un instrumento que permite una auscultaci&oacute;n precisa y detallada de los sonidos respiratorios, y se utiliza para evaluar tanto los ruidos inspiratorios como los espiratorios. El m&eacute;dico o el kinesi&oacute;logo, al realizar una auscultaci&oacute;n con estetoscopio, presta atenci&oacute;n a la presencia de ruidos respiratorios anormales, como sibilancias, crepitantes o roncus.
@@ -49,19 +42,19 @@
           
                           Otro ruido respiratorio patol&oacute;gico es el roncus, que se produce cuando las v&iacute;as respiratorias se estrechan y producen un sonido ronco o grave. Este tipo de ruido respiratorio se puede escuchar en pacientes con enfermedades pulmonares obstructivas como la enfermedad pulmonar obstructiva cr&oacute;nica (EPOC).
                </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/auscultacion1.webp" alt="kinesiologo auscultando paciente anciano">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/auscultacion1.webp" alt="kinesiologo auscultando paciente anciano">
 
-            <p class="p_blog">
+            <p class="p-blog">
                 Los ruidos respiratorios son causados por el flujo de aire a trav&eacute;s de las v&iacute;as a&eacute;reas, lo que produce vibraciones que percibimos como sonidos. Estas vibraciones se originan en zonas donde la velocidad del aire es mayor y donde las condiciones geom&eacute;tricas dificultan un flujo laminar, como la laringe y las bifurcaciones de los bronquios mayores. En las v&iacute;as a&eacute;reas perif&eacute;ricas, la velocidad del aire disminuye r&aacute;pidamente debido al aumento del &aacute;rea de secci&oacute;n, lo que resulta en un flujo laminar cerca de los alveolos donde no hay turbulencias ni ruidos respiratorios.
           
                       Diferentes estudios han demostrado que los ruidos respiratorios se originan principalmente en los bronquios mayores, especialmente los lobulares y segmentarios, y se transmiten a trav&eacute;s de las v&iacute;as a&eacute;reas hacia la boca y la periferia. El an&aacute;lisis de los ruidos registrados en la boca muestra una amplia variedad de frecuencias, mientras que los obtenidos en la pared tor&aacute;cica son principalmente de baja frecuencia, con menos de 500 Hz. Las v&iacute;as a&eacute;reas normales act&uacute;an como un filtro que s&oacute;lo permite la transmisi&oacute;n de frecuencias bajas, lo que tiene importantes implicaciones semiol&oacute;gicas.
                </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/vias-respiratorias.webp" alt="vias respiratorias">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/vias-respiratorias.webp" alt="vias respiratorias">
 
             <h3>
                 ruidos normales a la auscultacion
                </h3>
-               <p class="p_blog">
+               <p class="p-blog">
                 Los hechos mencionados ayudan a entender los sonidos normales que se escuchan al auscultar los pulmones:
                       Cuando se ausculta la tr&aacute;quea, se escucha un sonido alto y de alta frecuencia conocido como ruido traqueal, que se produce en toda la inspiraci&oacute;n y la espiraci&oacute;n, con una pausa neta entre las dos fases que se produce cuando el flujo disminuye y cae a cero.
           
@@ -72,63 +65,63 @@
                <h3>
                 transmisi&oacute;n de la voz
                </h3>
-               <p class="p_blog">
+               <p class="p-blog">
                 La voz humana es producida por el timbre de cada vocal, que est&aacute; compuesto por combinaciones &uacute;nicas de frecuencias para cada una. Sin embargo, cuando se ausculta la voz en la superficie del t&oacute;rax, las diferentes vocales no pueden ser reconocidas debido a que las altas frecuencias son filtradas por el tejido pulmonar. Esto hace que al pedirle a una persona que pronuncie ciertas palabras, como "treinta y tres", la auscultaci&oacute;n de la superficie del t&oacute;rax s&oacute;lo permita distinguir ruido y no las palabras en s&iacute;. Esta limitaci&oacute;n es com&uacute;n en individuos sanos.
                </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/.webp" alt="pulmones y calidad de voz">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/.webp" alt="pulmones y calidad de voz">
 
             <h2>
                 alteraciones de los ruidos respiratorios en condiciones patol&oacute;gicas
                </h2>
-               <p class="p_blog">
+               <p class="p-blog">
                 Las descripciones anteriores de los ruidos respiratorios pueden cambiar cuando hay alteraciones en el tejido pulmonar que afectan la transmisi&oacute;n del sonido.
                       
           
                       Disminuci&oacute;n de la generaci&oacute;n: Cuando hay una reducci&oacute;n del flujo a&eacute;reo debido a cualquier mecanismo, como una disminuci&oacute;n del comando ventilatorio u obstrucci&oacute;n de las v&iacute;as a&eacute;reas, se observa una disminuci&oacute;n del murmullo pulmonar.
                </p>
-               <img alt="kinesiologo auscultando neumonia" class="responsive-img" loading="lazy" src="/public/images/respiratorio/respiratorio3.webp"/>
+               <img alt="kinesiologo auscultando neumonia" loading="lazy" class="img-blog" src="/public/images/respiratorio/respiratorio3.webp"/>
                <br/>
-               <h3>
+               <h3 class="h3-blog">
                 Disminuci&oacute;n de la transmisi&oacute;n del sonido en auscultaci&oacute;n:
                </h3>
-               <p class="p_blog">
+               <p class="p-blog">
                 Si el espacio pleural est&aacute; lleno de l&iacute;quido (derrame pleural) o aire (neumot&oacute;rax), la transmisi&oacute;n de los ruidos y la voz disminuyen e incluso pueden desaparecer por completo. Esto tambi&eacute;n puede ocurrir en casos de enfisema pulmonar, en los cuales la transmisi&oacute;n es menor debido al aumento del contenido de aire en los espacios &aacute;ereos distales. Los grandes tumores pulmonares o pleurales tambi&eacute;n pueden disminuir la transmisi&oacute;n. En los casos de atelectasia pulmonar con v&iacute;as a&eacute;reas colapsadas o rellenas de secreciones, el pulm&oacute;n condensado sin una v&iacute;a a&eacute;rea permeable no transmite bien los ruidos, lo que es similar a un tumor. En pacientes muy obesos, la transmisi&oacute;n de los ruidos se dificulta por el grosor de las paredes. Lo mismo ocurre en la zona mamaria cuando las gl&aacute;ndulas son muy voluminosas.
                </p>
-               <img alt="kinesiologo auscultando" class="responsive-img" loading="lazy" src="/public/images/respiratorio/pleura-liquido.webp"/>
-               <h3>
+               <img alt="kinesiologo auscultando" loading="lazy" class="img-blog" src="/public/images/respiratorio/pleura-liquido.webp"/>
+               <h3 class="h3-blog">
                 aumento de la transmisi&oacute;n del sonido
                </h3>
-               <p class="p_blog">
+               <p class="p-blog">
                </p>
                Cuando el tejido pulmonar está condensado por el relleno de los alveolos y los bronquios permanecen permeables, la densidad aumentada facilita la transmisión del sonido a la superficie del tórax. Esto permite auscultar en la superficie del tórax un ruido similar al traquebronquial o incluso al traqueal, en lugares donde normalmente solo debería haber un murmullo pulmonar. Además, en estos casos, se produce una facilitación de la transmisión de la voz, lo que permite distinguir claramente las palabras habladas con la voz normal (broncofonía) o la voz susurrada (pectoriloquia áfona). En los límites superiores de los derrames, es posible escuchar una voz con tono caprino (egofonía), probablemente debido a la combinación de la condensación por atelectasia pasiva con el derrame.
-               <h2>
+               <h2 class="h2-blog">
                 ruidos alterados adventicios en auscultacion pulmonar
                </h2>
-               <p class="p_blog">
+               <p class="p-blog">
                 Los ruidos  adventicios pueden ser producidos por tejido pulmonar o pleura anormales, aunque en algunas ocasiones tambi&eacute;n pueden escucharse en individuos sanos, como veremos a continuaci&oacute;n.
           
                       Uno de los ruidos m&aacute;s comunes son las crepitaciones , que son ruidos discontinuos, cortos, numerosos y de baja intensidad que se asemejan al sonido que se produce al frotar el pelo entre los dedos cerca de una oreja. Generalmente ocurren durante la inspiraci&oacute;n y se producen cuando existen condiciones que favorecen el colapso de las peque&ntilde;as v&iacute;as a&eacute;reas.
                       En zonas con obstrucci&oacute;n completa de las v&iacute;as a&eacute;reas, la presi&oacute;n negativa del territorio alveolar distal a la obstrucci&oacute;n aumenta exageradamente durante la inspiraci&oacute;n. A medida que se produce la inspiraci&oacute;n, finalmente se produce una apertura de las v&iacute;as a&eacute;reas, lo que causa una brusca entrada de aire que hace vibrar el tejido pulmonar, produciendo un sonido similar al que se escucha cuando se golpea un bote con las velas.
 
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/crepitacion-pulmonar.webp" alt="kinesiologo auscultando">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/crepitacion-pulmonar.webp" alt="kinesiologo auscultando">
 
-            <h3>Las crepitaciones</h3> 
-            <p class="p_blog">pueden ser observadas en enfermedades que causan exudado o transudado en pulm&oacute;n y v&iacute;as a&eacute;reas, as&iacute; como en enfermedades con obstrucci&oacute;n bronquial por diferentes mecanismos. Tambi&eacute;n se pueden observar en las bases pulmonares de personas sanas mayores, donde la p&eacute;rdida de elasticidad del pulm&oacute;n disminuye la tracci&oacute;n el&aacute;stica radial de las v&iacute;as a&eacute;reas, lo que causa su colapso en las zonas m&aacute;s bajas, especialmente si la persona permanece en reposo sin hacer inspiraciones profundas que las distiendan.
+            <h3 class="h3-blog">Las crepitaciones</h3> 
+            <p class="p-blog">pueden ser observadas en enfermedades que causan exudado o transudado en pulm&oacute;n y v&iacute;as a&eacute;reas, as&iacute; como en enfermedades con obstrucci&oacute;n bronquial por diferentes mecanismos. Tambi&eacute;n se pueden observar en las bases pulmonares de personas sanas mayores, donde la p&eacute;rdida de elasticidad del pulm&oacute;n disminuye la tracci&oacute;n el&aacute;stica radial de las v&iacute;as a&eacute;reas, lo que causa su colapso en las zonas m&aacute;s bajas, especialmente si la persona permanece en reposo sin hacer inspiraciones profundas que las distiendan.
             </p>
-           <h3>Ruidos pleurales.</h3>
-           <p class="p_blog">  Se producen por el frote de las superficies pleurales inflamadas y cubiertas de exudado, y se asemejan al sonido producido por frotar dos cueros. En las zonas con derrame pleural, este ruido no se observa, ya que las pleuras est&aacute;n separadas por el l&iacute;quido.
+           <h3 class="h3-blog">Ruidos pleurales.</h3>
+           <p class="p-blog">  Se producen por el frote de las superficies pleurales inflamadas y cubiertas de exudado, y se asemejan al sonido producido por frotar dos cueros. En las zonas con derrame pleural, este ruido no se observa, ya que las pleuras est&aacute;n separadas por el l&iacute;quido.
             Sibilancias y roncus . Estos son ruidos continuos, generalmente m&uacute;ltiples, de alta frecuencia en el caso de las sibilancias y de baja frecuencia en el caso de los roncus. Se producen debido a la obstrucci&oacute;n de las v&iacute;as a&eacute;reas, que causa vibraciones en la pared de &eacute;stas. Estos ruidos son m&aacute;s intensos cuando la obstrucci&oacute;n es mayor, lo que los hace m&aacute;s audibles en posici&oacute;n dec&uacute;bito, donde la tracci&oacute;n radial sobre las v&iacute;as a&eacute;reas disminuye.
            </p>
-           <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/niño-sibilancia.webp" alt="kinesiologo auscultando sibilancia">
+           <img loading="lazy" class="img-blog"" src="/public/images/respiratorio/niño-sibilancia.webp" alt="kinesiologo auscultando sibilancia">
 
-            <h3> Respiración ruidosa.</h3>    
-            <p class="p_blog">
+            <h3 class="h3-blog"> Respiración ruidosa.</h3>    
+            <p class="p-blog">
                 En condiciones normales, es dif&iacute;cil escuchar los ruidos respiratorios durante la respiraci&oacute;n tranquila. Sin embargo, en pacientes con obstrucci&oacute;n bronquial, la intensidad de estos ruidos aumenta y se vuelven m&aacute;s audibles.
 
                 Cornaje.  Este ruido se produce por la obstrucci&oacute;n de las v&iacute;as a&eacute;reas superiores, como la laringe o la tr&aacute;quea. A menudo se asemeja a la voz humana y tiene una frecuencia m&aacute;s alta.
 
-            <h2>tecnica de auscultacion pulmonar</h2>       
-            <p class="p_blog"> 
+            <h2 class="h2-blog">tecnica de auscultacion pulmonar</h2>       
+            <p class="p-blog"> 
 
                 La t&eacute;cnica de auscultaci&oacute;n pulmonar se ha desarrollado a lo largo del tiempo y hoy en d&iacute;a se utiliza principalmente el estetoscopio o fonendoscopio. Este instrumento consta de una campana y una membrana, que permiten escuchar mejor los sonidos de baja y alta frecuencia, respectivamente. En la auscultaci&oacute;n pulmonar, sin embargo, no es necesario utilizar la campana y se puede auscultar con el lado de la membrana.
 
@@ -142,47 +135,47 @@
   
     
             </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/auscultacion-tecnica.webp" alt="kinesiologo auscultando con tecnica precisa">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/auscultacion-tecnica.webp" alt="kinesiologo auscultando con tecnica precisa">
 
-            <h2>Tipos y modelos de estetoscopio</h2>
-            <p class="p_blog">
+            <h2 class="h2-blog">Tipos y modelos de estetoscopio</h2>
+            <p class="p-blog">
           
                 Existen varios modelos de fonendoscopios, cada uno con sus propias caracter&iacute;sticas y beneficios. Aqu&iacute; hay una lista de los modelos m&aacute;s comunes:
             </p>
 
 
-            <h3>Fonendoscopio ac&uacute;stico:</h3> 
-            <p class="p_blog">
+            <h3 class="h3-blog">Fonendoscopio ac&uacute;stico:</h3> 
+            <p class="p-blog">
                 es el modelo m&aacute;s com&uacute;n y asequible. Utiliza una campana y una membrana para escuchar los sonidos del cuerpo. La campana se utiliza para sonidos de baja frecuencia y la membrana para sonidos de alta frecuencia.
             </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-tradicional.webp" alt="fonendoscopio tradicional">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/fonendoscopio-tradicional.webp" alt="fonendoscopio tradicional">
 
             <h3>Fonendoscopio electr&oacute;nico:</h3>  
-            <p class="p_blog">
+            <p class="p-blog">
                 es un modelo m&aacute;s avanzado que utiliza tecnolog&iacute;a de amplificaci&oacute;n de sonido para mejorar la calidad de los sonidos. Puede tener ajustes de volumen y filtros para mejorar la audici&oacute;n.
             </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-electronico.webp" alt="estetoscopio electronico">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/fonendoscopio-electronico.webp" alt="estetoscopio electronico">
 
             <h3>Fonendoscopio de grabaci&oacute;n:</h3> 
-            <p class="p_blog">
+            <p class="p-blog">
                 este modelo permite grabar los sonidos para su posterior an&aacute;lisis y evaluaci&oacute;n. Es &uacute;til en investigaciones y estudios cl&iacute;nicos.
             
             </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-grabacion.webp" alt="fonendoscopio para gravar sonidos">
-            <h3>Fonendoscopio de doble cabeza:</h3>   
-            <p class="p_blog">
+            <img loading="lazy" class="img-blog"" src="/public/images/respiratorio/fonendoscopio-grabacion.webp" alt="fonendoscopio para gravar sonidos">
+            <h3 class="h3-blog">Fonendoscopio de doble cabeza:</h3>   
+            <p class="p-blog">
                 este modelo tiene una campana en un extremo y una membrana en el otro. Permite al m&eacute;dico escuchar sonidos de baja y alta frecuencia con un solo dispositivo.            </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-doble-cabeza.webp" alt="estetoscopio doble cabeza">
-            <h3>pedi&aacute;trico:  </h3>  
-            <p class="p_blog"> es un modelo dise&ntilde;ado espec&iacute;ficamente para la auscultaci&oacute;n en pacientes pedi&aacute;tricos. Tiene una campana y membrana m&aacute;s peque&ntilde;as y ajustes de sonido espec&iacute;ficos para la auscultaci&oacute;n en ni&ntilde;os.
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/fonendoscopio-doble-cabeza.webp" alt="estetoscopio doble cabeza">
+            <h3 class="h3-blog">pedi&aacute;trico:  </h3>  
+            <p class="p-blog"> es un modelo dise&ntilde;ado espec&iacute;ficamente para la auscultaci&oacute;n en pacientes pedi&aacute;tricos. Tiene una campana y membrana m&aacute;s peque&ntilde;as y ajustes de sonido espec&iacute;ficos para la auscultaci&oacute;n en ni&ntilde;os.
             </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-pediatrico.webp" alt="fonendoscopio pediatrico">
-            <h3> Fonendoscopio fetal:</h3>  
-            <p class="p_blog">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/fonendoscopio-pediatrico.webp" alt="fonendoscopio pediatrico">
+            <h3 class="h3-blog"> Fonendoscopio fetal:</h3>  
+            <p class="p-blog">
                 Este modelo est&aacute; dise&ntilde;ado para auscultar los sonidos del coraz&oacute;n fetal durante el embarazo.               </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-fetal.webp" alt="kinesiologo auscultando">
-            <h3>Fonendoscopio cardiol&oacute;gico:</h3>  
-            <p class="p_blog">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/fonendoscopio-fetal.webp" alt="kinesiologo auscultando">
+            <h3 class="h3-blog">Fonendoscopio cardiol&oacute;gico:</h3>  
+            <p class="p-blog">
                 Un fonendoscopio card&iacute;aco, tambi&eacute;n conocido como estetoscopio card&iacute;aco, est&aacute; dise&ntilde;ado espec&iacute;ficamente para la auscultaci&oacute;n de sonidos card&iacute;acos. Este tipo de fonendoscopio tiene dos lados: uno para auscultar sonidos de baja frecuencia y otro para sonidos de alta frecuencia.
             
 
@@ -193,62 +186,62 @@
                 
   
             </p>
-            <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/fonendoscopio-cardio.webp" alt="kinesiologo auscultando en cardiorehabilitacion">
+            <img loading="lazy" class="img-blog" src="/public/images/respiratorio/fonendoscopio-cardio.webp" alt="kinesiologo auscultando en cardiorehabilitacion">
 
-            <h2>Lista de las mejores marcas de fonendoscopio</h2>
-            <p class="p_blog">
+            <h2 class="h2-blog">Lista de las mejores marcas de fonendoscopio</h2>
+            <p class="p-blog">
   
-                L
+                
     
                 Algunas de las mejores marcas de fonendoscopios seg&uacute;n la opini&oacute;n de muchos profesionales de la salud son:            </p>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/littmann-logo_bw1.webp" alt="3M Littmann">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/littmann-logo_bw1.webp" alt="3M Littmann">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/Welch-Allyn.webp" alt="Welch Allyn">
+                    <img  loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/Welch-Allyn.webp" alt="Welch Allyn">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/ADC.webp" alt="ADC">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/ADC.webp" alt="ADC">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/MDF-Instruments.webp" alt="MDF Instruments">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/MDF-Instruments.webp" alt="MDF Instruments">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/Prestige-Medical.webp" alt="Prestige Medical">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/Prestige-Medical.webp" alt="Prestige Medical">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/Riester.webp" alt=" Riester">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/Riester.webp" alt=" Riester">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/ultrascope.webp" alt=" Ultrascope>
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/ultrascope.webp" alt=" Ultrascope">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/Omron.webp" alt="Omron">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/Omron.webp" alt="Omron">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/American-Diagnostic-Corporation.webp" alt="American Diagnostic Corporation">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/American-Diagnostic-Corporation.webp" alt="American Diagnostic Corporation">
                 </a>
             </div>
             <div class="brand-container">
                 <a href="#" target="_blank">
-                    <img src="/public/images/respiratorio/logo/Heine.webp" alt=" Heine">
+                    <img loading="lazy" class="img-blog" src="/public/images/respiratorio/logo/Heine.webp" alt=" Heine">
                 </a>
             </div>
 
@@ -262,7 +255,7 @@
            
             Es importante destacar que la elecci&oacute;n de un fonendoscopio depender&aacute; de las necesidades y preferencias individuales de cada profesional de la salud.
 
-             <img class="responsive-img" loading="lazy" src="/public/images/respiratorio/auscultacion.webp" alt="kinesiologo auscultando">
+             <img loading="lazy" class="img-blog" src="/public/images/respiratorio/auscultacion.webp" alt="kinesiologo auscultando">
 
 
                 
@@ -271,12 +264,10 @@
 
     </div>
     </div>
+</main>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
-  </body>
-    
- </html>
+<%- include('../partial/footer2.ejs'); %>
+<%- include('../partial/boton2.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
+</html>

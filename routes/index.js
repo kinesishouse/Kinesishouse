@@ -43,14 +43,16 @@ router.get('/about', function (req, res) {
   }); 
   router.get('/404', function (req, res) {
     res.render('404', {
-      pageTitle: 'pagina no encontrada ',
+      title: 'Error 404 - Página no existe',
+      message: 'Lo sentimos, la página que está buscando no se pudo encontrar en el servidor.',
       images: 'images',
-      metaDescripcion: ' ▷ pagina no encontrrada intenta alternativas',
+      metaDescripcion: ' ▷ pagina no encontrada intenta alternativas',
       tiTuloh1: 'Pagina no encontrada ',
       index: 'index',
-      canonical: 'http://www.kinesishouse.cl/contacto'
+      canonical: 'http://www.kinesishouse.cl/404'
     });
-  }); 
+  });
+  
   router.get('/politica-de-privacidad', function (req, res) {
     res.render('privacidad', {
       pageTitle: 'politica de privacidad ',

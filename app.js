@@ -84,17 +84,28 @@ app.use(function(req, res) {
     message: 'Lo sentimos, la página que está buscando no se pudo encontrar en el servidor.'
   });
 });
-
-
 // error handler
-app.use(function(err, req, res ) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+app.use(function(err, req, res, next) {
+  if (err) { // Verifica si 'err' está definido
+    // set locals, only providing error in development
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500);
+    // render the error page
+    res.status(err.status || 500);
+  } else {
+    // Si 'err' no está definido, establece valores predeterminados para 'res.locals'
+    res.locals.message = 'Error desconocido';
+    res.locals.error = {};
+
+    // render the error page with default values
+    res.status(500);
+  }
+
+  // Renderiza la página de error
   res.render('error');
 });
 
 module.exports = app;
+
+

@@ -69,9 +69,20 @@ app.use(function (req, res, next) {
 // routes
 app.use(routes);
 
-// Manejo de errores 404
-app.use(function(req, res, next) {
-  next(); // Pasa al siguiente middleware de manejo de errores
+// catch 404 and forward to error handler
+//app.use(function(req, res, next) {
+//  next(createError(404));
+//});
+// catch 404 and forward to error handler
+app.use(function(req, res) {
+  // establece el código de estado HTTP del error
+  res.status(404);
+
+  // renderiza una página HTML personalizada en la carpeta views
+  res.render('404', {
+    title: 'Error 404 - Página no existe',
+    message: 'Lo sentimos, la página que está buscando no se pudo encontrar en el servidor.'
+  });
 });
 
 

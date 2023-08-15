@@ -1,8 +1,164 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('partial/head.ejs'); %>
+    <head>
 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#317EFB">
+        <!-- meta etiquetas de region especifica del sitio -->
+        <meta name="google-site-verification" content="k0ifTL9HEpSv6O2o5-koMb6yDs9HI_Z2hLJRUNrDto8">
+        <meta name="geo.region" content="CL-RM">
+        <meta name="geo.placename" content="Santiago">
+        <meta name="geo.position" content="-33.44889;-70.669265">
+        <meta name="ICBM" content="-33.44889, -70.669265">
+        <meta name="robots" content=" <%= index%> ">
+        <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
+        <meta name="description" content=" <%= metaDescripcion%> ">
+        <link rel="canonical" href=" <%= canonical%> ">
+        <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
+        <!--   metas de redes sociales-->
+        <meta property="fb:app_id" content="342670069681285">
+        <meta property="og:locale" content="es_CL">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://www.kinesishouse.cl/images/Respiratoria_jpg.webp">
+        <meta property="og:image:type" content="image/webp">
+        <meta property="og:image:width" content="400">
+        <meta property="og:image:height" content="300">
+        <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+        <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+        <meta property="og:url" content="http://www.kinesishouse.cl/">
+        <meta property="og:site_name" content="kinesis house">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+        <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+       
+        <!--link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
+        <link rel="preload" href="js/funciones.min.js" as="script">
+        <link rel="preload" href="js/tagmanager.min.js"as="script">
+        <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-61824422-1" as="script">
+        <link rel="preload" href="js/analitic.min.js" as="script">
+        
+       
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="/public/css/blog.min.css">
+       <link rel="stylesheet" href="/public/css/style.min.css">
+    
+        <title><%= pageTitle%></title>
+        <script type='application/ld+json'>
+            {
+              "@context": "http://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "¿Qué es la kinesiología a domicilio en neurología?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La kinesiología a domicilio en neurología es un servicio terapéutico que brinda tratamiento para problemas neurológicos en la comodidad del hogar del paciente."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cuáles son los beneficios de recibir terapia de kinesiología en casa para problemas neurológicos?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Recibir terapia de kinesiología en casa ofrece comodidad, personalización del tratamiento y atención enfocada en las necesidades del paciente con afecciones neurológicas."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Qué condiciones neurológicas pueden tratarse con kinesiología a domicilio?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Las condiciones neurológicas tratadas con kinesiología a domicilio incluyen lesiones cerebrales, accidentes cerebrovasculares, parálisis y otras enfermedades del sistema nervioso."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cómo se diferencia la kinesiología a domicilio en neurología de otros tratamientos?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La kinesiología a domicilio en neurología se diferencia por brindar tratamiento personalizado en el hogar del paciente, adaptado específicamente a las necesidades neurológicas."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cuál es la importancia de un kinesiólogo especializado en neurología?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Un kinesiólogo especializado en neurología tiene el conocimiento y experiencia para ofrecer un enfoque terapéutico preciso y efectivo para problemas neurológicos."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cómo funciona el proceso de una sesión de kinesiología a domicilio en neurología?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Durante una sesión de kinesiología a domicilio en neurología, el kinesiólogo realizará una evaluación y diseñará un plan de ejercicios y terapias específicas para el paciente."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cuánto tiempo dura una sesión típica?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Una sesión típica de kinesiología a domicilio en neurología puede durar entre 45 minutos y una hora, dependiendo de las necesidades del paciente."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Con qué frecuencia se recomiendan las sesiones de kinesiología a domicilio para afecciones neurológicas?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La frecuencia de las sesiones de kinesiología a domicilio para afecciones neurológicas varía según la condición y el plan de tratamiento, pero generalmente se recomienda varias veces por semana."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Qué tipo de ejercicios y técnicas se utilizan durante las sesiones?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Durante las sesiones de kinesiología a domicilio en neurología, se pueden utilizar ejercicios de movilidad, fortalecimiento muscular, equilibrio y coordinación, así como técnicas de estimulación neuromuscular."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Se requiere equipo especializado para las sesiones de kinesiología a domicilio en neurología?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dependiendo de las necesidades del paciente, pueden utilizarse algunos equipos especializados como bandas elásticas, pelotas de ejercicio y otros dispositivos para facilitar el tratamiento neurológico."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cuándo se pueden esperar resultados después de comenzar las sesiones de kinesiología a domicilio?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Los resultados de las sesiones de kinesiología a domicilio en neurología pueden variar, pero generalmente se pueden notar mejoras en movilidad y funcionalidad en semanas o meses, dependiendo de la condición del paciente."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Qué tipo de mejoras pueden esperarse en términos de movilidad y funcionalidad?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Las mejoras pueden incluir aumento de la movilidad articular, mejora en la coordinación y el equilibrio, así como mayor independencia en actividades diarias."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Se proporcionan recomendaciones de ejercicios para continuar en casa entre sesiones?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí, el kinesiólogo puede proporcionar recomendaciones para continuar con la rehabilitacion"}
+                    }]}
+        </script>
+           
+    </head>
+ 
 <body>
   <%- include('partial/navbar.ejs'); %>
 <!--header-->

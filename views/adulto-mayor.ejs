@@ -1,8 +1,90 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('partial/head.ejs'); %>
+    <head>
 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="theme-color" content="#317EFB">
+        <!-- meta etiquetas de region especifica del sitio -->
+        <meta name="google-site-verification" content="k0ifTL9HEpSv6O2o5-koMb6yDs9HI_Z2hLJRUNrDto8">
+        <meta name="geo.region" content="CL-RM">
+        <meta name="geo.placename" content="Santiago">
+        <meta name="geo.position" content="-33.44889;-70.669265">
+        <meta name="ICBM" content="-33.44889, -70.669265">
+        <meta name="robots" content=" <%= index%> ">
+        <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
+        <meta name="description" content=" <%= metaDescripcion%> ">
+        <link rel="canonical" href=" <%= canonical%> ">
+        <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
+        <!--   metas de redes sociales-->
+        <meta property="fb:app_id" content="342670069681285">
+        <meta property="og:locale" content="es_CL">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="http://www.kinesishouse.cl/images/Respiratoria_jpg.webp">
+        <meta property="og:image:type" content="image/webp">
+        <meta property="og:image:width" content="400">
+        <meta property="og:image:height" content="300">
+        <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+        <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+        <meta property="og:url" content="http://www.kinesishouse.cl/">
+        <meta property="og:site_name" content="kinesis house">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+        <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+       
+        <!--link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
+        <link rel="preload" href="js/funciones.min.js" as="script">
+        <link rel="preload" href="js/tagmanager.min.js"as="script">
+        <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-61824422-1" as="script">
+        <link rel="preload" href="js/analitic.min.js" as="script">
+        
+       
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="/public/css/blog.min.css">
+       <link rel="stylesheet" href="/public/css/style.min.css">
+    
+        <title><%= pageTitle%></title>
+       <!-- *****❤️❤️❤️ would you like to support me so that I could create more free Prompts-https://www.buymeacoffee.com/asishbehera ❤️❤️❤️***** -->
+
+<!-- Schema Markup for Kinesiología a Domicilio para Adultos Mayores en Santiago de Chile, Peñalolén -->
+
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Kinesiología a Domicilio para Adultos Mayores",
+      "description": "Ofrecemos servicios de kinesiología a domicilio para adultos mayores en Santiago de Chile, específicamente en Peñalolén. Nuestro enfoque está en mejorar la movilidad y calidad de vida de nuestros pacientes.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "todo Peñalolen",
+        "addressLocality": "Peñalolén",
+        "addressRegion": "Santiago",
+        "postalCode": "12345",
+        "addressCountry": "CL"
+      },
+      "telephone": "+56956833633",
+      "url": "https://www.ejemplowebsite.com/",
+      "image": "http://www.kinesishouse.cl/images/Adulto-Mayor_jpg.webp",
+      "priceRange": "$25000",  // Replace with appropriate price range
+      "openingHours": "Mo-Sa 08:00-18:00",  // Replace with actual opening hours
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.4759,
+        "longitude": -70.5308
+      },
+      "sameAs": [
+        "https://www.facebook.com/kinesis.house.3",
+        "https://www.instagram.com/kinesishouse2"
+        
+      ]
+    }
+    </script>
+    
+           
+    </head>
 <body>
   <%- include('partial/navbar.ejs'); %>
 
@@ -13,7 +95,7 @@
       <div class="intro-area">
           <div class="container">
             <h1> <%= tiTuloh1%> </h1>
-            <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
+            <p class="p-blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
           </div>
         </div>
   </section>
@@ -25,7 +107,7 @@
     <section>
         <div class="row">
             <div class="col s12" id="H2_blog">
-                <h2 id="H2_blog">Kinesiolog&iacute;a en geriatr&iacute;a (adulto mayor)</h2>
+                <h2 id="h2-blog">Kinesiolog&iacute;a en geriatr&iacute;a (adulto mayor)</h2>
 
             </div>
 
@@ -34,7 +116,7 @@
     <section class="section">
         <div class="row">
             <div class="col">
-                <p class="p_blog">
+                <p class="p-blog">
                     Esta es una <strong>kinesiolog&iacute;a</strong>  que busca enfocar un tratamiento de manera integral al adulto mayor ya que el <a href="http://www.kinesishouse.cl" target="_blank" >kinesi&oacute;logo</a>  es el &uacute;nico profesional preparado que puede indicar y aplicar ejercicios a pacientes con
                     patolog&iacute;as musculo, esquel&eacute;ticas, respiratorias, neurol&oacute;gicas o metab&oacute;licas.
 
@@ -59,46 +141,46 @@
 
                 </p>
                 <div class="divider"></div>
-                <h2>Patolog&iacute;as frecuentes en geriatr&iacute;a y su enfoque de tratamiento en kinesiolog&iacute;a</h2>
-                <h3>Artrosis: </h3>
-                <p class="p_blog">
+                <h2 class="h2-blog">Patolog&iacute;as frecuentes en geriatr&iacute;a y su enfoque de tratamiento en kinesiolog&iacute;a</h2>
+                <h3 class="h3-blog">Artrosis: </h3>
+                <p class="p-blog">
                     es una lesi&iacute;n que consiste en la destrucci&oacute;n del cart&iacute;lago articular, por da&ntilde;o traum&aacute;tico acumulativo (el dolor por lo general se asocia al da&ntilde;o al hueso subcondral donde se encuentran las terminales nerviosas sensitivas). En el interior de las articulaciones existe, generalmente, un fluido llamado l&iacute;quido sinovial que es producido por la membrana sinovial. Los extremos &oacute;seos que se unen para formar la articulaci&oacute;n est&aacute;n recubiertos por el cart&iacute;lago articular.
                     Cuando este cart&iacute;lago articular se lesiona, se produce dolor, rigidez e incapacidad funcional. Normalmente la artrosis se localiza en la columna cervical y lumbar, algunas articulaciones del hombro y de los dedos de las manos, la cadera, la rodilla y la articulaci&oacute;n del comienzo del dedo gordo del pie.
                     La artrosis por lo general cursa con rigidez articular y dolor producto de la deformaci&oacute;n articular es m&aacute;s recurrente en adultos mayores, a diferencia de la artritis reumatoide que es una enfermedad autoinmune inflamatoria y que puede ocurrir en cualquier edad. Existen factores de riesgos que pueden predisponer a la aparici&oacute;n de esta enfermedad como la obesidad y el sedentarismo
                 </p>
                 <div class="divider"></div>
-                <h3>Patolog&iacute;as respiratorias:</h3>
-                <p class="p_blog">
+                <h3 class="h3-blog">Patolog&iacute;as respiratorias:</h3>
+                <p class="p-blog">
                     las m&aacute;s recurrentes son EPOC, fibrosis pulmonar, neumon&iacute;as, bronquitis
                 </p>
                 <div class="divider"></div>
 
-                <h3>Accidentes cerebro vascular:</h3> 
-                <p class="p_blog">
+                <h3 class="h3-blog">Accidentes cerebro vascular:</h3> 
+                <p class="p-blog">
                     generalmente debido a factores de riesgo como HTA, DMII, dislipidemias, arterioesclerosis, patolog&iacute;as cardiacas
                 </p>
                 <div class="divider"></div>
 
-                <h3>Patolog&iacute;as cardiovasculares:</h3>
-                <p class="p_blog">
+                <h3 class="h3-blog">Patolog&iacute;as cardiovasculares:</h3>
+                <p class="p-blog">
                     todas en la que se incluya alguna alteraci&oacute;n de la funci&oacute;n cardiaca, como arritmias, infartos agudos al miocardio, cardiomegalia. Todos ellos condicionan una alteraci&oacute;n en la funcionalidad global del paciente provocando alteraciones de disnea al esfuerzo
                 </p>
                 <div class="divider"></div>
 
-                <h3>Patolog&iacute;as metab&oacute;licas: </h3>
-                <p class="p_blog">
+                <h3 class="h3-blog">Patolog&iacute;as metab&oacute;licas: </h3>
+                <p class="p-blog">
                     obesidad, diabetes mellitus, condiciones generales que fomentes la falta de actividad f&iacute;sica 
                 </p>
                 <div class="divider"></div>
 
-                <h3>Parkinson:</h3>
-                <p class="p_blog">
+                <h3 class="h3-blog">Parkinson:</h3>
+                <p class="p-blog">
                     patolog&iacute;a neurol&oacute;gica degenerativa La enfermedad de Parkinson es una enfermedad progresiva del sistema nervioso esto quiere decir que con el paso del tiempo sus s&iacute;ntomas ir&aacute;n aumentando y empeorando esta afecta el movimiento, incluyendo marcha y equilibrio, los cuales son hitos importantes en los procesos de independencia. Los s&iacute;ntomas comienzan gradualmente. A veces, comienza con un temblor apenas perceptible en una sola mano. Los temblores son habituales, aunque la enfermedad tambi&eacute;n suele causar rigidez o disminuci&oacute;n del movimiento. Por lo general los pacientes se benefician del enfoque de tratamiento en disminuir los riesgos de ca&iacute;das, rigidez musculares, tendinosa o articulares, adquieren mayor estrategia para las actividades de la vida diaria. En las &uacute;ltimas fases de esta patolog&iacute;a el paciente cursara con un proceso de inmovilidad total, en esta fase requerida la m&aacute;xima ayuda por el proceso de postraci&oacute;n que producir&aacute;
                 </p>
                 <div class="divider"></div>
 
-                <h3>Alzimer:</h3>
-                <p class="p_blog">
+                <h3 class="h3-blog">Alzimer:</h3>
+                <p class="p-blog">
                     patolog&iacute;a neurol&oacute;gica degenerativa donde la persona puede la memoria progresivamente, afectando el lenguaje, el juicio y todas las condiciones y funciones de la vida diaria en caso de que progrese m&aacute;s la enfermedad
                     Como ayudar en casa a mi familiar
                     Para mayor independencia de los usuarios de la <a href="http://www.kinesishouse.cl" target="_blank" rel="noopener noreferrer"> kinesiolog&iacute;a a domicilio</a> se incluir&aacute; aqu&iacute;  mismo un programa m&iacute;nimo para que puedan seguir en casa que contara con
@@ -107,11 +189,11 @@
                 <div class="divider"></div>
 
 
-                <h2>Ejercicios para extremidad superior </h2>
+                <h2 class="h2-blog">Ejercicios para extremidad superior </h2>
                 
 
 
-                <p class="p_blog">
+                <p class="p-blog">
                     <ul>
                         <li>Movilizar en c&iacute;rculo los hombros hacia adelante y atr&aacute;s repetir 10 veces : la idea con esto es activar de manera parcial la musculatura rotadora de hombro para estimular articulaciones tendones y m&uacute;sculos</li>
                         <li>Subir y bajar los hombros :activar la musculatura de trapecios</li>
@@ -123,13 +205,13 @@
                     
                     Se compone su ejecuci&oacute;n de 10 rotaciones en sentido horario y anti horario
                 </p>   
-                    <img class="responsive-img" loading="lazy" src="/public/images/geriatria/" alt="imagen de lesiones y fracturas">
+                    <img class="img-blog" loading="lazy" src="/public/images/geriatria/" alt="imagen de lesiones y fracturas">
                     
 
               
                 <div class="divider"></div> 
-                <h2>Ejercicios para extremidad inferior</h2>
-                <p class="p_blog">
+                <h2 class="h2-blog">Ejercicios para extremidad inferior</h2>
+                <p class="p-blog">
                     <ul>
                         <li>Sentadillas: ideal esta ejecuci&oacute;n realizarla de pocas series (ideal entre 10 a 15) y repetir 3 veces, el objetivo es fortalecer la musculatura de cu&aacute;driceps para reducir con ello los riesgos de ca&iacute;das y mejorar la condiciones cardiovasculares (ideal controlar factores como presi&oacute;n arterial y frecuencia cardiaca)</li>
                         <li>Elevaci&oacute;n con punta de pies: ideal lograr un m&aacute;ximo de 15 a 20 repeticiones</li>
@@ -141,7 +223,7 @@
                     Ideal mantener la posici&oacute;n isom&eacute;trica durante 30 segundos a 1 minuto
        
                 </p>
-                <img class="responsive-img" loading="lazy" src="/public/images/traumatologia/traumatologia1.webp" alt="rehabilitacion en traumatologia">
+                <img class="img-blog" loading="lazy" src="/public/images/traumatologia/traumatologia1.webp" alt="rehabilitacion en traumatologia">
 
             </div>
         </div>
@@ -150,32 +232,32 @@
     <section class="section">
         <div class="row">
             <div class="col ">
-                <h2>Estiramientos m&uacute;sculos tendineos</h2>
+                <h2 class="h2-blog">Estiramientos m&uacute;sculos tendineos</h2>
 
-                <p class="p_blog">
+                <p class="p-blog">
                     Estiramientos b&aacute;sicos de extremidad inferior con ayuda externa (pasivo asistido)
                     Este ejercicio se puede realizar con la ayuda de alg&uacute;n familiar en que se buscara generar una flexi&oacute;n de la cadera con la rodilla extendida para estimular el estiramiento de la musculatura de la corva
 
                     Ahora si se cuenta con mayor independencia se puede usar una sabanilla para lograr la extensi&oacute;n de la zona
                     Ideal mantener la posici&oacute;n por lo menos 20 segundos, repetir 3 veces cada zona
                 </p>
-                <img class="responsive-img" loading="lazy" src="/public/images/traumatologia/traumatologia2.webp" alt="herramientas de fisioterapia">
+                <img class="img-blog" loading="lazy" src="/public/images/traumatologia/traumatologia2.webp" alt="herramientas de fisioterapia">
 
                 <div class="divider"></div> 
 
 
-                <h2>Estiramiento de mu&ntilde;ecas</h2>
-                <p class="p_blog">
+                <h2 class="h2-blog">Estiramiento de mu&ntilde;ecas</h2>
+                <p class="p-blog">
                     Con el brazo (codo) extendido se colocara la mano en pronaci&oacute;n (como en la imagen) flectando la mu&ntilde;eca y manteniendo la posici&oacute;n por un periodo de 20 segundos, repetir por 3 veces 
                     Para estirar los flexores de mu&ntilde;eca el movimiento es contrario, mano en supinaci&oacute;n se lleva mu&ntilde;eca y dedos hacia la extensi&oacute;n, mantener la posi&oacute; por 20 segundos y repetir 3 veces
                     
                 </p>
-                <img class="responsive-img" loading="lazy" src="/public/images/traumatologia/traumatologia2.webp" alt="estiramiento de muñecas">
+                <img class="img-blog" loading="lazy" src="/public/images/traumatologia/traumatologia2.webp" alt="estiramiento de muñecas">
 
                 <div class="divider"></div> 
 
-                <h2>Estiramiento de trapecio b&aacute;sico</h2>
-                <p class="p_blog">
+                <h2 class="h2-blog">Estiramiento de trapecio b&aacute;sico</h2>
+                <p class="p-blog">
                     Esto va enfocado a la musculatura de cuello lateral
                     Se posiciona la cabeza de manera lateral con el objetivo de acercar la oreja al hombro
                     Se tensa la posici&oacute;n con la ayuda de la mano del mismo lado que se quiera estirar 
@@ -189,7 +271,7 @@
                     <strong>rehabilitaci&oacute;n</strong>  de manera f&aacute;cil, se publicaran algunos post donde se explicaran patologas y sus enfoques de tratamiento adem&aacute;s de algunas recomendaciones que puedan implementan en casa
                     
                 </p>
-                <img class="responsive-img" loading="lazy" src="/public/images/traumatologia/traumatologia3.webp" alt="estiramiento de trapecios">
+                <img class="img-blog" loading="lazy" src="/public/images/traumatologia/traumatologia3.webp" alt="estiramiento de trapecios">
 
                 <div class="divider"></div> 
 
@@ -206,7 +288,7 @@
             <article class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" loading="lazy" src="/public/images/adulto-mayor/Obesidad-en-la-tercera-edad.webp" alt="lesiones comunes en adulto mayor">
+                        <img class="img-blog" loading="lazy" src="/public/images/adulto-mayor/Obesidad-en-la-tercera-edad.webp" alt="lesiones comunes en adulto mayor">
                     </div>
                     <div class="card-content">
                         <span class="card-title grey-texts activator text-darken-4"> lesiones comunes adulto mayor<i class="material-icons right">more_vert</i></span>
@@ -224,7 +306,7 @@
             <article class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator"loading="lazy" src="/public/images/traumatologia/artroscopia-cadera/artroscopia-cadera.webp" alt=" fractura de cadera en adulto mayor">
+                        <img class="img-blog"loading="lazy" src="/public/images/traumatologia/artroscopia-cadera/artroscopia-cadera.webp" alt=" fractura de cadera en adulto mayor">
                     </div>
                     <div class="card-content">
                         <span class="card-title grey-texts activator text-darken-4"> fractura de cadera <i class="material-icons right">more_vert</i></span>
@@ -242,7 +324,7 @@
             <article class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator"  loading="lazy" src="/public/images/neurologia/ACV.webp" alt=" lesion neurologica comun en adulto mayor">
+                        <img class="img-blog"  loading="lazy" src="/public/images/neurologia/ACV.webp" alt=" lesion neurologica comun en adulto mayor">
                     </div>
                     <div class="card-content">
                         <span class="card-title grey-texts activator text-darken-4"> ACV isquemico <i class="material-icons right">more_vert</i></span>

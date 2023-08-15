@@ -1,47 +1,133 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('partial/head.ejs'); %>
+  <head>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#317EFB">
+    <!-- meta etiquetas de region especifica del sitio -->
+    <meta name="google-site-verification" content="k0ifTL9HEpSv6O2o5-koMb6yDs9HI_Z2hLJRUNrDto8">
+    <meta name="geo.region" content="CL-RM">
+    <meta name="geo.placename" content="Santiago">
+    <meta name="geo.position" content="-33.44889;-70.669265">
+    <meta name="ICBM" content="-33.44889, -70.669265">
+    <meta name="robots" content=" <%= index%> ">
+    <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
+    <meta name="description" content=" <%= metaDescripcion%> ">
+    <link rel="canonical" href=" <%= canonical%> ">
+    <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
+    <!--   metas de redes sociales-->
+    <meta property="fb:app_id" content="342670069681285">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.kinesishouse.cl/images/Respiratoria_jpg.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+    <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta property="og:url" content="http://www.kinesishouse.cl/">
+    <meta property="og:site_name" content="kinesis house">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+   
+    <!--link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
+    <link rel="preload" href="js/funciones.min.js" as="script">
+    <link rel="preload" href="js/tagmanager.min.js"as="script">
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-61824422-1" as="script">
+    <link rel="preload" href="js/analitic.min.js" as="script">
+    
+   
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="/public/css/blog.min.css">
+   <link rel="stylesheet" href="/public/css/style.min.css">
+   <style>
+    .container23 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      background-color: #f4f4f4;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 400px;
+    }
+
+    .input-field {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input#texto {
+      height: 150px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
+</head>
 <body>
   <%- include('partial/navbar.ejs'); %>
+
   <header class="header-blog">
-    <h1 class="h1-blog">Contacto</h1>
-  </header>
-  <main class="main-blog">
-    <div class="container">
-      <form class="s12">
+    <h1 class="h1-blog"><%= tiTuloh1%> </h1>
+</header>
+  <main>
+    <div class="container23">
+      <form class="s12" action="mailto:kinesishouse@gmail.com" method="post" enctype="text/plain">
         <div class="row card-panel">
-          <div class="imput-field col s6">
-            <input type="text" placeholder="ingresa tu nombre" id="nombre" class="validate" required>
-            <label for="nombre">nombre:</label>
+          <div class="input-field col s6">
+            <input type="text" placeholder="Ingresa tu nombre" id="nombre" class="validate" required>
+            <label for="nombre">Nombre:</label>
           </div>
-           <div class="imput-field col s6">
-            <input type="text"  id="apellido" class="validate" required>
-            <label for="apellido">apellido:</label>
+          <div class="input-field col s6">
+            <input type="text" placeholder="Ingresa tu Apellido" id="apellido" class="validate" required>
+            <label for="apellido">Apellido:</label>
           </div>
-          <div class="imput-field col s12">
-            <input type="text"  id="texto" class="validate" required>
-            <label for="texto">mensaje:</label>
+          <div class="input-field col s12">
+            <input type="text" placeholder="Escribe tu mensaje" id="texto" class="validate" required>
+            <label for="texto">Mensaje:</label>
           </div>
-           <div class="imput-field col s12">
-            <input type="text"  id="email" class="validate" required>
-            <label for="email">email:</label>
+          <div class="input-field col s12">
+            <input type="text" placeholder="Ingresa tu E-mail" id="email" class="validate" required>
+            <label for="email">Email:</label>
           </div>
-          <button class="btn" type="submit">enviar</button>
+          <button class="btn" type="submit">Enviar</button>
         </div>
       </form>
     </div>
-
   </main>
- 
- 
-    
-    <%- include('botones/boton.ejs'); %>      
-    <%- include('botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('footers/footer.ejs'); %>
-    </body>
-    
-    </html>
+  <%- include('partial/footer.ejs'); %>
+  <%- include('partial/boton.ejs'); %>
+  </body>
+  <script src="../js/action.min.js"></script>      
+  </html>
+  

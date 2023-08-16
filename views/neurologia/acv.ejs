@@ -1,10 +1,146 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#317EFB">
+    <!-- meta etiquetas de region especifica del sitio -->
+    <meta name="google-site-verification" content="k0ifTL9HEpSv6O2o5-koMb6yDs9HI_Z2hLJRUNrDto8">
+    <meta name="geo.region" content="CL-RM">
+    <meta name="geo.placename" content="Santiago">
+    <meta name="geo.position" content="-33.44889;-70.669265">
+    <meta name="ICBM" content="-33.44889, -70.669265">
+    <meta name="robots" content=" <%= index%> ">
+    <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
+    <meta name="description" content=" <%= metaDescripcion%> ">
+    <link rel="canonical" href=" <%= canonical%> ">
+    <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
+    <!--   metas de redes sociales-->
+    <meta property="fb:app_id" content="342670069681285">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.kinesishouse.cl/images/Respiratoria_jpg.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+    <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta property="og:url" content="http://www.kinesishouse.cl/">
+    <meta property="og:site_name" content="kinesis house">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+   
+    <!--link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
+    <link rel="preload" href="js/funciones.min.js" as="script">
+    <link rel="preload" href="js/tagmanager.min.js"as="script">
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-61824422-1" as="script">
+    <link rel="preload" href="js/analitic.min.js" as="script">
+    
+   
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="/public/css/blog.min.css">
+   <link rel="stylesheet" href="/public/css/style.min.css">
+
+    <title><%= pageTitle%></title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es la kinesiología a domicilio en neurología y cómo puede ayudar en el tratamiento de un accidente cerebrovascular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La kinesiología a domicilio en neurología es un servicio especializado que brinda atención de rehabilitación a pacientes con daño neurológico en la comodidad de su hogar. Es particularmente efectiva en el tratamiento de accidentes cerebrovasculares, ya que se adapta a las necesidades individuales del paciente y se enfoca en mejorar la movilidad, funcionalidad y calidad de vida después de un ACV."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la importancia de recibir atención de un kinesiólogo especialista en accidente cerebrovascular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un kinesiólogo especialista en accidente cerebrovascular tiene el conocimiento y la experiencia necesaria para diseñar planes de tratamiento personalizados que aborden las necesidades únicas de los pacientes con ACV. Están capacitados para trabajar en la recuperación de funciones neuromusculares y ayudar en la rehabilitación integral, contribuyendo significativamente a una mejor calidad de vida."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué diferencias hay entre la kinesiología a domicilio y la atención en una clínica para pacientes con daño neurológico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La kinesiología a domicilio ofrece la ventaja de brindar atención personalizada en el entorno familiar del paciente. A diferencia de una clínica, donde el paciente debe desplazarse, la kinesiología a domicilio adapta los ejercicios y técnicas al espacio y recursos disponibles en casa, lo que facilita una rehabilitación más cómoda y efectiva."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es el enfoque principal de la kinesiología a domicilio en el tratamiento de accidente cerebrovascular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El enfoque principal de la kinesiología a domicilio en el tratamiento de accidente cerebrovascular es mejorar la movilidad, coordinación y fuerza en pacientes que han experimentado daño neurológico. Los kinesiólogos diseñan programas de ejercicios y terapias específicos para cada paciente, adaptándolos a sus necesidades y objetivos de recuperación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué resultados se pueden esperar en términos de rehabilitación y mejora de la calidad de vida?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación con kinesiología a domicilio puede llevar a una mejora significativa en la movilidad, función muscular y autonomía en la vida diaria. Los pacientes pueden experimentar una mayor independencia en actividades cotidianas y una mejor calidad de vida en general. Los resultados varían según cada caso, pero la kinesiología a domicilio puede contribuir a una recuperación más efectiva."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo funciona el proceso de evaluación y diseño de un plan de tratamiento a domicilio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El proceso comienza con una evaluación exhaustiva del paciente, donde se analizan sus necesidades, objetivos y nivel de funcionalidad. Con base en esta evaluación, el kinesiólogo especialista diseña un plan de tratamiento individualizado que incluye ejercicios, terapias y técnicas adecuadas para la rehabilitación neurológica del paciente. Este plan se adapta a medida que el paciente progresa en su recuperación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué beneficios ofrece la kinesiología a domicilio en términos de comodidad y flexibilidad para los pacientes con daño neurológico?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La kinesiología a domicilio brinda comodidad al paciente al permitirle recibir atención en su propio hogar, evitando desplazamientos a una clínica. Además, se adapta a la disponibilidad y horarios del paciente, lo que brinda flexibilidad para agendar las sesiones en momentos convenientes. Esto es especialmente valioso para pacientes con limitaciones de movilidad."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es la frecuencia recomendada de las sesiones de kinesiología a domicilio para pacientes con accidente cerebrovascular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La frecuencia de las sesiones de kinesiología a domicilio varía según la gravedad del daño neurológico y las necesidades individuales del paciente. En general, se recomienda realizar sesiones de 2 a 3 veces por semana para lograr un progreso efectivo en la rehabilitación. Sin embargo, esto puede ajustarse en función de la evolución del paciente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué tipo de ejercicios y técnicas se utilizan en las sesiones de kinesiología para mejorar la función neuromuscular?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Las sesiones de kinesiología a domicilio pueden incluir una variedad de ejercicios y técnicas diseñados para mejorar la función neuromuscular. Estos pueden incluir ejercicios de fortalecimiento muscular, estiramientos, ejercicios de equilibrio y coordinación, entre otros. Cada paciente recibe un plan de tratamiento personalizado con ejercicios adaptados a sus necesidades y capacidades."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo se monitorean y ajustan los planes de tratamiento a medida que el paciente progresa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Durante las sesiones de kinesiología a domicilio, el kinesiólogo realiza un seguimiento detallado del progreso del paciente. Se evaluaran las habilidades y todo lo necesario para seguir progresando"}
+              }]}
+      </script>
+        
+        
+
+       
+</head>
 
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
+  <%- include('../partial/navbar2.ejs'); %>
   <header>
 
     <section class="header-main-pic z-depth-2">
@@ -32,7 +168,7 @@
   
   <!--fin breadcumbs-->
 
-    <div class="main-blog">
+    <main class="main-blog">
       <div class="row">
         <article class="">
           <h2 class="h2-blog">Kinesiolog&iacute;a en rehabilitaci&oacute;n de accidente cerebrovascular (ACV) </h2>
@@ -42,7 +178,7 @@
 
                       <img class="img-blog" src="/public/images/neurologia/neurologia1.webp" alt="kinesiologia ACV">
 
-          <h2>¿que se debe hacer en caso de emergencia en un ACV?</h2>
+          <h2 class="h2-blog">¿que se debe hacer en caso de emergencia en un ACV?</h2>
           <p class="p-blog">
                           En caso de una emergencia de AVC (Accidente vascular cerebral), es importante actuar r&aacute;pidamente para maximizar las posibilidades de recuperaci&oacute;n del paciente. Aqu&iacute; hay algunos pasos que se deben seguir en caso de una emergencia de AVC:
           
@@ -62,21 +198,21 @@
                       </p>
                       <img class="img-blog" src="/public/images/neurologia/neurologia2.webp" alt="kinesiologia ACV">
 
-          <h2>¿Cuantos tipos de ACV existen?</h2>
+          <h2 class="h2-blog">¿Cuantos tipos de ACV existen?</h2>
           <p class="p-blog">           
           
                       Existen dos tipos principales de ACV: el isqu&eacute;mico y el hemorr&aacute;gico. El isqu&eacute;mico es el tipo m&aacute;s com&uacute;n y se produce cuando un co&aacute;gulo sangu&iacute;neo bloquea una arteria que irriga el cerebro, mientras que el hemorr&aacute;gico ocurre cuando una arteria se rompe y provoca una hemorragia en el cerebro.
           
                       La zona afectada por el ACV depender&aacute; de la ubicaci&oacute;n de la arteria afectada. Los lugares m&aacute;s comunes donde se produce un ACV son el hemisferio izquierdo del cerebro y la arteria cerebral media. Esto puede provocar una hemiplejia, que es una par&aacute;lisis en una mitad del cuerpo, ya sea el brazo, la pierna o ambos.
                       </p>
-          <h2>¿Que tipo de da&ntilde;o puede causar el ACV?</h2>
+          <h2 class="h2-blog">¿Que tipo de da&ntilde;o puede causar el ACV?</h2>
           <p class="p-blog">
           
                       El da&ntilde;o causado por el ACV puede variar seg&uacute;n la gravedad de la lesi&oacute;n. En algunos casos, los s&iacute;ntomas pueden ser leves y desaparecer r&aacute;pidamente, mientras que en otros casos, el da&ntilde;o puede ser permanente y causar discapacidades graves.
           
                       Una afasia es un trastorno del lenguaje que puede ocurrir despu&eacute;s de un ACV. Dos tipos de afasia comunes son la afasia de Broca y la afasia de Wernicke. La afasia de Broca se caracteriza por la dificultad para producir palabras, mientras que la afasia de Wernicke se caracteriza por la dificultad para comprender el lenguaje hablado o escrito.
                       </p>
-          <h2>¿Como es el proceos de la rehabilitaci&oacute;n</h2>
+          <h2 class="h2-blog">¿Como es el proceos de la rehabilitaci&oacute;n</h2>
           <p class="p-blog">
           
                       En el proceso de recuperaci&oacute;n, la hipotonia general inicial puede ser com&uacute;n, donde el paciente puede presentar debilidad muscular y falta de tono muscular. Posteriormente, puede ocurrir hipertonia, que es una condici&oacute;n donde los m&uacute;sculos pueden presentar espasticidad, rigidez y dificultad para moverse.
@@ -118,13 +254,10 @@
         </article>
 
     </div>
-    </div>
+  </main>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
-  </body>
-    
- </html>
+  <%- include('partial/footer.ejs'); %>
+<%- include('partial/boton.ejs'); %>
+</body>
+<script src="../js/action.min.js"></script>      
+</html>

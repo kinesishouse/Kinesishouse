@@ -1,17 +1,138 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
+  <head>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#317EFB">
+    <!-- meta etiquetas de region especifica del sitio -->
+    <meta name="google-site-verification" content="k0ifTL9HEpSv6O2o5-koMb6yDs9HI_Z2hLJRUNrDto8">
+    <meta name="geo.region" content="CL-RM">
+    <meta name="geo.placename" content="Santiago">
+    <meta name="geo.position" content="-33.44889;-70.669265">
+    <meta name="ICBM" content="-33.44889, -70.669265">
+    <meta name="robots" content=" <%= index%> ">
+    <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
+    <meta name="description" content=" <%= metaDescripcion%> ">
+    <link rel="canonical" href=" <%= canonical%> ">
+    <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
+    <!--   metas de redes sociales-->
+    <meta property="fb:app_id" content="342670069681285">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.kinesishouse.cl/images/Respiratoria_jpg.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+    <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta property="og:url" content="http://www.kinesishouse.cl/">
+    <meta property="og:site_name" content="kinesis house">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+   
+    <!--link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
+    <link rel="preload" href="js/funciones.min.js" as="script">
+    <link rel="preload" href="js/tagmanager.min.js"as="script">
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-61824422-1" as="script">
+    <link rel="preload" href="js/analitic.min.js" as="script">
+    
+   
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="/public/css/blog.min.css">
+   <link rel="stylesheet" href="/public/css/style.min.css">
+
+    <title><%= pageTitle%></title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es la rehabilitación en Guillain-Barré y por qué es importante?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación en Guillain-Barré es un conjunto de terapias y ejercicios diseñados para ayudar a los pacientes en su proceso de recuperación después de padecer esta enfermedad neurológica. Es importante porque Guillain-Barré puede causar debilidad muscular y problemas de movilidad, y la rehabilitación ayuda a mejorar la fuerza, la función y la calidad de vida de los pacientes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué objetivos tiene la rehabilitación en Guillain-Barré?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Los objetivos de la rehabilitación en Guillain-Barré incluyen restaurar la fuerza muscular, mejorar la coordinación, la movilidad y la función general del cuerpo. También se busca reducir el dolor, prevenir la atrofia muscular y ayudar a los pacientes a recuperar la independencia en sus actividades diarias."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo se lleva a cabo la rehabilitación en Guillain-Barré?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación en Guillain-Barré involucra ejercicios de fortalecimiento muscular, terapias de movilización y estiramiento, así como técnicas de terapia ocupacional y fisioterapia. Los profesionales diseñan planes de tratamiento personalizados según la etapa de la enfermedad y las necesidades de cada paciente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo lleva ver resultados en la rehabilitación de Guillain-Barré?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El tiempo para ver resultados en la rehabilitación de Guillain-Barré varía según la gravedad de la enfermedad y la respuesta individual del paciente. Algunos pacientes pueden experimentar mejoras en semanas, mientras que otros pueden necesitar meses de terapia continua. La paciencia y la constancia son esenciales para lograr un progreso efectivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué profesionales están involucrados en la rehabilitación de Guillain-Barré?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación de Guillain-Barré puede involucrar a varios profesionales de la salud, como fisioterapeutas, terapeutas ocupacionales y kinesiólogos especializados en neurorehabilitación. Estos profesionales trabajan en equipo para diseñar y supervisar el plan de tratamiento y garantizar una recuperación integral."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuál es el papel de un kinesiólogo en la rehabilitación de Guillain-Barré?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un kinesiólogo especializado en neurorehabilitación desempeña un papel fundamental en la rehabilitación de Guillain-Barré. Diseñan programas de ejercicios y terapias personalizadas que se centran en mejorar la fuerza muscular, la movilidad y la coordinación. También supervisan el progreso del paciente y ajustan el tratamiento según sea necesario."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué beneficios ofrece la rehabilitación de Guillain-Barré para la calidad de vida?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación de Guillain-Barré puede tener beneficios significativos para la calidad de vida de los pacientes. Ayuda a recuperar la independencia en las actividades diarias, a reducir la debilidad muscular y a mejorar la movilidad. Los pacientes pueden recuperar habilidades perdidas y alcanzar un nivel funcional óptimo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo puedo obtener rehabilitación de Guillain-Barré y dónde puedo buscar ayuda?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Si has sido diagnosticado con Guillain-Barré, puedes buscar ayuda de profesionales de la salud especializados en neurorehabilitación. Consulta a un kinesiólogo o fisioterapeuta con experiencia en esta área para obtener un plan de tratamiento adaptado a tus necesidades. La rehabilitación puede realizarse en clínicas o en entornos de atención domiciliaria."
+            }
+          }
+        ]
+      }
+      </script>
+      
+        
+
+       
+</head>
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
-  <header>
+  <%- include('../partial/navbar2.ejs'); %>
+  <header class="header-blog">
 
     <section class="header-main-pic z-depth-2">
         <div class="intro-area">
             <div class="container">
               <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
+              <p class="p-blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
             </div>
           </div>
     </section>
@@ -32,13 +153,13 @@
   
   <!--fin breadcumbs-->
 
-    <div class="container">
+    <main class="main-blog">
       <div class="row">
         <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
-          <h2 class="flow-text">
+          <h2 class="h2-blog">
            kinesiolgia en rehabilitacion de Guillain-Barre
           </h2>
-          <p class="p_blog">
+          <p class="p-blog">
              La patolog&iacute;a de Guillain-Barre es una enfermedad neurol&oacute;gica rara y en algunas ocasiones grave que afecta a las personas de todas las edades. Esta enfermedad autoinmunitaria afecta al sistema nervioso perif&eacute;rico, y puede resultar en una par&aacute;lisis temporal o permanente.
      
                    Para quienes buscan tratamiento, los kinesi&oacute;logos y la kinesiolog&iacute;a son una opci&oacute;n necesaria y efectiva en el camino de la recuperaci&oacute;n. La kinesiolog&iacute;a es el estudio del movimiento humano, y los kinesi&oacute;logos son profesionales que utilizan t&eacute;cnicas terap&eacute;uticas basadas en el movimiento para tratar lesiones y enfermedades neurol&oacute;gicas como esta.
@@ -47,38 +168,35 @@
      
                    Adem&aacute;s, muchos kinesi&oacute;logos ofrecen terapia de atenci&oacute;n domiciliaria para pacientes que tienen dificultades para salir de casa o que necesitan atenci&oacute;n a largo plazo. La terapia de atenci&oacute;n domiciliaria puede ser una opci&oacute;n ideal para pacientes con Guillain-Barre, ya que puede proporcionar atenci&oacute;n personalizada y adaptada a las necesidades individuales del paciente.
           </p>
-          <h2>
+          <h2 class="h2-blog">
            ¿Qu&eacute; problemas provoca el guilliam Barre ?
           </h2>
-          <p class="p_blog">
+          <p class="p-blog">
            Esta es una enfermedad autoinmunitaria que puede causar debilidad muscular y, en algunos casos, par&aacute;lisis temporal o permanente. Por lo general el progresiva primero comenzado con cierto hormigueo distal en dedos ya sea en manos o pies, para luego progresar a generar paralisis parciales o totales , la gravedad se acentua cuando la paralisis comienza a afectar a la musculatura respiratoria la cual en ocasiones los pacientes tienden a ser intubados para darles soporte respiratorio
           </p>
-          <h2>
+          <h2 class="h2-blog">
            que funcion cumples los kinesiologos en esta patologia neurologica
           </h2>
-          <p class="p_blog">
+          <p class="p-blog">
            Los kinesi&oacute;logos son profesionales que se especializan en el estudio del movimiento humano y utilizan t&eacute;cnicas terap&eacute;uticas basadas en el movimiento para tratar las complicaciones de esta enfermedad, ya sea las dificultades al movimiento y las complicaciones respiratorias. En el caso de la patolog&iacute;a de Guillain-Barre, los kinesi&oacute;logos pueden ser una parte integral del equipo de atenci&oacute;n m&eacute;dica y pueden desempe&ntilde;ar un papel importante en la recuperaci&oacute;n del paciente.
      
                    La patolog&iacute;a de Guillain-Barre puede tener una amplia gama de s&iacute;ntomas y la gravedad de la enfermedad puede variar de persona a persona. Algunos pacientes pueden experimentar s&iacute;ntomas leves, como debilidad muscular o entumecimiento, mientras que otros pueden experimentar par&aacute;lisis completa. En algunos casos, la enfermedad puede ser potencialmente mortal si no se trata adecuadamente.
      
                    La kinesiolog&iacute;a  en la rehabilitaci&oacute;n de los pacientes con Guillain-Barre se enfoca en la recuperaci&oacute;n de la fuerza muscular, la coordinaci&oacute;n y la movilidad. Los kinesi&oacute;logos pueden utilizar ejercicios espec&iacute;ficos para fortalecer los m&uacute;sculos y mejorar la capacidad de movimiento del paciente. Adem&aacute;s, los kinesi&oacute;logos pueden trabajar en estiramientos y ejercicios de movilidad para mejorar la flexibilidad y prevenir la rigidez muscular.
           </p>
-          <p class="p_blog">
+          <p class="p-blog">
            En los casos m&aacute;s graves de Guillain-Barre, los pacientes pueden requerir un proceso de recuperaci&oacute;n a largo plazo. En estos casos, la terapia de atenci&oacute;n domiciliaria puede ser una opci&oacute;n &uacute;til. Los kinesi&oacute;logos pueden proporcionar terapia personalizada en el hogar del paciente, lo que puede ayudar a mejorar la calidad de vida y la recuperaci&oacute;n del paciente siendo incluso una opcion de comodidad para los pacientes que desean evitar traslados y esperas largas de atencion, prefiriendo una atencion mas personalizada.
      
                    En general, la patolog&iacute;a de Guillain-Barre puede ser una enfermedad grave y debilitante, pero el tratamiento adecuado y la atenci&oacute;n especializada pueden ayudar en el proceso de recuperaci&oacute;n. los kinesiologos son fundamentales para la completa recuperaci&oacute;n de los pacientes. Si bien el proceso de recuperaci&oacute;n puede ser largo y desafiante, la atenci&oacute;n adecuada y la orientaci&oacute;n profesional pueden hacer una gran diferencia en el resultado final.
           </p>
-          <img alt="kinesiologo en guilliam barre" class="responsive-img" loading="lazy" src="/public/images/neurologia/guillian-barre.webp"/>
+          <img alt="kinesiologo en guilliam barre" class="img-blog" loading="lazy" src="/public/images/neurologia/guillian-barre.webp"/>
          </article>
 
     </div>
-    </div>
+  </main>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
+  <%- include('partial/footer2.ejs'); %>
+  <%- include('partial/boton2.ejs'); %>
   </body>
-    
- </html>
+  <script src="../js/action.min.js"></script>      
+  </html>

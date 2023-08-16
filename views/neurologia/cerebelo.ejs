@@ -1,17 +1,131 @@
 <!DOCTYPE html>
 <html lang="es-CL">
 
-<%- include('../heads/head.ejs'); %>
 
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#317EFB">
+    <!-- meta etiquetas de region especifica del sitio -->
+    <meta name="google-site-verification" content="k0ifTL9HEpSv6O2o5-koMb6yDs9HI_Z2hLJRUNrDto8">
+    <meta name="geo.region" content="CL-RM">
+    <meta name="geo.placename" content="Santiago">
+    <meta name="geo.position" content="-33.44889;-70.669265">
+    <meta name="ICBM" content="-33.44889, -70.669265">
+    <meta name="robots" content=" <%= index%> ">
+    <meta name="keywords" content="kinesiologo a domicilio, kinesiologia, kinesiologo, acupuntura, rehabilitacion, respiratorio, traumatologia, neurologia, deportivo, adulto mayor, medicina china">
+    <meta name="description" content=" <%= metaDescripcion%> ">
+    <link rel="canonical" href=" <%= canonical%> ">
+    <link rel="icon" sizes="192x192" type="images/png" href="images/Favicon.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/Favicon.png"/>
+    <!--   metas de redes sociales-->
+    <meta property="fb:app_id" content="342670069681285">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.kinesishouse.cl/images/Respiratoria_jpg.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="300">
+    <meta property="og:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+    <meta property="og:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta property="og:url" content="http://www.kinesishouse.cl/">
+    <meta property="og:site_name" content="kinesis house">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="servicio de kinesiologia a domicilio para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.">
+    <meta name="twitter:title" content="▷ Servicio de Kinesiologia a Domicilio | kinesiologo respiratorio a domicilio">
+   
+    <!--link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" as="script">
+    <link rel="preload" href="js/funciones.min.js" as="script">
+    <link rel="preload" href="js/tagmanager.min.js"as="script">
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=UA-61824422-1" as="script">
+    <link rel="preload" href="js/analitic.min.js" as="script">
+    
+   
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="/public/css/blog.min.css">
+   <link rel="stylesheet" href="/public/css/style.min.css">
+
+    <title><%= pageTitle%></title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es la rehabilitación en el cerebelo y cuándo se necesita?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación en el cerebelo se refiere a un conjunto de terapias y ejercicios diseñados para mejorar la función y coordinación del cerebelo, que es la parte del cerebro responsable del equilibrio y la coordinación motora. Se necesita cuando hay lesiones o trastornos que afectan el funcionamiento del cerebelo, como lesiones traumáticas, accidentes cerebrovasculares o condiciones neurodegenerativas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuáles son los objetivos de la rehabilitación en el cerebelo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Los objetivos de la rehabilitación en el cerebelo incluyen mejorar la coordinación, el equilibrio, la postura y la precisión en los movimientos. También se busca reducir los síntomas como mareos, problemas de marcha y temblores asociados con trastornos cerebelares. La rehabilitación puede ayudar a los pacientes a recuperar la funcionalidad y mejorar su calidad de vida."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo se lleva a cabo la rehabilitación en el cerebelo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación en el cerebelo involucra una combinación de ejercicios físicos y terapias especializadas. Los kinesiólogos diseñan planes de tratamiento individualizados que pueden incluir ejercicios de equilibrio, coordinación y fortalecimiento muscular. También pueden utilizar técnicas como la estimulación sensorial y la reeducación motora para mejorar la función del cerebelo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto tiempo lleva ver resultados en la rehabilitación en el cerebelo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La velocidad de los resultados en la rehabilitación en el cerebelo varía según la gravedad de la lesión y la condición del paciente. Algunos pacientes pueden experimentar mejoras en semanas, mientras que otros pueden necesitar meses de terapia continua para ver resultados significativos. La consistencia y la adherencia al plan de tratamiento son clave para lograr un progreso efectivo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué papel juega un kinesiólogo en la rehabilitación en el cerebelo?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Un kinesiólogo especializado en rehabilitación neurológica juega un papel fundamental en la rehabilitación en el cerebelo. Diseñan planes de tratamiento adaptados a las necesidades de cada paciente, supervisan el progreso y ajustan el tratamiento según sea necesario. Los kinesiólogos guían a los pacientes a través de ejercicios y terapias que mejoran la función del cerebelo y promueven la recuperación."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué beneficios ofrece la rehabilitación en el cerebelo para la calidad de vida?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La rehabilitación en el cerebelo puede tener beneficios significativos para la calidad de vida de los pacientes. Mejora la independencia en las actividades diarias, reduce los síntomas molestos y aumenta la confianza en el movimiento. Los pacientes pueden recuperar habilidades perdidas y disfrutar de una vida más activa y funcional."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo puedo saber si necesito rehabilitación en el cerebelo y dónde puedo obtener ayuda?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Si experimentas problemas de equilibrio, coordinación, mareos o movimientos inestables, podrías beneficiarte de la rehabilitación en el cerebelo. Consulta a un profesional de la salud, como un neurólogo o un kinesiólogo especializado en neurorehabilitación. Ellos pueden evaluar tu condición y recomendar un plan de tratamiento personalizado para mejorar la función de tu cerebelo."
+            }
+          }
+        ]
+      }
+      </script>
+      
+        
+
+       
+</head>
 <body>
-  <%- include('../navbar/navbar.ejs'); %>
+  <%- include('../partial/navbar2.ejs'); %>
   <header>
 
     <section class="header-main-pic z-depth-2">
         <div class="intro-area">
             <div class="container">
               <h1> <%= tiTuloh1%> </h1>
-              <p class="p_blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
+              <p class="p-blog">rehabilitaci&oacute;n en la comodidad de tu hogar</p>
             </div>
           </div>
     </section>
@@ -32,12 +146,12 @@
   
   <!--fin breadcumbs-->
 
-    <div class="container">
+    <main class="main-blog">
       <div class="row">
         <article class="col s12 m10 offset-m1 l9 offset-l1 grey-text text-darken-2">
           
-          <h2 class="flow-text">Kinesiolog&amp;iacute;a en rehabilitaci&amp;oacute;n patologias al cerebelo</h2>
-          <p class="p_blog">
+          <h2 class="h2-blog">Kinesiolog&amp;iacute;a en rehabilitaci&amp;oacute;n patologias al cerebelo</h2>
+          <p class="p-blog">
                           El cerebelo es una estructura cerebral encargada de regular y coordinar los movimientos y el equilibrio corporal. Cuando esta estructura sufre una lesi&amp;oacute;n o enfermedad, se pueden presentar una serie de patolog&amp;iacute;as que afectan la calidad de vida del paciente, como la ataxia, la disartria, la dismetr&amp;iacute;a, la disdiadococinesia y la nistagmus.
           
                           La ataxia se define como la dificultad para coordinar los movimientos voluntarios, lo que puede llevar a un andar inestable y torpe. La disartria es una alteraci&amp;oacute;n del habla, que se caracteriza por la dificultad para articular las palabras con claridad y fluidez. La dismetr&amp;iacute;a, por otro lado, es la incapacidad de calcular de manera precisa la distancia o amplitud de los movimientos. La disdiadococinesia se refiere a la dificultad para realizar movimientos r&amp;aacute;pidos y alternantes, como en el caso de tocar el piano o hacer malabarismos. Finalmente, el nistagmus es un movimiento involuntario y r&amp;iacute;tmico de los ojos.
@@ -65,7 +179,7 @@
 
             </p>
                 
-                <img class="responsive-img" loading="lazy" src="/public/images/neurologia/cerebelo.webp" alt="kinesiologo en patologias al cerebelo">
+                <img class="img-blog" loading="lazy" src="/public/images/neurologia/cerebelo.webp" alt="kinesiologo en patologias al cerebelo">
 
 
                 
@@ -73,13 +187,10 @@
         </article>
 
     </div>
-    </div>
+  </main>
    
-    <%- include('../botones/boton.ejs'); %>      
-    <%- include('../botones/menu-flotante.ejs'); %>      
-
-
-    <%- include('../footers/footer.ejs'); %>
+  <%- include('partial/footer2.ejs'); %>
+  <%- include('partial/boton2.ejs'); %>
   </body>
-    
- </html>
+  <script src="../js/action.min.js"></script>      
+  </html>

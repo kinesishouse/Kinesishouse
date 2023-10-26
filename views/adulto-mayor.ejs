@@ -45,8 +45,42 @@
        <!-- Compiled and minified CSS -->
        <link rel="stylesheet" href="/public/css/blog.min.css">
        <link rel="stylesheet" href="/public/css/style.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     
         <title><%= pageTitle%></title>
+        <style>
+            .feature {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin: 10px;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                background-color: #fff; /* Cambia el color de fondo según tus preferencias */
+            }
+        
+            .feature img {
+                width: 60px; /* Ajusta el tamaño de la imagen según tus preferencias */
+            }
+            .material-icons {
+             
+              font-size: 50px;
+              
+            }
+            @media screen and (min-width: 768px) {
+                section {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+        
+                .feature {
+                    flex: 0 0 calc(33.33% - 20px);
+                }
+            }
+        </style>
 
         <script type="application/ld+json">
             {
@@ -90,9 +124,9 @@
   <%- include('partial/navbar.ejs'); %>
 
 <!--header-->
-<header>
+<header class="header-blog">
 
-  <section class="header-main-pic z-depth-2">
+  <section  class="container">
       <div class="intro-area">
           <div class="container">
             <h1> <%= tiTuloh1%> </h1>
@@ -104,17 +138,17 @@
   
 </header>   
 <%- include('breadcrumb/adulto-mayor.ejs'); %>
-<main class="container">
-    <section>
-        <div class="row">
-            <div class="col s12" id="H2_blog">
+<main class="main-blog">
+    <section class="container">
+       
+            
                 <h2 id="h2-blog">Kinesiolog&iacute;a en geriatr&iacute;a (adulto mayor)</h2>
 
-            </div>
+            
 
-        </div>
+        
     </section>
-    <section class="section">
+    <section class="container">
         <div class="row">
             <div class="col">
                 <p class="p-blog">
@@ -230,7 +264,7 @@
         </div>
     </section>
    
-    <section class="section">
+    <section class="container">
         <div class="row">
             <div class="col ">
                 <h2 class="h2-blog">Estiramientos m&uacute;sculos tendineos</h2>
@@ -285,62 +319,22 @@
 
     </section>
     <section>
-        <div class="row">
-            <article class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="img-blog" loading="lazy" src="/public/images/adulto-mayor/Obesidad-en-la-tercera-edad.webp" alt="lesiones comunes en adulto mayor">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title grey-texts activator text-darken-4"> lesiones comunes adulto mayor<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text activator text-darken-4">plesiones en geriatria<i class="material-icons right">close</i></span>
-                        <p> las lesiones mas comunes en geriatria y como tratarlas</p>
-                        <a class="waves-effect waves-leal btn-flat teal lighten-5 right" href="#">Ver mas</a>
-
-                    </div>
-                        
-                </div> 
-
-            </article>
-            <article class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="img-blog"loading="lazy" src="/public/images/traumatologia/artroscopia-cadera/artroscopia-cadera.webp" alt=" fractura de cadera en adulto mayor">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title grey-texts activator text-darken-4"> fractura de cadera <i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text activator text-darken-4">fractura de cadera<i class="material-icons right">close</i></span>
-                        <p> tratamiento conservador y quirurgico en fractura de cadera como aplicar una buena rehabilitacion</p>
-                        <a class="waves-effect waves-leal btn-flat teal lighten-5 right" href="http://www.kinesishouse.cl/kinesiologo-traumatologia/artroscopia-cadera">Ver mas</a>
-
-                    </div>
-                        
-                </div> 
-
-            </article>
-            <article class="col s12 m6 l4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="img-blog"  loading="lazy" src="/public/images/neurologia/ACV.webp" alt=" lesion neurologica comun en adulto mayor">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title grey-texts activator text-darken-4"> ACV isquemico <i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text activator text-darken-4">ACv isquemico<i class="material-icons right">close</i></span>
-                        <p> ACV isquemico y sus fase de evolucion y tratamiento en kinesiologia</p>
-                        <a class="waves-effect waves-leal btn-flat teal lighten-5 right" href="http://www.kinesishouse.cl/kinesiologo-neurologia/acv">Ver mas</a>
-
-                    </div>
-                        
-                </div> 
-
-            </article>
-
+        <div class="feature">
+            <i class="material-icons">local_hospital</i>
+            <h2 class="h3-blog">Experiencia de Kinesiología en Tu Hogar</h2>
+            <p class="p-blog">Descubre los beneficios de recibir terapias de kinesiología en la comodidad de tu hogar en Peñalolén.</p>
+        </div>
+    
+        <div class="feature">
+            <i class="material-icons">person</i>
+            <h2 class="h3-blog">Rehabilitación Personalizada</h2>
+            <p class="p-blog">Nos comprometemos a brindarte una atención individualizada que se adapte a tus necesidades de rehabilitación y bienestar.</p>
+        </div>
+    
+        <div class="feature">
+            <i class="material-icons">local_pharmacy</i>
+            <h2 class="h3-blog">Expertos en Kinesiología en Peñalolén</h2>
+            <p class="p-blog">Somos líderes en servicios de kinesiología en la comuna de Peñalolén. Conoce a nuestro equipo de profesionales altamente capacitados.</p>
         </div>
     </section>
     

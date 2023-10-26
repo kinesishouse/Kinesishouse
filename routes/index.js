@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
   res.render('index', {
       pageTitle: 'Kinesiologo a domicilio en Santiago ',
       images: 'images',
-      metaDescripcion: '▷ servicio de kinesiologo a domicilio ⭐⭐⭐⭐⭐ para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
+      metaDescripcion: '▷ servicio de kinesiologo a domicilio en santiago⭐⭐⭐⭐⭐ para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Kinesiologo a domicilio Santiago',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/',
@@ -192,6 +192,16 @@ router.get('/kinesiologia-gratis', function (req, res) {
     tiTuloh1: 'kinesiologia gratis en chile | kinesiologo gratuito ',
     index: 'index',
     canonical: 'http://www.kinesishouse.cl/kinesiologia-gratis'
+  });
+});
+router.get('/penalolen', function (req, res) {
+  res.render('./penalolen', {
+    pageTitle: 'kinesiologo a domicilio en peñalolen ',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de peñalolen, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en Peñalolén, servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/penalolen'
   });
 });
 

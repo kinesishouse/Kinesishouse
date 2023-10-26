@@ -7,6 +7,54 @@
     <title>Document</title>                 
   
    <link rel="stylesheet" href="style.css">
+   <style>
+    .container23 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 400px;
+    }
+
+    .input-field {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    input#texto {
+      height: 150px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
        <!--menu desktop-->
@@ -371,6 +419,35 @@
               <a href="#" class="btn">Comprar</a>
           </div>
         </section>
+        <!--seccion contacto-->
+        <div class="container23">
+            <h2 class="h2-title">Contactanos escribenos tus dudas</h2>
+            <form class="s12" action="mailto:kinesishouse@gmail.com" method="post" enctype="text/plain">
+              <div class="row card-panel">
+                <div class="input-field col s6">
+                    <label for="nombre">Nombre:</label>
+
+                  <input type="text" placeholder="Ingresa tu nombre" id="nombre" class="validate" required>
+                </div>
+                <div class="input-field col s6">
+                    <label for="apellido">Apellido:</label>
+
+                  <input type="text" placeholder="Ingresa tu Apellido" id="apellido" class="validate" required>
+                </div>
+                <div class="input-field col s12">
+                    <label for="texto">Mensaje:</label>
+
+                  <input type="text" placeholder="Escribe tu mensaje" id="texto" class="validate" required>
+                </div>
+                <div class="input-field col s12">
+                    <label for="email">Email:</label>
+
+                  <input type="text" placeholder="Ingresa tu E-mail" id="email" class="validate" required>
+                </div>
+                <button class="btn" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
       <!-- comentarios pacientes-->
       <section class="container">
         <h2 class="h2-title">Comentarios Positivos de nuestros clientes</h2>

@@ -204,6 +204,37 @@ router.get('/penalolen', function (req, res) {
     canonical: 'http://www.kinesishouse.cl/penalolen'
   });
 });
+router.get('/las-condes', function (req, res) {
+  res.render('./las-condes', {
+    pageTitle: 'kinesiologo a domicilio en las condes',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de las condes, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en las Condes | servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/las-condes'
+  });
+});
+router.get('/nunoa', function (req, res) {
+  res.render('./nunoa', {
+    pageTitle: 'kinesiologo a domicilio en Ñuñoa',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de Ñuñoa, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en Ñuñoa | servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/nunoa'
+  });
+});
+router.get('/la-reina', function (req, res) {
+  res.render('./la-reina', {
+    pageTitle: 'kinesiologo a domicilio en la reina | 👑👑👑',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de la reina, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en la reina  servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/la-reina'
+  });
+});
+
 
 
 

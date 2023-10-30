@@ -42,6 +42,21 @@
    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
    <style>
+            /* Define a container with flex display for desktop and flex-direction column for mobile */
+.container {
+  display: flex;
+  justify-content: space-between; /* Place sections side by side */
+  align-items: center; /* Center vertically in desktop view */
+  padding-bottom: 20px;
+}
+.lista-1 {
+  list-style: none;
+  margin: 10px;
+}
+.material-icons {
+  padding-right: 10px;
+  color: blue;
+}
   
         .feature {
             display: flex;
@@ -58,15 +73,51 @@
         .feature img {
             width: 60px; /* Ajusta el tamaño de la imagen según tus preferencias */
         }
-        .material-icons {
+        .icon-porte{
          
           font-size: 50px;
           
         }
+        .h2-landing{
+          font-size: 2.5rem;
+          padding-bottom: 40px;
+        }
+        .p-landing {
+          font-size: 1.5rem;
+          padding-top: 40px;
+        }
+        .call-to {
+          color: #ffffff;
+        }
+        @media (max-width: 768px) {
+          .container {
+              flex-direction: column; /* Stack sections in mobile view */
+          }
+      }
+      
+      
+      /* Styling for the left section */
+      .section.left {
+          flex: 1; /* Occupy available space */
+          text-align: center;
+          padding: 20px;
+      }
+      
+      /* Styling for the right section */
+      .section.right {
+          flex: 1; /* Occupy available space */
+          text-align: center;
+      }
         @media screen and (min-width: 768px) {
             section {
                 display: flex;
                 flex-wrap: wrap;
+            }
+            .section-contacto {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              padding: 40px;
             }
     
             .feature {
@@ -78,7 +129,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          height: 100vh;
+         
           background-color: #f4f4f4;
         }
     
@@ -154,60 +205,55 @@
   <%- include('partial/navbar.ejs'); %>
   
 
- <header class="header-blog">
-  <h1> <%= tiTuloh1%> </h1>
-</header>
-<main class="main-blog">
-    <section>
-        <p class="p-blog">
-            ¡Bienvenido a nuestra página de Kinesiología a Domicilio en Peñalolén! Nuestro compromiso es brindarte atención especializada de kinesiología en especificamente en la comuna de Peñalolen ubicada a los pies de la cordillera en santiago de Chile.
+  <div class="container">
+    <div class="section right">
+        <h1 class="h1-blog">kinesiologo a domicilio en la comuna de peñalolen</h1>
+        <p> ¡Bienvenido a nuestra página de <strong>Kinesiología a Domicilio en Peñalolén!</strong> Nuestro compromiso es brindarte atención especializada de kinesiología en especificamente en la comuna de Peñalolen ubicada a los pies de la cordillera en santiago de Chile.
         </p>
-        <h2 class="h2-blog">¿Por qué Elegir Nuestros Servicios de Kinesiología a Domicilio enfocados en Peñalolen?</h2>
-        <p class="p-blog">
-            En kinesis House, nos enorgullece ofrecer una experiencia única de rehabilitación y bienestar en la comuna de Peñalolén. nuestro kinesiologo altamente especializado en rehabilitacion y terapias se dedica a proporcionar atención personalizada que se adapta a tus necesidades individuales. Al elegirnos, disfrutarás de:
-            <ul>
-                <li>Comodidad en Tu Hogar: Elimina la necesidad de desplazarte. Nuestros profesionales te atenderán en la comodidad de tu casa, brindándote la atención que mereces sin salir de tu entorno.</li>
-                <li>Experiencia Profesional: Nuestro equipo de kinesiólogos con casi 10 años  de experiencia está dedicado a brindar terapias efectivas que promuevan la recuperación y mejora de la movilidad, buscando una recuperación natural, respetando tiempos fisiologicos de recuperación y combinando con terapias alternativas que mejoraran el resultado de la kinesiologia.
-            
-                </li>
-                <li>
-                    Enfoque Personalizado: Reconocemos que cada paciente es único. Diseñaremos un plan de tratamiento personalizado que se adapte a tus necesidades y objetivos específicos, ademas junto con la atención a domicilio te aseguras de que la atenciónestara enfocada 100% en ti y tu problema.
-                </li>
-            </ul>
-        </p>
+        <button class="btn"><a class="call-to" href="tel:+56956833633">Llamar al +56956833633</a></button>
 
-        <!--esta seccion puede ser detallada con iconos ya que son frases cortas y explicitas-->
-        <section>
-          <div class="feature">
-              <i class="material-icons">local_hospital</i>
-              <h2 class="h3-blog">Experiencia de Kinesiología en Tu Hogar</h2>
-              <p class="p-blog">Descubre los beneficios de recibir terapias de kinesiología en la comodidad de tu hogar en Peñalolén.</p>
-          </div>
-      
-          <div class="feature">
-              <i class="material-icons">person</i>
-              <h2 class="h3-blog">Rehabilitación Personalizada</h2>
-              <p class="p-blog">Nos comprometemos a brindarte una atención individualizada que se adapte a tus necesidades de rehabilitación y bienestar.</p>
-          </div>
-      
-          <div class="feature">
-              <i class="material-icons">local_pharmacy</i>
-              <h2 class="h3-blog">Expertos en Kinesiología en Peñalolén</h2>
-              <p class="p-blog">Somos líderes en servicios de kinesiología en la comuna de Peñalolén. Conoce a nuestro equipo de profesionales altamente capacitados.</p>
-          </div>
-      </section>
-      
-      
-        <!--seccion para CTA-->
-        <section>
-          <p class="p-blog">
-            No esperes más para experimentar una atención de kinesiología excepcional en Peñalolén. Contáctanos hoy mismo para agendar tu primera sesión y comenzar tu camino hacia una mejor salud y bienestar.
-          </p>
-        </section>
+    </div>
+    <div class="section left">
+        <img class="img-blog" src="../public/images/Deporte.webp" alt="kinesiologo a domicilio peñalolen">
+    </div>
+</div>
+<div class="container">
+    <div class="section left">
+        <img class="img-blog" src="../public/images/Neurologia.webp" alt="kinesiologia a domicilio en peñalolen">
+    </div>
+    <div class="section right">
+        <h2>¿Por qué Elegir Nuestros Servicios de Kinesiología a Domicilio enfocados en Peñalolen?</h2>
+        <p>En kinesis House, nos enorgullece ofrecer una experiencia única de <strong>rehabilitación </strong> y bienestar en la comuna de <strong>Peñalolén</strong>. nuestro <strong>kinesiologo</strong> altamente especializado en rehabilitacion y terapias se dedica a proporcionar atención personalizada que se adapta a tus necesidades individuales. Al elegirnos, disfrutarás de:</p>
+        <ul class="lista-1">
+            <li><i class="material-icons">check_circle</i>Comodidad en Tu Hogar: Elimina la necesidad de desplazarte. Nuestros profesionales te <strong>atenderán en la comodidad de tu casa</strong>, brindándote la atención que mereces sin salir de tu entorno.</li>
+            <li><i class="material-icons">check_circle</i>Experiencia Profesional: Nuestro equipo de <strong>kinesiólogos con casi 10 años de experiencia</strong> está dedicado a brindar terapias efectivas que promuevan la recuperación y mejora de la movilidad, buscando una recuperación natural, respetando tiempos fisiologicos de recuperación y combinando con <strong>terapias alternativas</strong> que mejoraran el resultado de la <strong>kinesiologia</strong>.</li>
+            <li><i class="material-icons">check_circle</i> Enfoque Personalizado: Reconocemos que cada paciente es único. Diseñaremos un plan de <strong>tratamiento personalizado</strong> que se adapte a tus necesidades y objetivos específicos, ademas junto con <strong>tratamiento personalizado</strong> te aseguras de que la atención estara enfocada 100% en ti y tu problema.</li>
+        </ul>
+    </div>
+</div>
+<section>
+    <div class="feature">
+        <i class="material-icons icon-porte">local_hospital</i>
+        <h2 class="h3-blog">Experiencia de Kinesiología en Tu Hogar</h2>
+        <p class="p-blog">Descubre los beneficios de recibir <strong>terapias de kinesiología</strong> en la comodidad de tu hogar en Peñalolén.</p>
+    </div>
+
+    <div class="feature">
+        <i class="material-icons icon-porte">person</i>
+        <h2 class="h3-blog">Rehabilitación Personalizada</h2>
+        <p class="p-blog">Nos comprometemos a brindarte una atención individualizada que se adapte a tus necesidades de <a href="www.kinesishouse.cl">rehabilitación</a> y bienestar.</p>
+    </div>
+
+    <div class="feature">
+        <i class="material-icons icon-porte">local_pharmacy</i>
+        <h2 class="h3-blog">Expertos en Kinesiología en Peñalolén</h2>
+        <p class="p-blog">Somos líderes en <strong>servicios de kinesiología en la comuna de Peñalolén</strong>. Conoce a nuestro equipo de profesionales altamente capacitados.</p>
+    </div>
+</section>
+
         
-        
-        <section>
-          <h2 class="h2-blog">Contáctanos</h2>
+        <section class="section-contacto">
+          <h2 class="h2-landing">Contáctanos</h2>
           
             <div class="container23">
               <form class="s12" action="mailto:kinesishouse@gmail.com" method="post" enctype="text/plain">
@@ -234,7 +280,7 @@
             </div>
           
 
-        <p class="p-blog">
+        <p class="p-landing">
           puedes llamarnos o si prefieres escribirnos un correo o whatsapp 
         </p>
 

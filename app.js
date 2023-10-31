@@ -9,12 +9,29 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const favicon = require('serve-favicon');
+const helmet = require('helmet');
+const csp = require('helmet-csp');
 
 
 
 const routes = require('./routes/index.js');
 
 const app = express();
+
+// Habilita el middleware Helmet
+app.use(helmet());
+
+// Configura tu CSP
+const cspConfig = {
+  directives: {
+    defaultSrc: ["'self'"],
+    scriptSrc: ["'self'", 'https://fonts.googleapis.com/icon?family=Material+Icons'],
+    // Agrega más directivas según tus necesidades
+  },
+};
+
+app.use(csp(cspConfig));
+
 
 
 // view engine setup

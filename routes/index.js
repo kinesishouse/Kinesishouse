@@ -274,6 +274,16 @@ router.get('/maipu', function (req, res) {
     canonical: 'http://www.kinesishouse.cl/maipu'
   });
 });
+router.get('/vitacura', function (req, res) {
+  res.render('./vitacura', {
+    pageTitle: 'kinesiologo a domicilio en vitacura| 👑👑👑',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de la vitacura, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en la comuna de vitacura servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/vitacura'
+  });
+});
 
 
 router.get('/la-reina', function (req, res) {

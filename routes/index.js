@@ -9,7 +9,7 @@ const router = express.Router();
 
 router.get('/', function (req, res) {
   res.render('index', {
-      pageTitle: '▷ Kinesiologo a domicilio en Santiago | el mejore servicio en este 2023 ⭐⭐⭐⭐⭐',
+      pageTitle: '▷ Kinesiologo a domicilio en Santiago | el mejor servicio en este 2023 ⭐⭐⭐⭐⭐',
       images: 'images',
       metaDescripcion: 'Servicio de Kinesiologo a domicilio en santiago para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
       tiTuloh1: 'Servico de Kinesiologo a domicilio Santiago',

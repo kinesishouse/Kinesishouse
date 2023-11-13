@@ -9,9 +9,9 @@ const router = express.Router();
 
 router.get('/', function (req, res) {
   res.render('index', {
-      pageTitle: '▷ Kinesiologo a domicilio en Santiago | el mejor servicio en este 2023 ⭐⭐⭐⭐⭐',
+      pageTitle: 'Kinesiólogo Domicilio Santiago | Agenda tu Consulta!',
       images: 'images',
-      metaDescripcion: 'Servicio de Kinesiologo a domicilio en santiago para las comunas de : Las Condes, Providencia, La Florida, Macul, Peñalolen y Ñuñoa.',
+      metaDescripcion: 'Servicio de Kinesiologo a domicilio en Santiago Nuestro kinesiólogo está listo para ayudarte, ¡llámanos!.',
       tiTuloh1: 'Servico de Kinesiologo a domicilio Santiago',
       index: 'index',
       canonical: 'http://www.kinesishouse.cl/',

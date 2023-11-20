@@ -4,7 +4,7 @@ const Service = require('node-linux').Service;
 const svc = new Service({
     name: 'KinesisHouse',
     description: 'KinesisHouse web server.',
-    script: '/srv/KinesisHouse/bin/www',
+    script: '/srv/KinesisHouse/bin/www-https',
     env: [{
         name: "PORT",
         value: 443

@@ -86,7 +86,7 @@ router.get('/about', function (req, res) {
   //utilizar rutas definidas en respiratorio.js
   router.get('/kinesiologo-respiratorio', function (req, res) {
     res.render('./respiratorio', {
-      pageTitle: 'kinesiologo respiratorio a domicilio Santiago ',
+      pageTitle: 'kinesiologo respiratorio a domicilio Santiago Mejora tu salud hoy mismo, ¡contáctanos ya! ',
       images: 'images',
       metaDescripcion: ' ▷ servicio de kinesiologia respiratoria a domicilio ⭐⭐⭐⭐⭐ en santiago de chile, neumonia, bronquitis, epoc, aspiracion de secreciones',
       tiTuloh1: 'kinesiologo respiratorio a domicilio',
@@ -96,7 +96,7 @@ router.get('/about', function (req, res) {
   }); 
   router.get('/kinesiologo-respiratorio/kinesiologo-respiratorio-infantil', function (req, res) {
     res.render('./respiratorio/kinesiologo-respiratorio-infantil', {
-      pageTitle: 'kinesiologo respiratorio infantil a domicilio  ',
+      pageTitle: 'kinesiologo respiratorio infantil a domicilio Nuestro kinesiólogo te espera, ¡haz tu cita hoy!  ',
       images: 'images',
       metaDescripcion: 'kinesiologia respiratoria niños a domicilio en santiago de chile, asma, bronquitis, neumonia, fibrosis quistica, sindrome bronquial obstructivo',
       tiTuloh1: 'kinesiologo respiratorio infantil a domicilio ',
@@ -196,7 +196,7 @@ router.get('/kinesiologia-gratis', function (req, res) {
 });
 router.get('/penalolen', function (req, res) {
   res.render('./penalolen', {
-    pageTitle: 'kinesiologo a domicilio en peñalolen ',
+    pageTitle: 'kinesiologo a domicilio en peñalolen Bienestar a tu puerta, ¡agenda tu consulta ya!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de peñalolen, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en Peñalolén, servicio de rehabilitación en la comodidad de tu hogar ',
@@ -206,7 +206,7 @@ router.get('/penalolen', function (req, res) {
 });
 router.get('/las-condes', function (req, res) {
   res.render('./las-condes', {
-    pageTitle: 'kinesiologo a domicilio en las condes',
+    pageTitle: 'kinesiologo a domicilio en las condes Tu salud es importante, ¡contáctanos para cuidarla!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de las condes, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en las Condes | servicio de rehabilitación en la comodidad de tu hogar ',
@@ -216,7 +216,7 @@ router.get('/las-condes', function (req, res) {
 });
 router.get('/nunoa', function (req, res) {
   res.render('./nunoa', {
-    pageTitle: 'kinesiologo a domicilio en Ñuñoa',
+    pageTitle: 'kinesiologo a domicilio en Ñuñoa ¡Reserva tu consulta con nuestro kinesiólogo ahora!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de Ñuñoa, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en Ñuñoa | servicio de rehabilitación en la comodidad de tu hogar ',
@@ -226,7 +226,7 @@ router.get('/nunoa', function (req, res) {
 });
 router.get('/la-reina', function (req, res) {
   res.render('./la-reina', {
-    pageTitle: 'kinesiologo a domicilio en la reina | 👑👑👑',
+    pageTitle: 'kinesiologo a domicilio en la reina Comienza a sentirte mejor, ¡consúltanos de inmediato!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de la reina, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en la reina  servicio de rehabilitación en la comodidad de tu hogar ',
@@ -236,7 +236,7 @@ router.get('/la-reina', function (req, res) {
 });
 router.get('/barnechea', function (req, res) {
   res.render('./barnechea', {
-    pageTitle: 'kinesiologo a domicilio comuna de lo Barnecha | 👑👑👑',
+    pageTitle: 'kinesiologo a domicilio comuna de lo Barnecha Cuida tu cuerpo con el mejor servicio a domicilio.',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de la reina, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio lo Barnechea Servicio de rehabilitación en la comodidad de tu hogar ',
@@ -248,7 +248,7 @@ router.get('/chicureo', function (req, res) {
   res.render('./chicureo', {
     pageTitle: 'kinesiologo a domicilio Chicureo colina | 👑 atención personalizada en tu hogar',
     images: 'images',
-    metaDescripcion: 'kinesiologo a domicilio para la comuna de Chicureo, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    metaDescripcion: 'kinesiólogo a domicilio para la comuna de Chicureo, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio Chicureo colina servicio de rehabilitación en la comodidad de tu hogar ',
     index: 'index',
     canonical: 'http://www.kinesishouse.cl/chicureo'
@@ -256,7 +256,7 @@ router.get('/chicureo', function (req, res) {
 });
 router.get('/providencia', function (req, res) {
   res.render('./providencia', {
-    pageTitle: 'kinesiologo a domicilio providencia | 👑👑👑',
+    pageTitle: 'kinesiólogo a domicilio providencia Nuestro kinesiólogo te espera, ¡haz tu cita hoy!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de providencia, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en providencia servicio de rehabilitación en la comodidad de tu hogar ',
@@ -266,7 +266,7 @@ router.get('/providencia', function (req, res) {
 });
 router.get('/maipu', function (req, res) {
   res.render('./maipu', {
-    pageTitle: 'kinesiologo a domicilio en maipu| 👑👑👑',
+    pageTitle: 'kinesiologo a domicilio en maipu Tu salud es importante, ¡contáctanos para cuidarla!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de la maipu, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en la comuna de maipu servicio de rehabilitación en la comodidad de tu hogar ',
@@ -276,7 +276,7 @@ router.get('/maipu', function (req, res) {
 });
 router.get('/vitacura', function (req, res) {
   res.render('./vitacura', {
-    pageTitle: 'kinesiologo a domicilio en vitacura| 👑👑👑',
+    pageTitle: 'kinesiologo a domicilio en vitacura Recupera tu salud, ¡agenda tu cita ahora!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de la vitacura, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en la comuna de vitacura servicio de rehabilitación en la comodidad de tu hogar ',
@@ -288,7 +288,7 @@ router.get('/vitacura', function (req, res) {
 
 router.get('/la-reina', function (req, res) {
   res.render('./la-reina', {
-    pageTitle: 'kinesiologo a domicilio en la reina | 👑👑👑',
+    pageTitle: 'kinesiologo a domicilio en la reina contacta ahora!',
     images: 'images',
     metaDescripcion: 'kinesiologo a domicilio para la comuna de la reina, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
     tiTuloh1: 'Kinesiologo a Domicilio en la reina  servicio de rehabilitación en la comodidad de tu hogar ',
@@ -296,12 +296,6 @@ router.get('/la-reina', function (req, res) {
     canonical: 'http://www.kinesishouse.cl/la-reina'
   });
 });
-
-
-
-
-
-
 
    router.get('/kinesiologo-traumatologia', function (req, res) {
     res.render('./traumatologia', {

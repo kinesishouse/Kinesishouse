@@ -165,6 +165,10 @@
 .navbar__title {
     color: var(--nav-text-color);
 }
+.navbar__title  a {
+  text-decoration: none;
+  color: white;
+}
 
 .navbar__menu {
     display: none; /* Ocultar el menú móvil en desktop */

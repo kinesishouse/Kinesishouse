@@ -296,7 +296,26 @@ router.get('/la-reina', function (req, res) {
     canonical: 'http://www.kinesishouse.cl/la-reina'
   });
 });
-
+router.get('/la-florida', function (req, res) {
+  res.render('./la-florida', {
+    pageTitle: 'Kinesiologo a Domicilio en la Florida contacta ahora!',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de la Florida, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en la Florida  servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/la-florida'
+  });
+});
+router.get('/san-miguel', function (req, res) {
+  res.render('./san-miguel', {
+    pageTitle: 'Kinesiologo a Domicilio en San Miguel contacta ahora!',
+    images: 'images',
+    metaDescripcion: 'kinesiologo a domicilio para la comuna de san miguel, recibe tu tratamiento en la comodidad de tu hogar por un profesional altamente capacitado',
+    tiTuloh1: 'Kinesiologo a Domicilio en san miguel  servicio de rehabilitación en la comodidad de tu hogar ',
+    index: 'index',
+    canonical: 'http://www.kinesishouse.cl/san-miguel'
+  });
+});
    router.get('/kinesiologo-traumatologia', function (req, res) {
     res.render('./traumatologia', {
       pageTitle: 'kinesiologo en traumatologia a domicilio Santiago ',
